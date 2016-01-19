@@ -1,0 +1,1399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xmp="adobe:ns:meta/"
+    xmlns:xapMM="http://ns.adobe.com/xap/1.0/mm/" xml:id="nlt1940win">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main" level="j">Night Life Tales</title>
+                    <title type="subordinate" level="s">Vol. 1, No. 19 (Winter 1940)</title>
+                </title>
+                <respStmt>
+                    <resp>, ed. by</resp>
+                    <persName role="editor">Anonymous</persName>
+                    <orgName role="publisher">. Unknown.</orgName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Unknown</publisher>
+                <pubPlace n="Unknown">Unknown</pubPlace>
+                <date n="Winter 1940">Winter 1940</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Night Life Tales</title>
+            </seriesStmt>
+            <sourceDesc>
+                <ab>
+                    <persName role="author">Rachel Kruchten</persName>
+                </ab>
+                <ab>
+                    <orgName role="institution">Dickinson College</orgName>
+                </ab>
+                <ab>
+                    <placeName role="city">Carlisle, PA 17013</placeName>
+                </ab>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="page">
+                <pb n="00a" facs="00a"/>
+                <ab rend="align(left)">
+                    <ref target="http://www.pulpmags.org/xml/nlt1940win.xml">TEI XML</ref>
+                    <ref target="http://www.pulpmags.org/txt/nlt1940win.txt">Plain Text</ref>
+                </ab>
+                <space/>
+                <div type="cover">
+                    <ab>
+                        <title level="j" rend="logo">NIGHT LIFE TALES</title>
+                    </ab>
+                    <ab>
+                        <term type="editionPrice">25c</term>
+                    </ab>
+                    <ab>
+                        <term type="editionVolume">Vol. 1.</term>
+                        <term type="editionIssue">No. 19</term>
+                    </ab>
+                    <ab>
+                        <persName role="illustrator">FAUSTIN</persName>
+                    </ab>
+                </div>
+            </div>
+        </front>
+        <body>
+            <div type="page">
+                <pb n="00b" facs="00b"/>
+                <div type="editorialMatter">
+                    <ab><title>"THE WAGES OF GIN"</title></ab>
+                    <ab>"YE GADS — NOW I'M SEEING PINK WOMEN."</ab>
+                </div>
+            </div>
+            <div type="page">
+                <pb n="00c" facs="00c"/>
+                <div type="masthead">
+                    <ab><title level="j" rend="logo">NIGHT LIFE TALES</title></ab>
+                    <ab><term type="editionVolume">Vol. 1.</term>
+                        <term type="editionIssue">No. 19</term></ab>
+                </div>
+                <div type="contents">
+                    <ab><term type="headwords">CONTENTS</term></ab>
+                    <table>
+                        <row>
+                            <cell>GYPSY SAL</cell>
+                            <cell>By Mary Brown</cell>
+                            <cell>2</cell>
+                        </row>
+                        <row>
+                            <cell>ART MODELS</cell>
+                            <cell/>
+                            <cell>9</cell>
+                        </row>
+                        <row>
+                            <cell>SCRAMBLED YEGGS</cell>
+                            <cell>By Art Nunce</cell>
+                            <cell>17</cell>
+                        </row>
+                        <row>
+                            <cell>LAUGH AND WE'LL LAUGH WITH YOU</cell>
+                            <cell/>
+                            <cell>24</cell>
+                        </row>
+                    </table>
+                </div>
+            </div>
+            <div type="page">
+                <pb n="00d" facs="00d"/>
+                <anchor xml:id="a0001"/>
+                <ab>
+                    <title>GYPSY SAL</title>
+                </ab>
+                <ab>
+                    <span type="byline">By <persName role="author">MARY BROWN</persName></span>
+                </ab>
+                <div type="column">
+                    <cb n="01"/>
+                    <ab>
+                        <span type="columnLine">SALVATIA BERTOVI stood</span>
+                        <span type="columnLine">just under the flap of her</span>
+                        <span type="columnLine">tent watching the droves of</span>
+                        <span type="columnLine">people as they thronged in</span>
+                        <span type="columnLine">through the gates. Every foot of the</span>
+                        <span type="columnLine">circus grounds was crowded now.</span>
+                        <span type="columnLine">Lions roared for the customers' bene-</span>
+                        <span type="columnLine">fit, the merry-go-round churned with</span>
+                        <span type="columnLine">shrill American melodies, men on</span>
+                    </ab>
+                </div>
+                <div type="column">
+                    <cb n="02"/>
+                    <ab>
+                        <span type="columnLine">platforms bellowed about "the great-</span>
+                        <span type="columnLine">est wonders of creation — fire-eaters,</span>
+                        <span type="columnLine">wild men from Borneo, bearded wo-</span>
+                        <span type="columnLine">men and tattooed men!"</span>
+                    </ab>
+                    <ab><span type="columnLine">Salvatia watched the opening day</span>
+                        <span type="columnLine">of the Benoit Circus: a girl of nine-</span>
+                        <span type="columnLine">teen in a white tulle ballet skirt with</span>
+                        <span type="columnLine">a glittering rhinestone brassiere</span>
+                        <span type="columnLine">around her high-peaked, jutting</span>
+                        <span type="columnLine">bosom. Always the Benoit Circus</span>
+                        <span type="columnLine">opened on the grounds just a kilo-</span>
+                    </ab>
+                </div>
+            </div>
+            <div type="page">
+                <pb n="003" facs="003"/>
+                <fw place="top">NIGHT LIFE TALES 3</fw>
+                <div type="column">
+                    <cb n="01"/>
+                    <ab><span type="columnLine">meter from Versailles; always her</span>
+                        <span type="columnLine">heart pumped like mad and her big</span>
+                        <span type="columnLine">black eyes widened and her small red</span>
+                        <span type="columnLine">tongue came out to moisten soft red</span>
+                        <span type="columnLine">lips.</span>
+                    </ab>
+                    <ab><span type="columnLine">And so Salvatia watched and her</span>
+                        <span type="columnLine">heart beat like mad. She did not hear</span>
+                        <span type="columnLine">Pietro come in through the rear of</span>
+                        <span type="columnLine">the tent; she did not know that her</span>
+                        <span type="columnLine">fiance was there until she felt his</span>
+                        <span type="columnLine">arms go around her waist.</span>
+                    </ab>
+                    <ab><span type="columnLine">He whispered, "Salvatia ! Salvatia !"</span>
+                        <span type="columnLine">And, his mouth touched her cheek,</span>
+                        <span type="columnLine">pressing her head back, seeking her</span>
+                        <span type="columnLine">lips.</span>
+                    </ab>
+                    <ab><span type="columnLine">Despite herself Salvatia went a lit-</span>
+                        <span type="columnLine">tle stiff. She thought to herself:</span>
+                    </ab>
+                    <ab><span type="columnLine">"Sometime, when Pietro takes me</span>
+                        <span type="columnLine">in his arms like this, I shall go limp</span>
+                        <span type="columnLine">with joy; I shall go out of my head</span>
+                        <span type="columnLine">with loving him. It will come in time.</span>
+                        <span type="columnLine">I have not made a mistake in promis-</span>
+                        <span type="columnLine">ing to marry him."</span>
+                    </ab>
+                    <ab><span type="columnLine">But so far it had not come. Nor</span>
+                        <span type="columnLine">could she understand why her blood</span>
+                        <span type="columnLine">stayed so cool when Pietro kissed her</span>
+                        <span type="columnLine">and caressed her lovingly. Pietro was</span>
+                        <span type="columnLine">very handsome and young and gypsy-</span>
+                        <span type="columnLine">dark. His tent, where he managed the</span>
+                        <span type="columnLine">rifle shooting, was always crowded</span>
+                        <span type="columnLine">with women asking to be taught how</span>
+                        <span type="columnLine">to shoot.</span>
+                    </ab>
+                    <ab><span type="columnLine">For Pietro had fire in his eyes. She,</span>
+                        <span type="columnLine">Salvatia Bertovi, was very lucky in-</span>
+                        <span type="columnLine">deed to have won the love of this</span>
+                        <span type="columnLine">great dark man whom so many wo-</span>
+                        <span type="columnLine">men wanted.</span>
+                    </ab>
+                    <ab><span type="columnLine">She thought all this as Pietro's</span>
+                        <span type="columnLine">arms drew her closer, as his mouth</span>
+                        <span type="columnLine">closed over her own and as his hands</span>
+                        <span type="columnLine">slid around her waist, pressing her to</span>
+                        <span type="columnLine">him tightly.</span>
+                    </ab>
+                    <ab><span type="columnLine">Pietro looked down into her slim,</span>
+                        <span type="columnLine">dark face, his black eyes burning over</span>
+                        <span type="columnLine">that soft beauty. He said,</span>
+                    </ab>
+                </div>
+                <div type="column">
+                    <cb n="02"/>
+                    <ab><span type="columnLine">"I shouldn't have come. There is so</span>
+                        <span type="columnLine">little time before your act is on, be-</span>
+                        <span type="columnLine">fore I'm needed at the rifles. Once I</span>
+                        <span type="columnLine">hold you like this I can't let you go."</span>
+                    </ab>
+                    <ab><span type="columnLine">She understood. She tried to pull</span>
+                        <span type="columnLine">out of his embrace but Pietro held</span>
+                        <span type="columnLine">her, firmly. He said, evenly,</span>
+                    </ab>
+                    <ab><span type="columnLine">"Salvatia, do you love me? When</span>
+                        <span type="columnLine">I'm with you I think YES. When I'm</span>
+                        <span type="columnLine">away and can see things clearly I</span>
+                        <span type="columnLine">think NO."</span>
+                    </ab>
+                    <ab><span type="columnLine">Salvatia said coolly, "I love you,</span>
+                        <span type="columnLine">Pietro." But her voice lacked</span>
+                        <span type="columnLine">warmth; her eyes did not glow as</span>
+                        <span type="columnLine">Rosalie Benoit's blue eyes glowed</span>
+                        <span type="columnLine">when she looked upon Pietro. And</span>
+                        <span type="columnLine">Salvatia thought:</span>
+                    </ab>
+                    <ab><span type="columnLine">"Rosalie really loves Pietro even</span>
+                        <span type="columnLine">though she is ashamed of loving a</span>
+                        <span type="columnLine">gypsy" And Salvatia knew as Pietro</span>
+                        <span type="columnLine">gazed at her that he was mentally</span>
+                        <span type="columnLine">comparing her coolness with Rosalie's</span>
+                        <span type="columnLine">warm emotions; that he was weigh-</span>
+                        <span type="columnLine">ing them both, one against the other,</span>
+                        <span type="columnLine">and that he was finding her, Salvatia,</span>
+                        <span type="columnLine">lacking.</span>
+                    </ab>
+                    <ab><span type="columnLine">"There's time for a few kisses,</span>
+                        <span type="columnLine">Pietro," she whispered, huskily.</span>
+                    </ab>
+                    <ab><span type="columnLine">Pietro crushed her to him, put his</span></ab>
+                </div>
+            </div>
+            <div type="page">
+                <pb n="004" facs="004"/>
+                <fw place="top">4 NIGHT LIFE TALES</fw>
+                <div type="column">
+                    <cb n="01"/>
+                    <span type="columnLine">mouth on hers with such force that</span>
+                    <span type="columnLine">her lips parted. She was not surprised</span>
+                    <span type="columnLine">then that her heart did thump, that</span>
+                    <span type="columnLine">her knees trembled and that a pulse</span>
+                    <span type="columnLine">throbbed unmercifully in her throat.</span>
+                    <span type="columnLine">The flame of his love swept her up</span>
+                    <span type="columnLine">into a moment where she was blind.</span>
+                    <ab><span type="columnLine">Later, Pietro put Salvatia out of</span>
+                        <span type="columnLine">his arms and hurried back to his con-</span>
+                        <span type="columnLine">cession. His thoughts were of busi-</span>
+                        <span type="columnLine">ness now; not of love.</span>
+                    </ab>
+                    <ab><span type="columnLine">"Why doesnt' love come to me? I</span>
+                        <span type="columnLine">was made for love !"</span>
+                    </ab>
+                    <ab><span type="columnLine">But there was no time to wonder.</span>
+                        <span type="columnLine">She hurried out of the tent into the</span>
+                        <span type="columnLine">late summer afternoon. The fair</span>
+                        <span type="columnLine">grounds were as hot as all oven,</span>
+                        <span type="columnLine">steaming with people. The men</span>
+                        <span type="columnLine">stopped short with a clatter of their</span>
+                        <span type="columnLine">wooden shoes as Salvatia sped toward</span>
+                        <span type="columnLine">the main tent and the little groups of</span>
+                        <span type="columnLine">waiting performers behind it. She</span>
+                        <span type="columnLine">felt those masculine eyes upon her</span>
+                        <span type="columnLine">and wondered if, among the peasants</span>
+                        <span type="columnLine">or the Paris gentlemen, there was</span>
+                        <span type="columnLine">one man who could touch off the</span>
+                        <span type="columnLine">spark of her lambent love.</span>
+                    </ab>
+                    <ab><span type="columnLine">And then suddenly Salvatia stopped</span>
+                        <span type="columnLine">short, her black eyes wide, her mouth</span>
+                        <span type="columnLine">apart and her bosom swelling sud-</span>
+                        <span type="columnLine">denly with an emotion that was</span>
+                        <span type="columnLine">strangely akin to love—for it was</span>
+                        <span type="columnLine">hate. She stood there, tense and stiff,</span>
+                        <span type="columnLine">staring straight in front of her.</span>
+                    </ab>
+                    <ab><span type="columnLine">At a raised platform facing a tent</span>
+                        <span type="columnLine">where a tall, slim, yellow-haired</span>
+                        <span type="columnLine">giant, in an American cow-boy cos-</span>
+                        <span type="columnLine">tume — chaps, blue polka-dot shirt,</span>
+                        <span type="columnLine">handkerchief knotted at the throat—</span>
+                        <span type="columnLine">was calling to the passer-by, waving</span>
+                        <span type="columnLine">his ten gallon hat at them:</span>
+                    </ab>
+                    <ab><span type="columnLine">"See the greatest wild bear in the</span>
+                        <span type="columnLine">world! Watch me wrestle with the</span>
+                        <span type="columnLine">wildest bear in captivity. A Rocky</span>
+                        <span type="columnLine">Mountain grizzly! Only ten centimes!</span>
+                        <span type="columnLine">The show begins at once, monsieurs</span>
+                        <span type="columnLine">et mesdames! Only ten centimes!"</span>
+                    </ab>
+                </div>
+                <div type="column">
+                    <cb n="02"/>
+                    <ab><span type="columnLine">The tall blond man on the platform</span>
+                        <span type="columnLine">was Sammy Richards, the American.</span>
+                        <span type="columnLine">And Salvatia hated him. Four years</span>
+                        <span type="columnLine">ago he had been with the Benoit Cir-</span>
+                        <span type="columnLine">cus as a barker; four years ago she</span>
+                        <span type="columnLine">had thought that she loved him. She</span>
+                        <span type="columnLine">had stayed awake nights wondering</span>
+                        <span type="columnLine">how it would feel to be in his arms,</span>
+                        <span type="columnLine">to have him crushing her gypsy lov-</span>
+                        <span type="columnLine">eliness close to him. She had even</span>
+                        <span type="columnLine">gone so far as to make up a pretext</span>
+                        <span type="columnLine">that would take them walking in the</span>
+                        <span type="columnLine">woods in the moonlight.</span>
+                    </ab>
+                    <ab><span type="columnLine">But even though Sammy's blue eyes</span>
+                        <span type="columnLine">had blazed, even though his breath</span>
+                        <span type="columnLine">had gone short in his throat that love-</span>
+                        <span type="columnLine">ly dance had not made him forget that</span>
+                        <span type="columnLine">she was, after all, a gypsy girl and</span>
+                        <span type="columnLine">therefore a social caste beneath the</span>
+                        <span type="columnLine">other members of the circus. He had</span>
+                        <span type="columnLine">gone away after the season, to</span>
+                        <span type="columnLine">America, his home—to some strange</span>
+                        <span type="columnLine">place called Hollywood where he said</span>
+                        <span type="columnLine">a fortune awaited him.</span>
+                    </ab>
+                    <ab><span type="columnLine">But before he had gone he had done</span>
+                        <span type="columnLine">the one thing that made Salvatia hate</span>
+                        <span type="columnLine">him. She had gone to his tent that</span>
+                        <span type="columnLine">last night, she had stood there in the</span>
+                        <span type="columnLine">semi-darkness with hunger in her</span>
+                        <span type="columnLine">black eyes, with love trembling on</span>
+                        <span type="columnLine">her full lips. She was his woman. He</span>
+                        <span type="columnLine">had only to reach out and take her</span>
+                        <span type="columnLine">in his arms. Instead, he had looked at</span>
+                        <span type="columnLine">her closely ... at the inward curve</span>
+                        <span type="columnLine">of her waist, her slim perfect legs,</span>
+                        <span type="columnLine">and he had said, unmoved:</span>
+                    </ab>
+                    <ab><span type="columnLine">"Salvatia, I saw you edging</span>
+                        <span type="columnLine">through the crowd today. Don't pick</span>
+                        <span type="columnLine">pockets. Be content with what Benoit</span>
+                        <span type="columnLine">pays you."</span>
+                    </ab>
+                    <ab><span type="columnLine">She had stiffened, with hurt pride,</span>
+                        <span type="columnLine">with resentment.</span>
+                    </ab>
+                    <ab><span type="columnLine">"All the gypsies pick pockets," she</span>
+                        <span type="columnLine">had said, evenly. "There's no harm</span>
+                        <span type="columnLine">in it."</span>
+                    </ab>
+                    <ab><span type="columnLine">"But there is, Salvatia. One of these</span>
+                        <span type="columnLine">dumb Frenchmen will catch you at it</span>
+                    </ab>
+                </div>
+            </div>
+            <div type="page">
+                <pb n="005" facs="005"/>
+                <fw place="top">NIGHT LIFE TALES 5</fw>
+                <div type="column">
+                    <cb n="01"/>
+                    <span type="columnLine">one of these days and you'll find your-</span>
+                    <span type="columnLine">self in prison . . . you and your father</span>
+                    <span type="columnLine">and Pietro. Just because all the gyp-</span>
+                    <span type="columnLine">sies pick pockets you don't have to.</span>
+                    <span type="columnLine">Promise me that you'll cut it out,</span>
+                    <span type="columnLine">Salvatia.'</span>
+                    <ab><span type="columnLine">And then, without giving her a</span>
+                        <span type="columnLine">chance to answer he had practically</span>
+                        <span type="columnLine">pushed her out of his tent, had said,</span>
+                        <span type="columnLine">"Run along to bed now, Salvatia. Like</span>
+                        <span type="columnLine">a good little girl!"</span>
+                    </ab>
+                    <ab><span type="columnLine">Because she was too furious to</span>
+                        <span type="columnLine">trust words in her mouth she had</span>
+                        <span type="columnLine">flung herself into a dance . . . wildly,</span>
+                        <span type="columnLine">. . . her hips swaying, her whole body</span>
+                        <span type="columnLine">swaying rhythmically with her agi-</span>
+                        <span type="columnLine">tated steps. Pietro had thrown aside</span>
+                        <span type="columnLine">his accordion. He had come to her</span>
+                        <span type="columnLine">through the moonlight.</span>
+                    </ab>
+                    <ab><span type="columnLine">"You are my woman," he had said,</span>
+                    </ab>
+                </div>
+                <div type="column">
+                    <cb n="02"/>
+                    <ab><span type="columnLine">huskily. "I did not know it before."</span>
+                        <span type="columnLine">He had slipped his neck beads about her throat,</span>
+                        <span type="columnLine">had kissed them in place in gypsy bethrothal</span>
+                        <span type="columnLine">fashion and had crushed her in his arms.</span>
+                    </ab>
+                    <ab><span type="columnLine">The next morning Sammy left and as if to</span>
+                        <span type="columnLine">prove to herself how much she hated him,</span>
+                        <span type="columnLine">Salvatia moved</span>
+                    </ab>
+                    <ab><span type="columnLine">through the circus crowd and picked</span>
+                        <span type="columnLine">every pocket she saw. She had been</span>
+                        <span type="columnLine">picking pockets all the four years of</span>
+                        <span type="columnLine">Sammy's absence, getting satisfaction</span>
+                        <span type="columnLine">out of her nimble fingers and her</span>
+                        <span type="columnLine">defiance of his advice. She hadn't been</span>
+                        <span type="columnLine">caught nor would she be, even though</span>
+                        <span type="columnLine">her father and her mother had been</span>
+                        <span type="columnLine">and were in jail in Paris now. Pietro</span>
+                        <span type="columnLine">had just missed being caught. But</span>
+                        <span type="columnLine">Pietro was too slick . . . slick with</span>
+                        <span type="columnLine">his own cunning technique.</span></ab>
+                </div>
+            </div>
+            <div type="page">
+                <pb n="006" facs="006"/>
+                <fw place="top">6 NIGHT LIFE TALES</fw>
+                <div type="column">
+                    <cb n="01"/>
+                    <ab><span type="columnLine">And at night when they emptied</span>
+                        <span type="columnLine">purses and laughed over some of the</span>
+                        <span type="columnLine">contents, Salvatia found a wild satis-</span>
+                        <span type="columnLine">faction in it.</span>
+                    </ab>
+                    <ab><span type="columnLine">"We're gypsies, Pietro. There is no</span>
+                        <span type="columnLine">law for us. We do what we wish to</span>
+                        <span type="columnLine">do, don't we? We defy whom we</span>
+                    </ab>
+                </div>
+                <div type="column">
+                    <cb n="02"/>
+                    <ab><span type="columnLine">choose!" she would whisper. And</span>
+                        <span type="columnLine">there would be such a fire of hatred</span>
+                        <span type="columnLine">in her eyes that Pietro, seeing that</span>
+                        <span type="columnLine">strange flame, would confuse it with</span>
+                        <span type="columnLine">love and would crush her to him.</span>
+                    </ab>
+                    <ab><span type="columnLine">And now Salvatia looked at Sammy</span>
+                        <span type="columnLine">Richards who was back after four</span>
+                        <span type="columnLine">years. There was sawdust flecked on</span>
+                        <span type="columnLine">his breeches and on his polka-dot</span>
+                        <span type="columnLine">blouse from the floor of the cage in</span>
+                        <span type="columnLine">which he had wrestled the bear.</span>
+                        <span type="columnLine">There was sawdust in his blonde hair</span>
+                        <span type="columnLine">and on the side of his face. In that</span>
+                        <span type="columnLine">moment he looked over the heads of</span>
+                        <span type="columnLine">the, people and saw her. He nodded</span>
+                        <span type="columnLine">to her, coolly, looking down upon her</span>
+                        <span type="columnLine">. . . a gypsy ... as if from a mountain</span>
+                        <span type="columnLine">top.</span>
+                    </ab>
+                    <ab><span type="columnLine">Salvatia bit her lip and she seemed</span>
+                        <span type="columnLine">to gasp with indignation. She tossed</span>
+                        <span type="columnLine">her glossy head up, proudly, swung</span>
+                        <span type="columnLine">around on her heel and edged her</span>
+                        <span type="columnLine">way through the crowd picking pock-</span>
+                        <span type="columnLine">ets as she went. Out of the tail of</span>
+                        <span type="columnLine">one dark eye she could see Sammy</span>
+                        <span type="columnLine">watching her, disapproving. Her</span>
+                        <span type="columnLine">heart began to pound and her knees</span>
+                        <span type="columnLine">trembled beneath her as she hurried</span>
+                        <span type="columnLine">on to the big tent. She hated Sammy.</span>
+                        <span type="columnLine">It was fun doing something he</span>
+                        <span type="columnLine">loathed.</span>
+                    </ab>
+                    <ab><span type="columnLine">That night after her last perform-</span>
+                        <span type="columnLine">ance in the tan bark ring, Salvatia</span>
+                        <span type="columnLine">got into her gypsy costume and min-</span>
+                        <span type="columnLine">gled with the crowd, her nimble fin-</span>
+                        <span type="columnLine">gers busy with pockets. She delighted</span>
+                        <span type="columnLine">in Sammy watching her from his</span>
+                        <span type="columnLine">platform, scowling down at her from</span>
+                        <span type="columnLine">his six-foot-three. And it came to her</span>
+                        <span type="columnLine">as she stood there, even as he yelled</span>
+                        <span type="columnLine">out for customers to watch him wres-</span>
+                        <span type="columnLine">tle with the bear, that she could hurt</span>
+                        <span type="columnLine">him. Not with love—but with hate.</span>
+                        <span type="columnLine">She went quickly over to Sammy's</span>
+                        <span type="columnLine">platform, leaned negligently against</span>
+                        <span type="columnLine">a cypress trunk, and with deep mal-</span>
+                        <span type="columnLine">ice in her eyes, she consistently</span>
+                    </ab>
+                </div>
+            </div>
+            <div type="page">
+                <pb n="007" facs="007"/>
+                <fw place="top">NIGHT LIFE TALES 7</fw>
+                <div type="column">
+                    <cb n="01"/>
+                    <ab><span type="columnLine">laughed at everything he said to the</span>
+                        <span type="columnLine">crowd; she said, derisively, loud</span>
+                        <span type="columnLine">enough for Sammy to hear,</span>
+                    </ab>
+                    <ab><span type="columnLine">"I've seen that man do his act. It</span>
+                        <span type="columnLine">looks real, almost as if he were act-</span>
+                        <span type="columnLine">ually tussling with that grizzly. It's</span>
+                        <span type="columnLine">a nice act . . . but only an act! That</span>
+                        <span type="columnLine">old bear is as tame as any cat that</span>
+                        <span type="columnLine">ever curled up on a hearth!"</span>
+                    </ab>
+                    <ab><span type="columnLine">People began to laugh. They looked</span>
+                        <span type="columnLine">up at Sammy and laughed in his face,</span>
+                        <span type="columnLine">and moved to other side-shows.</span>
+                        <span type="columnLine">Sammy climbed down off his plat-</span>
+                        <span type="columnLine">form and came up to Salvatia. His</span>
+                        <span type="columnLine">jaw was grim, his blue eyes furious.</span>
+                    </ab>
+                    <ab><span type="columnLine">"What sort of a lousy gypsy trick</span>
+                        <span type="columnLine">was that, Salvatia Bertovi?" he de-</span>
+                        <span type="columnLine">manded, evenly. And he stood there</span>
+                        <span type="columnLine">in front of her, tall and blond and</span>
+                        <span type="columnLine">whitely American in his anger.</span>
+                    </ab>
+                    <ab><span type="columnLine">Salvatia's heart began to pound</span>
+                        <span type="columnLine">beneath the tight blouse of her gypsy</span>
+                        <span type="columnLine">dress, her knees shook one against</span>
+                        <span type="columnLine">the other. Hatred was delicious. She</span>
+                        <span type="columnLine">hadn't felt as alive as this since she</span>
+                        <span type="columnLine">could remember. She threw back her</span>
+                        <span type="columnLine">dark head, her black eyes burned their</span>
+                        <span type="columnLine">hatred against his face.</span>
+                    </ab>
+                    <ab><span type="columnLine">"You are a fake, Sammy Richards !"</span>
+                        <span type="columnLine">she said, coldly. "Four years ago you</span>
+                        <span type="columnLine">were a barker for Benoit. Now you</span>
+                        <span type="columnLine">come back wrestling a bear! You</span>
+                        <span type="columnLine">have but to look at that old grizzly</span>
+                        <span type="columnLine">to know that he is as tame as any</span>
+                        <span type="columnLine">kitten. You have but to look at YOU</span>
+                        <span type="columnLine">to know that you couldn't even wres-</span>
+                        <span type="columnLine">tle ME!"</span>
+                    </ab>
+                    <ab><span type="columnLine">Somehow, even hating him as she</span>
+                        <span type="columnLine">did, she couldn't endure him looking</span>
+                        <span type="columnLine">at her like that. He had never looked</span>
+                        <span type="columnLine">at her like that before and so she</span>
+                        <span type="columnLine">said, "Fake! Go back to your cage</span>
+                        <span type="columnLine">and wrestle with that tired old bear!</span>
+                        <span type="columnLine">I think you have two customers wait-</span>
+                        <span type="columnLine">ing!" And then she spun around on</span>
+                        <span type="columnLine">her heel and left him.</span>
+                    </ab>
+                    <ab><span type="columnLine">With quick little steps she hurried</span>
+                    </ab>
+                </div>
+                <div type="column">
+                    <cb n="02"/>
+                    <ab><span type="columnLine">across the circus lot. She headed</span>
+                        <span type="columnLine">straight for Poetro's rifle range</span>
+                        <span type="columnLine"> which was closed now. She thought</span>
+                        <span type="columnLine"> wildly,</span>
+                    </ab>
+                    <ab><span type="columnLine">"I'll go into Pietro's arms. I'll stay</span>
+                        <span type="columnLine">in them for a long while and tomor-</span>
+                        <span type="columnLine">row Pietro and I will be married.</span>
+                        <span type="columnLine">There is no need to wait any longer!"</span>
+                    </ab>
+                    <ab><span type="columnLine">She slipped around behind Pietro's</span>
+                        <span type="columnLine">tent and would have gone straight</span>
+                        <span type="columnLine">through the opening. But the sound</span>
+                        <span type="columnLine">of whispers inside stopped her, made</span>
+                        <span type="columnLine">her stand there in the moonlight lis-</span>
+                        <span type="columnLine">tening despite herself.</span>
+                    </ab>
+                    <ab><span type="columnLine">Pietro was saying, softly, in a hurt</span>
+                        <span type="columnLine">voice, "Salvatia does not love me,</span>
+                        <span type="columnLine">Rosalie. For four years I have never</span>
+                        <span type="columnLine">been sure of her. But now I know.</span>
+                        <span type="columnLine">She doesn't care. Perhaps it's be-</span>
+                        <span type="columnLine">cause your yellow hair dazzles my</span>
+                        <span type="columnLine">eyes when I'm with her. Perhaps its</span>
+                        <span type="columnLine">because I've offered her only a part</span>
+                        <span type="columnLine">of my heart since most of it belongs</span>
+                        <span type="columnLine">only to you. Rosalie . . .</span>
+                    </ab>
+                    <ab><span type="columnLine">Then Salvatia heard Pietro say, in</span>
+                        <span type="columnLine">that throbbing voice, "Rosalie are we</span>
+                        <span type="columnLine">always to hide our love like this?"</span>
+                    </ab>
+                    <ab><span type="columnLine">Salvatia listened no longer. With</span>
+                        <span type="columnLine">a little sigh she struck out toward</span>
+                        <span type="columnLine">the woods where she could sit in soli-</span>
+                        <span type="columnLine">tude and think; where she could stare</span>
+                        <span type="columnLine">up at the moon and try to puzzle out</span>
+                        <span type="columnLine">why hatred had become so much</span>
+                        <span type="columnLine">more important in her life than love.</span>
+                        <span type="columnLine">Hating Sammy was more important</span>
+                        <span type="columnLine">to her than loving Pietro . . . and so</span>
+                        <span type="columnLine">she had lost Pietro.</span>
+                    </ab>
+                    <ab><span type="columnLine">She was clear across the circus</span>
+                        <span type="columnLine">. grounds, walking slowly, when she</span>
+                        <span type="columnLine">heard footsteps behind her, when she</span>
+                        <span type="columnLine">heard Sammy Richards say, in a furi-</span>
+                        <span type="columnLine">ous voice, "Salvatia!"</span>
+                    </ab>
+                    <ab><span type="columnLine">He came up behind her, caught her</span>
+                        <span type="columnLine">slim, bare shoulders in his hands and</span>
+                        <span type="columnLine">swung her around to face him. He</span>
+                        <span type="columnLine">shook her until her teeth rattled in</span>
+                        <span type="columnLine">her head and until her eyes felt as if</span></ab>
+                </div>
+            </div>
+            <div type="page">
+                <pb n="008" facs="008"/>
+                <fw place="top">8 NIGHT LIFE TALES</fw>
+                <div type="column">
+                    <cb n="01"/>
+                    <span type="columnLine">they were being wrung from their</span>
+                    <span type="columnLine">sockets. He stormed out.</span>
+                    <ab><span type="columnLine">"You stay away from my platform</span>
+                        <span type="columnLine">tomorrow, do you hear? If you don't</span>
+                        <span type="columnLine">I'll call the gendarmes the first time</span>
+                        <span type="columnLine">I see you slip a finger into a pocket</span>
+                        <span type="columnLine">. . . you or your beloved Pietro. I'm</span>
+                        <span type="columnLine">going to be with Benoit all this sea-</span>
+                        <span type="columnLine">son and I'm not going to have you</span>
+                        <span type="columnLine">starting this fake business on the</span>
+                        <span type="columnLine">road. Do you understand that?"</span>
+                    </ab>
+                    <ab><span type="columnLine">Salvatia tossed her dark head up-</span>
+                        <span type="columnLine">ward, gypsy chieftain blood stirring</span>
+                        <span type="columnLine">in her veins, proud and hot.</span>
+                    </ab>
+                    <ab><span type="columnLine">"Fake! Fake!" and her strong</span>
+                        <span type="columnLine">young arms locked themselves be-</span>
+                        <span type="columnLine">hind his back. When he broke that</span>
+                        <span type="columnLine">hold she slid another upon him, back</span>
+                        <span type="columnLine">of his neck. "Wrestle!" she spat at</span>
+                        <span type="columnLine">him. "If you can wrestle wild bears</span>
+                        <span type="columnLine">you can wrestle Salvatia who is only</span>
+                        <span type="columnLine">a woman . . . . "</span>
+                    </ab>
+                    <ab><span type="columnLine">"Woman?" Sammy cried. "Not a</span>
+                        <span type="columnLine">woman ! A gypsy hell-cat!"</span>
+                    </ab>
+                    <ab><span type="columnLine">Salvatia gritted her teeth and</span>
+                        <span type="columnLine">tightened her hold. They wrestled</span>
+                        <span type="columnLine">furiously. They tumbled to the</span>
+                        <span type="columnLine">ground, rolled on top of one another,</span>
+                        <span type="columnLine">their legs thrashing in the air. Their</span>
+                        <span type="columnLine">breaths mingled. Their arms locked.</span>
+                        <span type="columnLine">When Salvatia realized that he had</span>
+                        <span type="columnLine">indeed been wrestling that huge bear</span>
+                        <span type="columnLine">in the cage, that he was a far cry</span>
+                        <span type="columnLine">from a fake . . . and when she realized</span>
+                        <span type="columnLine">that the man held on to her even</span>
+                        <span type="columnLine">when he could have easily broken her</span>
+                        <span type="columnLine">hold . . . she went limp in his arms.</span>
+                    </ab>
+                    <ab><span type="columnLine">Sammy bent nearer her, not speak-</span>
+                        <span type="columnLine">ing. His hand came out from his side</span>
+                        <span type="columnLine">and caressed her thick dark hair. He</span>
+                        <span type="columnLine">moved his palm over her face, feeling</span>
+                        <span type="columnLine">her slim straight nose, her lips, the</span>
+                        <span type="columnLine">soft line of her chin and looked into</span>
+                        <span type="columnLine">Salvatia's wide, burning eyes. He</span>
+                        <span type="columnLine">said,</span>
+                    </ab>
+                </div>
+                <div type="column">
+                    <cb n="02"/>
+                    <ab><span type="columnLine">"I did not want to love you, Sal-</span>
+                        <span type="columnLine">vatia. That is why I went away.</span>
+                        <span type="columnLine">You're a gypsy. Men can not trust</span>
+                        <span type="columnLine">gypsies. Only another gypsy would</span>
+                        <span type="columnLine">know how to manage you ... to tame</span>
+                        <span type="columnLine">you!"</span>
+                    </ab>
+                    <ab><span type="columnLine">Salvatia whispered, "You manage</span>
+                        <span type="columnLine">and tame that bear, Sammy. I'm not</span>
+                        <span type="columnLine">so strong as he."</span>
+                    </ab>
+                    <ab><span type="columnLine">"It seems that neither of us knew</span>
+                        <span type="columnLine">our own minds," said Sammy. "For</span>
+                        <span type="columnLine">I went to California to forget you</span>
+                        <span type="columnLine">Salvatia. I made lots of money there,</span>
+                        <span type="columnLine">not with my bear, but with singing.</span>
+                        <span type="columnLine">I trapped that bear in the Rockies.</span>
+                        <span type="columnLine">I wrestled him because I knew that</span>
+                        <span type="columnLine">one day, despite myself, I would come</span>
+                        <span type="columnLine">back to you . . . that I would have to</span>
+                        <span type="columnLine">be strong to be worthy of you . . . . "</span>
+                    </ab>
+                    <ab><span type="columnLine">Salvatia's lips turned up in a slow</span>
+                        <span type="columnLine">smile. "You understand women,</span>
+                        <span type="columnLine">Sammy . . . especially gypsy women !"</span>
+                    </ab>
+                    <ab><span type="columnLine">And then she didn't say anything</span>
+                        <span type="columnLine">more. She even ceased to think. For</span>
+                        <span type="columnLine">Sammy had her in his strong young</span>
+                        <span type="columnLine">arms. Sammy's mouth was crushing</span>
+                        <span type="columnLine">down on her own in an endless kiss.</span>
+                        <span type="columnLine">She didn't even think of Pietro in</span>
+                        <span type="columnLine">that exquisite moment; Pietro who</span>
+                        <span type="columnLine">was thinking of her . . . Pietro who</span>
+                        <span type="columnLine">was holding Rosalie in his arms, who</span>
+                        <span type="columnLine">was threading his fingers through</span>
+                        <span type="columnLine">her golden hair and who was listen-</span>
+                        <span type="columnLine">ing to Rosalie saying, softly, breath-</span>
+                        <span type="columnLine">lessly,</span>
+                    </ab>
+                    <ab><span type="columnLine">"Pietro, we'll run away tonight.</span>
+                        <span type="columnLine">Salvatia won't care. Earlier this even-</span>
+                        <span type="columnLine">ing I saw her hanging around that</span>
+                        <span type="columnLine">American gorgio, telling people what</span>
+                        <span type="columnLine">a fake he is and all the time love</span>
+                        <span type="columnLine">burned in her eyes. Just as I saw it</span>
+                        <span type="columnLine">burning once four years ago when he</span>
+                        <span type="columnLine">was a barker for mon pere. Pietro,</span>
+                        <span type="columnLine">you want me, too, don't you . . . oh,</span>
+                        <span type="columnLine">Pietro, darling, what does it matter</span>
+                        <span type="columnLine">if mon pere will be furious with me</span>
+                    </ab>
+                </div>
+            </div>
+            <div type="page">
+                <pb n="009" facs="009"/>
+                <anchor xml:id="a0002"/>
+                <ab>[Photograph]</ab>
+            </div>
+            <div type="page">
+                <pb n="010" facs="010"/>
+                <ab>[Photograph]</ab>
+            </div>
+            <div type="page">
+                <pb n="011" facs="011"/>
+                <ab>[Photograph]</ab>
+            </div>
+            <div type="page">
+                <pb n="012" facs="012"/>
+                <ab>[Photograph]</ab>
+            </div>
+            <div type="page">
+                <pb n="013" facs="013"/>
+                <ab>[Photograph]</ab>
+            </div>
+            <div type="page">
+                <pb n="014" facs="014"/>
+                <ab>[Photograph]</ab>
+            </div>
+            <div type="page">
+                <pb n="015" facs="015"/>
+                <ab>[Photograph]</ab>
+            </div>
+            <div type="page">
+                <pb n="016" facs="016"/>
+                <ab>[Photograph]</ab>
+            </div>
+            <div type="page">
+                <pb n="017" facs="017"/>
+                <anchor xml:id="a0003"/>
+                <ab><title>SCRAMBLED YEGGS</title></ab>
+                <ab><span type="byline">By <persName role="author">ART NUNCE</persName></span></ab>
+                <div type="column">
+                    <cb n="01"/>
+                    <ab><span type="columnLine">A LITTLE Frenchman at the</span>
+                        <span type="columnLine">office of the Bal de Legion</span>
+                        <span type="columnLine">d' Honeur was adamant.</span>
+                        <span type="columnLine">His waxed black mous-</span>
+                        <span type="columnLine">tache danced excitedly on his upper</span>
+                        <span type="columnLine">lip. Indigo eyes sparkled.</span>
+                    </ab>
+                    <ab><span type="columnLine">"I am sorry, Monsieur," he re-</span>
+                        <span type="columnLine">peated. "I cannot do nossing for</span>
+                        <span type="columnLine">you! Zere is not one ticket to zee</span>
+                        <span type="columnLine">Bal! Zey have all been taken by zee</span>
+                        <span type="columnLine">Legion d' Honeur and zere guests. I</span>
+                        <span type="columnLine">am sorry."</span>
+                    </ab>
+                    <ab><span type="columnLine">Eddie Quince gave vent to a labial</span>
+                        <span type="columnLine">noise closely approximating the fa-</span>
+                        <span type="columnLine">miliar Bronx cheer. "Nuts !" he mut-</span>
+                        <span type="columnLine">tered.</span>
+                    </ab>
+                    <ab><span type="columnLine">"I beg your pardon, Monsieur," the</span>
+                        <span type="columnLine">little Frenchman said.</span>
+                    </ab>
+                    <ab><span type="columnLine">"Forget it, Froggie. You're sure</span>
+                        <span type="columnLine">you can't get me into the shindig?</span>
+                        <span type="columnLine">I'm a gentleman of the press."</span>
+                    </ab>
+                    <ab><span type="columnLine">A pained expresson floated over the</span>
+                        <span type="columnLine">Frenchman's face. "If I could, Mon-</span>
+                        <span type="columnLine">sieur, I would be tres happy. But, Mon</span>
+                        <span type="columnLine">Dieu, what can I do? Zee members</span>
+                        <span type="columnLine">and zere friends have all zee tickets."</span></ab>
+                </div>
+            </div>
+            <div type="page">
+                <pb n="018" facs="018"/>
+                <fw place="top">18 NIGHT LIFE TALES</fw>
+                <div type="column">
+                    <cb n="01"/>
+                    <ab><span type="columnLine">Eddie scratched his head. "How</span>
+                        <span type="columnLine">about letting me see the admission</span>
+                        <span type="columnLine">list so I'll know who's going to be</span>
+                        <span type="columnLine">there? I've got to send some sort of</span>
+                        <span type="columnLine">a story back to my paper."</span>
+                    </ab>
+                    <ab><span type="columnLine">The "gentleman of the press" label</span>
+                        <span type="columnLine">Eddie had assumed was nothing more</span>
+                        <span type="columnLine">than a label. He had been a news-</span>
+                        <span type="columnLine">paper reporter back in Kansas City,</span>
+                        <span type="columnLine">but it was so long ago he had forgot-</span>
+                        <span type="columnLine">ten what it was all about. His main</span>
+                        <span type="columnLine">purpose in posing as a newspaperman</span>
+                    </ab>
+                    <ab><span type="columnLine">was to gain admission to the ex-</span>
+                        <span type="columnLine">clusive Bal de Legion d'Honeur.</span>
+                    </ab>
+                    <ab><span type="columnLine">The little Frenchman brightened.</span>
+                        <span type="columnLine">"Oui, Monsieur, of course! Zat I can</span>
+                        <span type="columnLine">do!" He scuttled off, returning with</span>
+                        <span type="columnLine">counties sheets of typewritten names.</span>
+                        <span type="columnLine">Nine out of ten were prefixed</span>
+                        <span type="columnLine">"Chevalier". Eddie ran his eyes down</span>
+                        <span type="columnLine">the list. They stopped at the impres-</span>
+                        <span type="columnLine">sive cognomen: His Highness Victor</span>
+                        <span type="columnLine">San Remo Vallento et entourage</span>
+                        <span type="columnLine">d'Allsia.</span>
+                    </ab>
+                    <ab><span type="columnLine">"Who's he?" Eddie queried.</span>
+                    </ab>
+                    <ab><span type="columnLine">"Zee Crown Prince of Alesia, Mon-</span>
+                        <span type="columnLine">sieur."</span>
+                    </ab>
+                    <ab><span type="columnLine">"And where is Alesia?"</span>
+                    </ab>
+                </div>
+                <div type="column">
+                    <cb n="02"/>
+                    <ab><span type="columnLine">The Frenchman shrugged. "Zat I</span>
+                        <span type="columnLine">do not know, Monsieur. His Highness</span>
+                        <span type="columnLine">is now at zee Vendome Hotel."</span>
+                        <span type="columnLine">There was a strange glint in</span>
+                        <span type="columnLine">Eddie's eyes. He copies down the</span>
+                        <span type="columnLine">royal dignitary's name. "Thanks a</span>
+                        <span type="columnLine">lot," he said.</span>
+                    </ab>
+                    <ab><span type="columnLine">The Vendome was one of Paris'</span>
+                        <span type="columnLine">most expensive rococo hostelries.</span>
+                        <span type="columnLine">Bold as brass, Eddie walked up to</span>
+                        <span type="columnLine">the desk, asked for the Crown Prince.</span>
+                    </ab>
+                    <ab><span type="columnLine">The clerk eyed him. "Who shall I</span>
+                        <span type="columnLine">say is calling, Monsieur?"</span>
+                    </ab>
+                    <ab><span type="columnLine">"A representative of the Paris edi-</span>
+                        <span type="columnLine">tion of the New York Bulletin."</span>
+                    </ab>
+                    <ab><span type="columnLine">Ten minutes later, Eddie was ad-</span>
+                        <span type="columnLine">mitted to a suite of rooms on the</span>
+                        <span type="columnLine">sixth floor of the hotel. As he entered</span>
+                        <span type="columnLine">the drawing room, he stopped short,</span>
+                        <span type="columnLine">stared straight ahead of him. There,</span>
+                        <span type="columnLine">reclining on a low, damask-covered</span>
+                        <span type="columnLine">divan, was a gorgeous dark-haired</span>
+                        <span type="columnLine">female! She was wearing a thin,</span>
+                        <span type="columnLine">spun-silver negligee, draped loosely</span>
+                        <span type="columnLine">about her body.</span>
+                    </ab>
+                    <ab><span type="columnLine">"I—I beg your pardon," he mur-</span>
+                        <span type="columnLine">mured.</span>
+                    </ab>
+                    <ab><span type="columnLine">The girl looked up from her mag-</span>
+                        <span type="columnLine">azine. Her black eyes flashed from</span>
+                        <span type="columnLine">long curled lashes. Her mouth, car-</span>
+                        <span type="columnLine">mine red and moist, smiled a greeting.</span>
+                    </ab>
+                    <ab><span type="columnLine">"Bon jour, Monsieur. You have</span>
+                        <span type="columnLine">come to see zee Crown Prince?" She</span>
+                        <span type="columnLine">sat up. Eddie's heart thumped like a</span>
+                        <span type="columnLine">trip-hammer.</span>
+                    </ab>
+                    <ab><span type="columnLine">A month in France had given Eddie</span>
+                        <span type="columnLine">a pretty fair idea of the local crop of</span>
+                        <span type="columnLine">beauties. They were plenty spiffy, all</span>
+                        <span type="columnLine">things considered. But this gorgeous</span>
+                        <span type="columnLine">creature, French or Alesian (what-</span>
+                        <span type="columnLine">ever that was!) had the Parisian</span>
+                        <span type="columnLine">cuties backed off the map for class.</span>
+                    </ab>
+                    <ab><span type="columnLine">"Er—yes," Eddie Mumbled. "I —</span>
+                        <span type="columnLine">I'd like to see His Highness."</span>
+                    </ab>
+                    <ab><span type="columnLine">The girl swung her shapely legs off</span>
+                        <span type="columnLine">the divan.</span>
+                    </ab>
+                    <ab><span type="columnLine">"Your name, Monsieur?" she</span>
+                    </ab>
+                </div>
+            </div>
+            <div type="page">
+                <pb n="019" facs="019"/>
+                <fw place="top">NIGHT LIFE TALES 19</fw>
+                <div type="column">
+                    <cb n="01"/>
+                    <ab><span type="columnLine">queried, rising.</span>
+                    </ab>
+                    <ab><span type="columnLine">For a long moment Eddie found it</span>
+                        <span type="columnLine">difficult to reply.</span>
+                    </ab>
+                    <ab><span type="columnLine">"Your name, Monsieur?" she re-</span>
+                        <span type="columnLine">peated, a faint smile playing about</span>
+                        <span type="columnLine">her voluptuously encarnadined lips.</span>
+                    </ab>
+                    <ab><span type="columnLine">"Edward Quince," Eddie managed.</span>
+                    </ab>
+                    <ab><span type="columnLine">She undulated out of the room,</span>
+                        <span type="columnLine">svelt hips swinging. Eddie felt the</span>
+                        <span type="columnLine">palms of his hands beginning to mois-</span>
+                        <span type="columnLine">ten. If, a bare half hour before, some-</span>
+                        <span type="columnLine">one had told him he was going to</span>
+                        <span type="columnLine">rest his eyes on a brunette Venus he</span>
+                        <span type="columnLine">would have laughed in that someone's</span>
+                        <span type="columnLine">face.</span>
+                    </ab>
+                    <ab><span type="columnLine">Anxious moments went by. Eddie,</span>
+                        <span type="columnLine">possessed of a swell plan for getting</span>
+                        <span type="columnLine">into the Bal, almost forgot the pur-</span>
+                        <span type="columnLine">pose of his visit. Now, with the Stun-</span>
+                        <span type="columnLine">ning femme out of sight, it returned</span>
+                        <span type="columnLine">to mind. Everything would depend on</span>
+                        <span type="columnLine">whether this high-mucky-muck from</span>
+                        <span type="columnLine">Alesia was anywhere near Eddie's</span>
+                        <span type="columnLine">size and build. If he happened to be</span>
+                        <span type="columnLine">short, fat and roly-poly or tall, gaunt</span>
+                        <span type="columnLine">and angular, it would be just too</span>
+                        <span type="columnLine">bad.</span>
+                    </ab>
+                    <ab><span type="columnLine">The curtains separating the draw-</span>
+                        <span type="columnLine">ing room of the suite from the one</span>
+                        <span type="columnLine">adjoining parted and the beautiful</span>
+                        <span type="columnLine">brunette returned.</span>
+                    </ab>
+                    <ab><span type="columnLine">"I am sorry, Monsieur," she said,</span>
+                        <span type="columnLine">"but His Highness cannot be dis-</span>
+                        <span type="columnLine">turbed. He is resting in preparation</span>
+                        <span type="columnLine">for zee ball tonight. I am his sister.</span>
+                        <span type="columnLine">Can I help?"</span>
+                    </ab>
+                    <ab><span type="columnLine">Eddie licked his lips. He made a</span>
+                        <span type="columnLine">mental note to find out where in hell</span>
+                        <span type="columnLine">Alesia was. If this beauty was any</span>
+                        <span type="columnLine">sample of the feminine Alesians, that</span>
+                        <span type="columnLine">was the place for Eddie Quince!</span>
+                    </ab>
+                    <ab><span type="columnLine">"Er—yes, it's about the Bal," Eddie</span>
+                        <span type="columnLine">gulped. "I just wanted to ask him</span>
+                        <span type="columnLine">about his costume and—well—and</span>
+                        <span type="columnLine">get his viewpoint on things in gen-</span>
+                        <span type="columnLine">eral. You know, we do that with</span>
+                        <span type="columnLine">visiting celebrities."</span></ab>
+                </div>
+            </div>
+            <div type="page">
+                <pb n="020" facs="020"/>
+                <fw place="top">20 NIGHT LIFE TALES</fw>
+                <div type="column">
+                    <cb n="01"/>
+                    <ab><span type="columnLine">She nodded. "Oui, I am aware of</span>
+                        <span type="columnLine">zat, Monsieur. I am sorry I cannot</span>
+                        <span type="columnLine">help you. Zee costume is zee secret.</span>
+                        <span type="columnLine">As for anything else, I do not know."</span>
+                    </ab>
+                    <ab><span type="columnLine">Eddie backed to the door. He was</span>
+                        <span type="columnLine">reluctant to leave, but in a case like</span>
+                        <span type="columnLine">this it paid to be prudent. If luck was</span>
+                        <span type="columnLine">with him he would have ample oppor-</span>
+                        <span type="columnLine">tunity to meet this Venus on an equal</span>
+                        <span type="columnLine">footing.</span>
+                    </ab>
+                    <ab><span type="columnLine">"Thank you very much," he gasped.</span>
+                        <span type="columnLine">"Goodbye."</span>
+                    </ab>
+                    <ab><span type="columnLine">She followed him to the door.</span>
+                    </ab>
+                    <ab><span type="columnLine">Out on the street, Eddie glanced at</span>
+                        <span type="columnLine">his watch. Five o'clock. If anything</span>
+                        <span type="columnLine">was to be accomplished he had very</span>
+                        <span type="columnLine">little time in which to accomplish it.</span>
+                        <span type="columnLine">He looked into his wallet. Almost two</span>
+                        <span type="columnLine">thousand francs. That was $120. in</span>
+                        <span type="columnLine">American money. A hell of a lot to</span>
+                        <span type="columnLine">pay for admission to a masked ball,</span>
+                        <span type="columnLine">but he was determined to crash the</span>
+                        <span type="columnLine">gates of the exclusive shindig, no</span>
+                        <span type="columnLine">matter what the price. And now, too,</span>
+                        <span type="columnLine">there was an added incentive. A dark-</span>
+                        <span type="columnLine">haired incentive.</span>
+                    </ab>
+                    <ab><span type="columnLine">Eddie doffed his thinking cap for</span>
+                        <span type="columnLine">the time being, stepped into a cafe</span>
+                        <span type="columnLine">for an absinthe frappe.[#]It was six-</span>
+                        <span type="columnLine">thirty when he returned to the lobby</span>
+                        <span type="columnLine">of the Vendome, slumped down in a</span>
+                        <span type="columnLine">chair behind a potted palm, kept his</span>
+                        <span type="columnLine">eyes glued on the elevators. An hour</span>
+                        <span type="columnLine">of watchful waiting brought reward.</span>
+                        <span type="columnLine">The gorgeous brunette, swathed in an</span>
+                        <span type="columnLine">ermine wrap, came out of the elevator</span>
+                        <span type="columnLine">on the arm of a man approximately</span>
+                        <span type="columnLine">Eddie's height and build. He, too, was</span>
+                        <span type="columnLine">wearing a voluminous opera cloak,</span>
+                        <span type="columnLine">but Eddie could see the striped trous-</span>
+                        <span type="columnLine">ers of a colorful uniform and a gold</span>
+                        <span type="columnLine">braided military collar. Both the girl</span>
+                        <span type="columnLine">and the man had black dominoes over</span>
+                        <span type="columnLine">their eyes.</span>
+                    </ab>
+                    <ab><span type="columnLine">Eddie quivered with excitement. He</span>
+                        <span type="columnLine">was certain this was His Highness,</span>
+                        <span type="columnLine">the Crown Prince of Alesia. He mem-</span>
+                    </ab>
+                </div>
+                <div type="column">
+                    <cb n="02"/>
+                    <ab><span type="columnLine">orized the gold spinach on the mans'</span>
+                        <span type="columnLine">patent leather peaked hat. It had an</span>
+                        <span type="columnLine">old rose crown and was festooned</span>
+                        <span type="columnLine">with garlands of braid. A second man</span>
+                        <span type="columnLine">in uniform, not as gaudy as the Crown</span>
+                        <span type="columnLine">Prince's, followed the royal couple</span>
+                        <span type="columnLine">through the lobby.</span>
+                    </ab>
+                    <ab><span type="columnLine">Eddie watched them all get into a</span>
+                        <span type="columnLine">cab and drive off. He grinned and</span>
+                        <span type="columnLine">rubbed his hands in gleeful anticipa-</span>
+                        <span type="columnLine">tion. Now it was all up to him!</span>
+                    </ab>
+                    <ab><span type="columnLine">It is too well known a fact to war-</span>
+                        <span type="columnLine">rant undue explanation. The Parisian</span>
+                        <span type="columnLine">taxi driver will sell his soul and the</span>
+                        <span type="columnLine">soul of each member of his family</span>
+                        <span type="columnLine">for the almighty franc. Acting on this</span>
+                        <span type="columnLine">truism, Eddie sallied forth from the</span>
+                        <span type="columnLine">hotel, picked a likely-looking driver</span>
+                        <span type="columnLine">and engaged him in conversation.</span>
+                    </ab>
+                    <ab><span type="columnLine">"For how much will you rent me</span>
+                        <span type="columnLine">your uniform and your cab?" he ques-</span>
+                        <span type="columnLine">tioned.</span>
+                    </ab>
+                    <ab><span type="columnLine">The driver's bushy eyebrows</span>
+                        <span type="columnLine">arched. "For how long, Monsieur?"</span>
+                    </ab>
+                    <ab><span type="columnLine">"All night."</span>
+                    </ab>
+                    <ab><span type="columnLine">"Five hundred francs.'</span>
+                    </ab>
+                    <ab><span type="columnLine">Eddie computed rapidly. That</span>
+                        <span type="columnLine">would be $30. "No, too much. I'll give</span>
+                        <span type="columnLine">you 300 francs."</span>
+                    </ab>
+                    <ab><span type="columnLine">"Ah, but, Monsieur, it is against</span>
+                        <span type="columnLine">zee law! Supposing I am caught, eh</span>
+                        <span type="columnLine">What zen?"</span>
+                    </ab>
+                    <ab><span type="columnLine">"I'll get you out. Three hundred</span>
+                        <span type="columnLine">francs. What do you say.</span>
+                    </ab>
+                    <ab><span type="columnLine">It was five times what the cabbie</span>
+                        <span type="columnLine">would earn. He knew it and Eddie</span>
+                        <span type="columnLine">knew it. A little more bantering, back</span>
+                        <span type="columnLine">and forth, and the deal was closed. A</span>
+                        <span type="columnLine">bare half-hour later, Eddie, in the</span>
+                        <span type="columnLine">driver's gray uniform, slipped behind</span>
+                        <span type="columnLine">the wheel of the cab.</span>
+                    </ab>
+                    <ab><span type="columnLine">"You will return it to 22 Rue Sabien</span>
+                        <span type="columnLine">by dawn, Monsieur?" the cabbie</span>
+                        <span type="columnLine">questioned anxiously.</span>
+                    </ab>
+                    <ab><span type="columnLine">"Maybe before then, Frenchie.</span>
+                        <span type="columnLine">Toodle-oo." With a great clatter of</span>
+                        <span type="columnLine">meshing gears, the ancient, squeaking</span>
+                    </ab>
+                </div>
+            </div>
+            <div type="page">
+                <pb n="021" facs="021"/>
+                <fw place="top">NIGHT LIFE TALES 21</fw>
+                <div type="column">
+                    <cb n="01"/>
+                    <ab><span type="columnLine">vehicle rolled away.</span>
+                    </ab>
+                    <ab><span type="columnLine">Narrowly missing a traffic police-</span>
+                        <span type="columnLine">man and a lumbering omnibus, Eddie</span>
+                        <span type="columnLine">reached the Maison of the Legion of</span>
+                        <span type="columnLine">Honor, drew up before the canopy</span>
+                        <span type="columnLine">stretching to the curb. An epauletted</span>
+                        <span type="columnLine">doorman hurried to the cab. Eddie</span>
+                        <span type="columnLine">leaned out. He pressed a folded hun-</span>
+                        <span type="columnLine">dred franc note into the doorman's</span>
+                        <span type="columnLine">hand. Speaking low and rapidly, he</span>
+                        <span type="columnLine">described the Crown Prince of Ale-</span>
+                        <span type="columnLine">sia's uniform, height, weight and gen-</span>
+                        <span type="columnLine">eral appearance as best he could.</span>
+                    </ab>
+                    <ab><span type="columnLine">"Tell the gentleman there is some-</span>
+                        <span type="columnLine">one to see him. Make it clear that it</span>
+                        <span type="columnLine">is important. If you succeed in bring-</span>
+                        <span type="columnLine">ing him out I will give you another</span>
+                        <span type="columnLine">hundred francs."</span>
+                    </ab>
+                    <ab><span type="columnLine">The doorman, blood brother to all</span>
+                        <span type="columnLine">other doormen in every part of the</span>
+                        <span type="columnLine">world, knew his onions. For cash in</span>
+                        <span type="columnLine">hand he would perform miracles. He</span>
+                        <span type="columnLine">nodded and vanished into the maison.</span>
+                    </ab>
+                    <ab><span type="columnLine">Eddie stepped out of the driver's</span>
+                        <span type="columnLine">seat, put the collar of his coatup</span>
+                        <span type="columnLine">around his face. He opened the back</span>
+                        <span type="columnLine">door of the cab, waited anxiously.</span>
+                    </ab>
+                    <ab><span type="columnLine">Sure enough, out came the Crown</span>
+                        <span type="columnLine">Prince in full, glittering regalia, three</span>
+                        <span type="columnLine">rows of medals shimmering on his</span>
+                        <span type="columnLine">chest. He paused uncertainly under</span>
+                        <span type="columnLine">the canopy.</span>
+                    </ab>
+                    <ab><span type="columnLine">"Zis way, Monsieur," Eddie said.</span>
+                        <span type="columnLine">His heart was in his throat.</span>
+                    </ab>
+                    <ab><span type="columnLine">The Crown Prince stepped forward.</span>
+                        <span type="columnLine">He looked around, puzzled. "Who</span>
+                        <span type="columnLine">wishes to see me?" he questioned.</span>
+                    </ab>
+                    <ab><span type="columnLine">"A gentleman inside zee cab, Mon-</span>
+                        <span type="columnLine">sieur," Eddie blurted.</span>
+                    </ab>
+                    <ab><span type="columnLine">The Crown Prince stooped, entered</span>
+                        <span type="columnLine">the open door. Eddie, using his body</span>
+                        <span type="columnLine">as a shield against the doorman,</span>
+                        <span type="columnLine">jerked a leather-covered black-jack</span>
+                        <span type="columnLine">from his pocket swung it, tapped the</span>
+                        <span type="columnLine">unsuspecting Crown Prince on the</span>
+                        <span type="columnLine">back of the head. He slumped into the</span>
+                        <span type="columnLine">seat without a sound. Eddie[t] slammed</span>
+                    </ab>
+                </div>
+                <div type="column">
+                    <cb n="02"/>
+                    <ab><span type="columnLine">the door shut, hurriedly gave the</span>
+                        <span type="columnLine">'doorman his second tip, wrove off.</span>
+                    </ab>
+                    <ab><span type="columnLine">He stopped the cab on a dark</span>
+                        <span type="columnLine">street. Ten minutes of work and the</span>
+                        <span type="columnLine">Crown Prince was bound hand and</span>
+                        <span type="columnLine">foot with stout rope, his mouth ef-</span>
+                    </ab>
+                    <ab><span type="columnLine">fectively gagged. Eddie stripped him</span>
+                        <span type="columnLine">of his resplendent uniform, ran the</span>
+                        <span type="columnLine">cab to the bank of the Seine, rolled</span>
+                        <span type="columnLine">the still unconscious Crown Prince</span>
+                        <span type="columnLine">into the grass behind a thick bush. It</span>
+                        <span type="columnLine">was a warm night and he was certain</span></ab>
+                </div>
+            </div>
+            <div type="page">
+                <pb n="022" facs="022"/>
+                <fw place="top">22 NIGHT LIFE TALES</fw>
+                <div type="column">
+                    <cb n="01"/>
+                    <span type="columnLine">the royal visitor would suffer no ill effects.</span>
+                    <ab><span type="columnLine">That done, he raced to 22 Rue Sa-</span>
+                        <span type="columnLine">bien and routed out the cabbie who</span>
+                        <span type="columnLine">had rented him the hack. Before the</span>
+                        <span type="columnLine">astounded eyes of the man, he re-</span>
+                        <span type="columnLine">moved the driver's uniform and sub-</span>
+                        <span type="columnLine">stituted the outlt of old rose and</span>
+                        <span type="columnLine">braid, even to the black dominoe over</span>
+                        <span type="columnLine">his eyes.</span>
+                    </ab>
+                    <ab><span type="columnLine">"Now, drive me to the Maison de</span>
+                        <span type="columnLine">Legion d'Honeur and I will be</span>
+                        <span type="columnLine">through with the cab."</span>
+                        <span type="columnLine">The unsuspecting doorman bowed</span>
+                        <span type="columnLine">Eddie in to the exclusive Bal. No</span>
+                        <span type="columnLine">sooner had he stepped into a room</span>
+                        <span type="columnLine">thronged with brilliantly costumed</span>
+                        <span type="columnLine">people and alive with the rhythmic</span>
+                        <span type="columnLine">strains of music, than a hand fell on</span>
+                        <span type="columnLine">his arm. He turned to look into the</span>
+                        <span type="columnLine">bright masked eyes of the gorgeous</span>
+                        <span type="columnLine">brunette. She was wearing the cos-</span>
+                    </ab>
+                </div>
+                <div type="column">
+                    <cb n="02"/>
+                    <ab><span type="columnLine">tume of a ballet dancer, tight and</span>
+                        <span type="columnLine">scant.</span>
+                    </ab>
+                    <ab><span type="columnLine">"Where have you been, Hugo?"</span>
+                        <span type="columnLine">she whispered. "I was worried."</span>
+                    </ab>
+                    <ab><span type="columnLine">Eddie's lips smiled. He made no</span>
+                        <span type="columnLine">reply, preferring to take no chances</span>
+                        <span type="columnLine">of detection. He eased her into his</span>
+                        <span type="columnLine">arms and danced her away.</span>
+                    </ab>
+                    <ab><span type="columnLine">Suddenly a chilling thought came</span>
+                        <span type="columnLine">to him. She was the Crown Prince's</span>
+                        <span type="columnLine">sister! If he attempted to make love</span>
+                        <span type="columnLine">to her she would know something</span>
+                        <span type="columnLine">was wrong!</span>
+                    </ab>
+                    <ab><span type="columnLine">"Hugo." She placed her lips close</span>
+                        <span type="columnLine">to his ear. "Francois will be ready</span>
+                        <span type="columnLine">soon. Had we not better go to zee</span>
+                        <span type="columnLine">lounge?"</span>
+                    </ab>
+                    <ab><span type="columnLine">Eddie nodded. The girl slipped her</span>
+                        <span type="columnLine">arm in his. Together they walked off</span>
+                        <span type="columnLine">the dance floor into the palm-strewn</span>
+                        <span type="columnLine">lounge, seated themselves in an over-</span>
+                        <span type="columnLine">stuffed love seat.</span>
+                    </ab>
+                    <ab><span type="columnLine">She leaned towards him, offered</span>
+                        <span type="columnLine">her parted red lips.</span>
+                    </ab>
+                    <ab><span type="columnLine">Eddie had always been taught to</span>
+                        <span type="columnLine">act first and ask questions after. He</span>
+                        <span type="columnLine">acted, kissing her.</span>
+                    </ab>
+                    <ab><span type="columnLine">"You still care for Marie, don't</span>
+                        <span type="columnLine">you, Hugo, darling?" she murmured.</span>
+                    </ab>
+                    <ab><span type="columnLine">So that was her name—Marie. Ed-</span>
+                        <span type="columnLine">die disguised his voice and managed</span>
+                        <span type="columnLine">a faint "oui." He was about to con-</span>
+                        <span type="columnLine">tinue where he had left off when an-</span>
+                        <span type="columnLine">other man in uniform hurried up,</span>
+                        <span type="columnLine">dropped something in Marie's lap and</span>
+                        <span type="columnLine">beat a hasty departure.</span>
+                    </ab>
+                    <ab><span type="columnLine">The girl tensed. "Come! We must</span>
+                        <span type="columnLine">go!" She pulled the bodice of her</span>
+                        <span type="columnLine">costume away, slid something into</span>
+                        <span type="columnLine">the aperture, and rose hurriedly. Ed-</span>
+                        <span type="columnLine">die caught a gleam of white; the</span>
+                        <span type="columnLine">sheen of which looked like pearls.</span>
+                        <span type="columnLine">Why was she secreting pearls.</span>
+                    </ab>
+                    <ab><span type="columnLine">There was no time to ask questions.</span>
+                        <span type="columnLine">Marie fairly dragged him out to the</span>
+                        <span type="columnLine">coatroom. Before Eddie knew it he</span>
+                        <span type="columnLine">was alone with her in a taxicab and</span>
+                    </ab>
+                </div>
+            </div>
+            <div type="page">
+                <pb n="023" facs="023"/>
+                <fw place="top">NIGHT LIFE TALES 23</fw>
+                <div type="column">
+                    <cb n="01"/>
+                    <ab><span type="columnLine">she had ordered the driver to go to</span>
+                        <span type="columnLine">the Vendome.</span>
+                    </ab>
+                    <ab><span type="columnLine">Once the cab moved away from the</span>
+                        <span type="columnLine">Maison de Legion d'Honeur Marie</span>
+                        <span type="columnLine">breathed a deep sigh of relief. "Ah,</span>
+                        <span type="columnLine">sucre, I am glad zat is over. I was</span>
+                        <span type="columnLine">so nervous, Hugo."</span>
+                    </ab>
+                    <ab><span type="columnLine">Before Eddit's gaping eyes, she</span>
+                        <span type="columnLine">shrugged off her wrap, lowered the"\</span>
+                        <span type="columnLine">straps of her costume. Eddie got-1</span>
+                        <span type="columnLine">goggle-eyed when he saw what was</span>
+                        <span type="columnLine">nestling in her bosom. Marie held it</span>
+                        <span type="columnLine">up. It was a stunning pearl necklace,</span>
+                        <span type="columnLine">shimmering with all the pure fire of</span>
+                        <span type="columnLine">its dozens of big pearls.</span>
+                    </ab>
+                    <ab><span type="columnLine">"Not bad, Hugo eh?" she ques-</span>
+                        <span type="columnLine">tioned. "Is it not worth at least one</span>
+                        <span type="columnLine">million francs?"</span>
+                    </ab>
+                    <ab><span type="columnLine">Eddie's mind whirled. He hadn't</span>
+                        <span type="columnLine">the faintest idea what this was all</span>
+                        <span type="columnLine">about, but he had a premonition he</span>
+                        <span type="columnLine">was getting himself into plenty of</span>
+                        <span type="columnLine">hot water.</span>
+                    </ab>
+                    <ab><span type="columnLine">"Francois will meet us at zee</span>
+                        <span type="columnLine">train," Marie said. "We must get rid</span>
+                        <span type="columnLine">of zese costumes immediately. It will</span>
+                        <span type="columnLine">not be long before zee gendarmes will</span>
+                        <span type="columnLine">be looking for us."</span>
+                    </ab>
+                    <ab><span type="columnLine">Jewel thieves! It hit Eddie smack</span>
+                        <span type="columnLine">in the nose! Jewel thieves! They</span>
+                        <span type="columnLine">weren't members of royalty at all!</span>
+                        <span type="columnLine">They were crooks, posing as mem-</span>
+                        <span type="columnLine">bers of royalty. Right now some weal-</span>
+                        <span type="columnLine">thy dowager was missing that neck-</span>
+                        <span type="columnLine">lace at the Bal!</span>
+                    </ab>
+                    <ab><span type="columnLine">Eddie had half a mind to stop the</span>
+                        <span type="columnLine">cab and get out. Another look at</span>
+                        <span type="columnLine">Marie's voluptuous beauty changed</span>
+                        <span type="columnLine">his mind. And anyway, the cab was</span>
+                        <span type="columnLine">drawing up before the Vendome. Still</span>
+                        <span type="columnLine">masked, they both walked through</span>
+                        <span type="columnLine">the lobby, took the elevator to the</span>
+                        <span type="columnLine">phony Crown Prince's suite.</span>
+                    </ab>
+                    <ab><span type="columnLine">"We must hurry, cheri," Marie</span>
+                        <span type="columnLine">said, once they were behind locked</span>
+                        <span type="columnLine">doors.</span>
+                    </ab>
+                </div>
+                <div type="column">
+                    <cb n="02"/>
+                    <ab><span type="columnLine">Eddie caught her in his arms. If</span>
+                        <span type="columnLine">he was taking the chance of being</span>
+                        <span type="columnLine">nabbed as a jewel thief he had to get</span>
+                        <span type="columnLine">something out of it. He bent her back,</span>
+                        <span type="columnLine">kissing her full on the lips.</span>
+                    </ab>
+                    <ab><span type="columnLine">Timeless minutes later, Eddie re-</span>
+                        <span type="columnLine">moved his mask. The girl's face</span>
+                        <span type="columnLine">drained of color. She sat and stared</span>
+                        <span type="columnLine">like one transfixed.</span>
+                    </ab>
+                    <ab><span type="columnLine">"I'm a detective," Eddie lied. "It's</span>
+                        <span type="columnLine">too bad you had to get mixed up with</span>
+                        <span type="columnLine">that gang of yeggs."</span>
+                    </ab>
+                    <ab><span type="columnLine">Open-mouthed, Marie gaped. She</span>
+                        <span type="columnLine">could not utter a sound. Eddie crossed</span>
+                        <span type="columnLine">to a phone. He called police head-</span>
+                        <span type="columnLine">quarters, reported the recovery of</span>
+                        <span type="columnLine">the pearl necklace, told them where</span>
+                        <span type="columnLine">they could find the fake Crown Prince</span>
+                        <span type="columnLine">and his henchman. That done, he</span>
+                        <span type="columnLine">turned to Marie.</span>
+                    </ab>
+                    <ab><span type="columnLine">"As for you—"</span>
+                    </ab>
+                    <ab><span type="columnLine">She threw herself at him, pleading.</span>
+                        <span type="columnLine">"Please, Monsieur! Do not have me</span>
+                        <span type="columnLine">arrested! Hugo forced me to do it!"</span>
+                        <span type="columnLine">Eddie held her close. "Shut up," he</span>
+                        <span type="columnLine">said quietly. "There's only one way I</span>
+                        <span type="columnLine">can save you."</span>
+                    </ab>
+                    <ab><span type="columnLine">"How, Monsieur?"</span>
+                    </ab>
+                    <ab><span type="columnLine">'By marrying you. Then we can tell</span>
+                        <span type="columnLine">the police that we worked together</span>
+                        <span type="columnLine">to capture those thieves. Other-</span>
+                        <span type="columnLine">wise—"</span>
+                    </ab>
+                    <ab><span type="columnLine">Marie said nothing, but her actions</span>
+                        <span type="columnLine">shouted her answer!</span></ab>
+                </div>
+            </div>
+            <div type="page">
+                <pb n="024" facs="024"/>
+                <anchor xml:id="a0004"/>
+                <fw place="top">24 NIGHT LIFE TALES</fw>
+                <div type="editorialMatter">
+                    <ab><title>LAUGH AND WE'LL LAUGH WITH YOU</title></ab>
+                    <ab>I must admire girls who know Enough to keep on saying NO! But for a date, I must confess I like the girl who murmurs Yes!</ab>
+                    <ab>Why must women always wear Funny gadgets in their hair? Metal curlers scratch like heck Little boys who want to neck.</ab>
+                    <ab>"How come simmering Sally slapped the sculptor she was posing for?" "He wanted to get into the feeling."</ab>
+                    <ab>Bessie: "You'd better watch out when you go auto riding with that sheik—he's a live wire!" Tessie: "Oh, that's okey—I've been
+                        insulated."</ab>
+                    <ab>The best way to honor our dead soldiers is to shoot the survivors a living wage.</ab>
+                    <ab>America shouldn't have to worry about where all the soldiers are coming from to be used for the next war. There ought to be
+                        several million former prohibition agents still available who were trained to shoot at the drop of a hat and who would look
+                        just dandy in a trench.</ab>
+                    <ab>Cutie (in hotel lobby) : "They tell me that you some- times walk in your sleep?" Sheik: "I do—why do you ask?" Cutie: "Don't
+                        you dare mistake Room 215 for your quarters."</ab>
+                </div>
+            </div>
+            <div type="page">
+                <pb n="025" facs="025"/>
+                <div type="editorialMatter">
+                    <ab><title>"FIRE"</title></ab>
+                    <ab>RESCUED—"I'm Hedy Lovelorn the movie star."</ab>
+                    <ab>RESCUER—"Yere—so I feel."</ab>
+                </div>
+            </div>
+            <div type="page">
+                <pb n="026" facs="026"/>
+                <div type="editorialMatter">
+                    <ab><title>"LIVE AND LEARN"</title></ab>
+                    <ab>HE—"Do you think you could ever learn to like me a little—baby?"</ab>
+                    <ab>SHE—"Well—I learned to eat carrots."</ab>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
