@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.1.14
+- http://www.phpmyadmin.net
+-
+- Host: 127.0.0.1
+- Generation Time: Feb 07, 2016 at 09:33 PM
+- Server version: 5.6.17
+- PHP Version: 5.5.12
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="http://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="semantic_cluster" collation="utf8mb4_general_ci" charset="utf8mb4">
+            <pma:table name="title">
+                CREATE TABLE `title` (
+                  `title_uid` enum('2gw','adv','ams','bm','bed','dsm','ico','liv','lsm','nlt','ran','sau','sma','wei') NOT NULL,
+                  `title_url` enum('adventure_page','amazingstories_page','black_mask_page','contexts_pages/girlie_pulps','contexts_pages/pulp_slicks/slicks','detectivestory_page','i_confess_page','livestories_page','love_story_page','ranch_romances_page','saucy_page','two_gun_western_page','weird_tales_page') NOT NULL,
+                  `title_title_j` enum('2-Gun Western Novels','Adventure','Amazing Stories','Bedtime Tales','Detective Story Magazine','I Confess','Live Stories','Love Story Magazine','Night Life Tales','Ranch Romances','Saucy Stories','The Black Mask','The Smart Set','Weird Tales') NOT NULL,
+                  `title_format_size` enum('oversize','standard','undersize') NOT NULL,
+                  `title_format_paper` enum('glossy insert','mixed','pulp') NOT NULL,
+                  `title_pub_freq` enum('bi-monthly','irregular','monthly','weekly') NOT NULL,
+                  `genre_p` enum('adventure','detective','fantasy','romance','science fiction','smart fiction','western') NOT NULL,
+                  `genre_s` enum('adventure','flapper','girlie','horror','love','mystery','romance','various') NOT NULL,
+                  `date_est` enum('1900','1910','1913','1915','1916','1920','1921','1922','1923','1924','1926','1937','c.1935') NOT NULL,
+                  `title_pers_name` enum('Anonymous','Arthur Hoffman','Bob O. Erisman','Daisy Bacon','Elizabeth Sharp','Fanny Ellsworth','Farnsworth Wright','Frank E. Blackwell','Grove E. Wilson','H.L. Mencken, George Jean Nathan','Hugo Gernsback','Joseph T. Shaw','Wyndham Martyn') NOT NULL,
+                  `title_pers_role` enum('editor') NOT NULL,
+                  `title_imprint` enum('Experimenter Publishing Co.','Inter-Continental Publishing Corp.','Popular Fiction Publishing Co.','Pro-Distributors Publishing Co.','Smart Set Company, Inc.','Street &amp; Smith Corp.','The Dell Publishing Co.','The New Fiction Publishing Co.','The Ridgway Company','Unknown','Warner Publications, Inc.','Western Fiction Publishing Co.') NOT NULL,
+                  `pub_add` enum('25 West 45th Street','35-37 West 39th Street','46 West 24th Street','4600 Diversey Avenue','53 Park Place','578 Madison Ave.','79 7th Avenue','840 North Michigan Avenue','Spring &amp; Macdougal Streets','Unknown') NOT NULL,
+                  `pub_city` enum('Chicago','Dover','New York') NOT NULL,
+                  `pub_stat` enum('DE','IL','NY') NOT NULL,
+                  `pub_nat` enum('United States') NOT NULL,
+                  `title_total_dig` enum('1','2','3','4','6','10','12','22') NOT NULL,
+                  `title_total_pub` enum('100','1057','1172','129','166','209','279','340','365','609','881','886','Unknown') NOT NULL,
+                  PRIMARY KEY (`title_uid`),
+                  KEY `title_title_j` (`title_title_j`),
+                  KEY `title_pers_name` (`title_pers_name`),
+                  KEY `title_url` (`title_url`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'semantic_cluster'
+    -->
+    <database name="semantic_cluster">
+        <!-- Table title -->
+        <table name="title">
+            <column name="title_uid">2gw</column>
+            <column name="title_url">two_gun_western_page</column>
+            <column name="title_title_j">2-Gun Western Novels</column>
+            <column name="title_format_size">standard</column>
+            <column name="title_format_paper">pulp</column>
+            <column name="title_pub_freq">bi-monthly</column>
+            <column name="genre_p">western</column>
+            <column name="genre_s">adventure</column>
+            <column name="date_est">1937</column>
+            <column name="title_pers_name">Bob O. Erisman</column>
+            <column name="title_pers_role">editor</column>
+            <column name="title_imprint">Western Fiction Publishing Co.</column>
+            <column name="pub_add">4600 Diversey Avenue</column>
+            <column name="pub_city">Chicago</column>
+            <column name="pub_stat">IL</column>
+            <column name="pub_nat">United States</column>
+            <column name="title_total_dig">2</column>
+            <column name="title_total_pub">100</column>
+        </table>
+        <table name="title">
+            <column name="title_uid">adv</column>
+            <column name="title_url">adventure_page</column>
+            <column name="title_title_j">Adventure</column>
+            <column name="title_format_size">standard</column>
+            <column name="title_format_paper">pulp</column>
+            <column name="title_pub_freq">monthly</column>
+            <column name="genre_p">adventure</column>
+            <column name="genre_s">various</column>
+            <column name="date_est">1910</column>
+            <column name="title_pers_name">Arthur Hoffman</column>
+            <column name="title_pers_role">editor</column>
+            <column name="title_imprint">The Ridgway Company</column>
+            <column name="pub_add">Spring &amp; Macdougal Streets</column>
+            <column name="pub_city">New York</column>
+            <column name="pub_stat">NY</column>
+            <column name="pub_nat">United States</column>
+            <column name="title_total_dig">22</column>
+            <column name="title_total_pub">881</column>
+        </table>
+        <table name="title">
+            <column name="title_uid">ams</column>
+            <column name="title_url">amazingstories_page</column>
+            <column name="title_title_j">Amazing Stories</column>
+            <column name="title_format_size">oversize</column>
+            <column name="title_format_paper">pulp</column>
+            <column name="title_pub_freq">monthly</column>
+            <column name="genre_p">science fiction</column>
+            <column name="genre_s">adventure</column>
+            <column name="date_est">1926</column>
+            <column name="title_pers_name">Hugo Gernsback</column>
+            <column name="title_pers_role">editor</column>
+            <column name="title_imprint">Experimenter Publishing Co.</column>
+            <column name="pub_add">53 Park Place</column>
+            <column name="pub_city">New York</column>
+            <column name="pub_stat">NY</column>
+            <column name="pub_nat">United States</column>
+            <column name="title_total_dig">12</column>
+            <column name="title_total_pub">609</column>
+        </table>
+        <table name="title">
+            <column name="title_uid">bm</column>
+            <column name="title_url">black_mask_page</column>
+            <column name="title_title_j">The Black Mask</column>
+            <column name="title_format_size">standard</column>
+            <column name="title_format_paper">pulp</column>
+            <column name="title_pub_freq">monthly</column>
+            <column name="genre_p">detective</column>
+            <column name="genre_s">mystery</column>
+            <column name="date_est">1920</column>
+            <column name="title_pers_name">Joseph T. Shaw</column>
+            <column name="title_pers_role">editor</column>
+            <column name="title_imprint">Pro-Distributors Publishing Co.</column>
+            <column name="pub_add">25 West 45th Street</column>
+            <column name="pub_city">New York</column>
+            <column name="pub_stat">NY</column>
+            <column name="pub_nat">United States</column>
+            <column name="title_total_dig">6</column>
+            <column name="title_total_pub">340</column>
+        </table>
+        <table name="title">
+            <column name="title_uid">bed</column>
+            <column name="title_url">contexts_pages/girlie_pulps</column>
+            <column name="title_title_j">Bedtime Tales</column>
+            <column name="title_format_size">undersize</column>
+            <column name="title_format_paper">glossy insert</column>
+            <column name="title_pub_freq">irregular</column>
+            <column name="genre_p">romance</column>
+            <column name="genre_s">girlie</column>
+            <column name="date_est">c.1935</column>
+            <column name="title_pers_name">Anonymous</column>
+            <column name="title_pers_role">editor</column>
+            <column name="title_imprint">Unknown</column>
+            <column name="pub_add">Unknown</column>
+            <column name="pub_city">Dover</column>
+            <column name="pub_stat">DE</column>
+            <column name="pub_nat">United States</column>
+            <column name="title_total_dig">1</column>
+            <column name="title_total_pub">Unknown</column>
+        </table>
+        <table name="title">
+            <column name="title_uid">dsm</column>
+            <column name="title_url">detectivestory_page</column>
+            <column name="title_title_j">Detective Story Magazine</column>
+            <column name="title_format_size">standard</column>
+            <column name="title_format_paper">pulp</column>
+            <column name="title_pub_freq">weekly</column>
+            <column name="genre_p">detective</column>
+            <column name="genre_s">adventure</column>
+            <column name="date_est">1915</column>
+            <column name="title_pers_name">Frank E. Blackwell</column>
+            <column name="title_pers_role">editor</column>
+            <column name="title_imprint">Street &amp; Smith Corp.</column>
+            <column name="pub_add">79 7th Avenue</column>
+            <column name="pub_city">New York</column>
+            <column name="pub_stat">NY</column>
+            <column name="pub_nat">United States</column>
+            <column name="title_total_dig">4</column>
+            <column name="title_total_pub">1057</column>
+        </table>
+        <table name="title">
+            <column name="title_uid">ico</column>
+            <column name="title_url">i_confess_page</column>
+            <column name="title_title_j">I Confess</column>
+            <column name="title_format_size">standard</column>
+            <column name="title_format_paper">pulp</column>
+            <column name="title_pub_freq">bi-monthly</column>
+            <column name="genre_p">romance</column>
+            <column name="genre_s">flapper</column>
+            <column name="date_est">1922</column>
+            <column name="title_pers_name">Elizabeth Sharp</column>
+            <column name="title_pers_role">editor</column>
+            <column name="title_imprint">The Dell Publishing Co.</column>
+            <column name="pub_add">46 West 24th Street</column>
+            <column name="pub_city">New York</column>
+            <column name="pub_stat">NY</column>
+            <column name="pub_nat">United States</column>
+            <column name="title_total_dig">1</column>
+            <column name="title_total_pub">209</column>
+        </table>
+        <table name="title">
+            <column name="title_uid">liv</column>
+            <column name="title_url">livestories_page</column>
+            <column name="title_title_j">Live Stories</column>
+            <column name="title_format_size">standard</column>
+            <column name="title_format_paper">pulp</column>
+            <column name="title_pub_freq">monthly</column>
+            <column name="genre_p">romance</column>
+            <column name="genre_s">various</column>
+            <column name="date_est">1913</column>
+            <column name="title_pers_name">Grove E. Wilson</column>
+            <column name="title_pers_role">editor</column>
+            <column name="title_imprint">The New Fiction Publishing Co.</column>
+            <column name="pub_add">35-37 West 39th Street</column>
+            <column name="pub_city">New York</column>
+            <column name="pub_stat">NY</column>
+            <column name="pub_nat">United States</column>
+            <column name="title_total_dig">2</column>
+            <column name="title_total_pub">166</column>
+        </table>
+        <table name="title">
+            <column name="title_uid">lsm</column>
+            <column name="title_url">love_story_page</column>
+            <column name="title_title_j">Love Story Magazine</column>
+            <column name="title_format_size">standard</column>
+            <column name="title_format_paper">pulp</column>
+            <column name="title_pub_freq">weekly</column>
+            <column name="genre_p">romance</column>
+            <column name="genre_s">love</column>
+            <column name="date_est">1921</column>
+            <column name="title_pers_name">Daisy Bacon</column>
+            <column name="title_pers_role">editor</column>
+            <column name="title_imprint">Street &amp; Smith Corp.</column>
+            <column name="pub_add">79 7th Avenue</column>
+            <column name="pub_city">New York</column>
+            <column name="pub_stat">NY</column>
+            <column name="pub_nat">United States</column>
+            <column name="title_total_dig">3</column>
+            <column name="title_total_pub">1172</column>
+        </table>
+        <table name="title">
+            <column name="title_uid">nlt</column>
+            <column name="title_url">contexts_pages/girlie_pulps</column>
+            <column name="title_title_j">Night Life Tales</column>
+            <column name="title_format_size">undersize</column>
+            <column name="title_format_paper">glossy insert</column>
+            <column name="title_pub_freq">irregular</column>
+            <column name="genre_p">romance</column>
+            <column name="genre_s">girlie</column>
+            <column name="date_est">c.1935</column>
+            <column name="title_pers_name">Anonymous</column>
+            <column name="title_pers_role">editor</column>
+            <column name="title_imprint">Unknown</column>
+            <column name="pub_add">Unknown</column>
+            <column name="pub_city">Dover</column>
+            <column name="pub_stat">DE</column>
+            <column name="pub_nat">United States</column>
+            <column name="title_total_dig">1</column>
+            <column name="title_total_pub">Unknown</column>
+        </table>
+        <table name="title">
+            <column name="title_uid">ran</column>
+            <column name="title_url">ranch_romances_page</column>
+            <column name="title_title_j">Ranch Romances</column>
+            <column name="title_format_size">standard</column>
+            <column name="title_format_paper">pulp</column>
+            <column name="title_pub_freq">bi-monthly</column>
+            <column name="genre_p">western</column>
+            <column name="genre_s">romance</column>
+            <column name="date_est">1924</column>
+            <column name="title_pers_name">Fanny Ellsworth</column>
+            <column name="title_pers_role">editor</column>
+            <column name="title_imprint">Warner Publications, Inc.</column>
+            <column name="pub_add">578 Madison Ave.</column>
+            <column name="pub_city">New York</column>
+            <column name="pub_stat">NY</column>
+            <column name="pub_nat">United States</column>
+            <column name="title_total_dig">3</column>
+            <column name="title_total_pub">886</column>
+        </table>
+        <table name="title">
+            <column name="title_uid">sau</column>
+            <column name="title_url">saucy_page</column>
+            <column name="title_title_j">Saucy Stories</column>
+            <column name="title_format_size">standard</column>
+            <column name="title_format_paper">pulp</column>
+            <column name="title_pub_freq">monthly</column>
+            <column name="genre_p">romance</column>
+            <column name="genre_s">flapper</column>
+            <column name="date_est">1916</column>
+            <column name="title_pers_name">Wyndham Martyn</column>
+            <column name="title_pers_role">editor</column>
+            <column name="title_imprint">Inter-Continental Publishing Corp.</column>
+            <column name="pub_add">25 West 45th Street</column>
+            <column name="pub_city">New York</column>
+            <column name="pub_stat">NY</column>
+            <column name="pub_nat">United States</column>
+            <column name="title_total_dig">2</column>
+            <column name="title_total_pub">129</column>
+        </table>
+        <table name="title">
+            <column name="title_uid">sma</column>
+            <column name="title_url">contexts_pages/pulp_slicks/slicks</column>
+            <column name="title_title_j">The Smart Set</column>
+            <column name="title_format_size">standard</column>
+            <column name="title_format_paper">mixed</column>
+            <column name="title_pub_freq">monthly</column>
+            <column name="genre_p">smart fiction</column>
+            <column name="genre_s">various</column>
+            <column name="date_est">1900</column>
+            <column name="title_pers_name">H.L. Mencken, George Jean Nathan</column>
+            <column name="title_pers_role">editor</column>
+            <column name="title_imprint">Smart Set Company, Inc.</column>
+            <column name="pub_add">25 West 45th Street</column>
+            <column name="pub_city">New York</column>
+            <column name="pub_stat">NY</column>
+            <column name="pub_nat">United States</column>
+            <column name="title_total_dig">1</column>
+            <column name="title_total_pub">365</column>
+        </table>
+        <table name="title">
+            <column name="title_uid">wei</column>
+            <column name="title_url">weird_tales_page</column>
+            <column name="title_title_j">Weird Tales</column>
+            <column name="title_format_size">standard</column>
+            <column name="title_format_paper">pulp</column>
+            <column name="title_pub_freq">monthly</column>
+            <column name="genre_p">fantasy</column>
+            <column name="genre_s">horror</column>
+            <column name="date_est">1923</column>
+            <column name="title_pers_name">Farnsworth Wright</column>
+            <column name="title_pers_role">editor</column>
+            <column name="title_imprint">Popular Fiction Publishing Co.</column>
+            <column name="pub_add">840 North Michigan Avenue</column>
+            <column name="pub_city">Chicago</column>
+            <column name="pub_stat">IL</column>
+            <column name="pub_nat">United States</column>
+            <column name="title_total_dig">10</column>
+            <column name="title_total_pub">279</column>
+        </table>
+    </database>
+</pma_xml_export>
