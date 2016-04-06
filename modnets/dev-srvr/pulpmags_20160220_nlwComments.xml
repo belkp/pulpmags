@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:role="http://www.loc.gov/loc.terms/relators/" xmlns:collex="http://www.collex.org/schema#"
+    xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:pulpmags="http://www.pulpmags.org/rdf_schema#">
+    <!-- 2 GUN WESTERN -->
+    <pulpmags:description rdf:about="http://www.pulpmags.org/2gw/">
+        <!--Collex RDF Elements-->
+        <collex:federation>ModNets</collex:federation>
+        <!-- NW: temporarily I have changed all the collex:archive values to a single value "pulpmags", but these 
+        will be unique to each magazine once I can get the additional archive values entered by ARC. When you resubmit
+        use the "pulpmags_adv" etc. form for the individual archives. This is just to facilitate debugging for now.
+        -->
+        <collex:archive>pulpmags</collex:archive>
+        <collex:discipline>Literature</collex:discipline>
+        <collex:genre>Collection</collex:genre>
+        <collex:genre>Ephemera</collex:genre>
+        <collex:image rdf:resource="http://www.pulpmags.org/default_files/foreground.jpg"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/2gw/"/>
+        <!--DublinCore RDF Elements-->
+        <dc:title>2 Gun Western Novels</dc:title>
+        <dc:type>Periodical</dc:type>
+        <dc:date>
+            <collex:date>
+                <rdfs:label>1937-57</rdfs:label>
+                <rdf:value>1937,1957</rdf:value>
+            </collex:date>
+        </dc:date>
+        <dc:subject>Genre Fiction</dc:subject> 
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/2gw194204/"/>
+            <!--NW: Removed this embedded entry and added a separate one after 
+                this element starting line 41. These dcterms:hasPart relations 
+                are just links generated automatically via the @rdf:resource 
+                values. The entries don't nest like this. Instead, you just have
+                separate pulpmags:description objects for both each title-, 
+                issue-, and item-/page- level object.
+            -->
+        <!--Role RDF Elements-->
+        <role:EDT>Erisman, Robert O.</role:EDT>
+        <role:PBL>Western Fiction Publishing Co.</role:PBL>
+        <!--RDFS RDF Elements-->
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/2gw/"/>
+    </pulpmags:description>
+    <pulpmags:description rdf:about="http://www.pulpmags.org/2gw194204/">
+        <!--Collex RDF Elements-->
+        <collex:federation>ModNets</collex:federation>
+        <collex:archive>pulpmags</collex:archive>
+        <collex:discipline>Literature</collex:discipline>
+        <!-- NW: changed collex:source to collex:source_xml -->
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/2gw194204.xml"/>
+        <!-- NW: added required collex:genre element here -->
+        <collex:genre>Ephemera</collex:genre>
+        <!--DublinCore RDF Elements-->
+        <dc:title>2 Gun Western Novels</dc:title>
+        <!-- NW: changed unapproved dc:type value "Issue" to "Periodical" -->
+        <dc:type>Periodical</dc:type>
+        <!-- COLLEX really only supports YEAR, but the best workaround we've found so far with Blue Mountain and MJP is to 
+                    append the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to 
+                    only use year.-->
+        <dc:date>1942-04</dc:date>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/2gw/"/>
+        <!--Role RDF Elements-->
+        <role:EDT>Erisman, Robert O.</role:EDT>
+        <role:PBL>Western Fiction Publishing Co.</role:PBL>
+        <!--RDFS RDF Elements-->
+      <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/2gw194204.html"/>
+    </pulpmags:description>
+    <!-- ADVENTURE -->
+    <pulpmags:description rdf:about="http://www.pulpmags.org/adv/">
+        <!--Collex RDF Elements-->
+        <collex:federation>ModNets</collex:federation>
+        <collex:archive>pulpmags</collex:archive>
+        <collex:discipline>Literature</collex:discipline>
+        <collex:genre>Collection</collex:genre>
+        <collex:genre>Ephemera</collex:genre>
+        <collex:image rdf:resource="http://www.pulpmags.org/default_files/foreground.jpg"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/adv/"/>
+        <!--DublinCore RDF Elements-->
+        <dc:title>Adventure</dc:title>
+        <dc:type>Periodical</dc:type>
+        <dc:date>
+            <collex:date>
+                <rdfs:label>1910-71</rdfs:label>
+                <rdf:value>1910,1971</rdf:value>
+            </collex:date>
+        </dc:date>
+        <dc:subject>Genre Fiction</dc:subject>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/adv191102/"/>
+        <!--Role RDF Elements-->
+        <role:EDT>White, Trumbull</role:EDT>
+        <role:PBL>The Ridgway Co.</role:PBL>
+        <!--RDFS RDF Elements-->
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/adv/"/>
+    </pulpmags:description>
+    <!-- AMAZING STORIES -->
+    <pulpmags:Description rdf:about="http://www.pulpmags.org/ams/">
+        <!--Collex RDF Elements-->
+        <collex:federation>ModNets</collex:federation>
+        <collex:archive>pulpmags</collex:archive>
+        <collex:discipline>Literature</collex:discipline>
+        <collex:genre>Collection</collex:genre>
+        <collex:genre>Ephemera</collex:genre>
+        <collex:image rdf:resource="http://www.pulpmags.org/default_files/foreground.jpg"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/ams/"/>
+        <!--DublinCore RDF Elements-->
+        <dc:title>Amazing Stories</dc:title>
+        <dc:type>Periodical</dc:type>
+        <dc:date>
+            <collex:date>
+                <rdfs:label>1926-65</rdfs:label>
+                <rdf:value>1926,1965</rdf:value>
+            </collex:date>
+        </dc:date>
+        <dc:subject>Genre Fiction</dc:subject>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/ams192604/"/>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/ams192605/"/>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/ams192606/"/>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/ams192607/"/>
+        <!--Role RDF Elements-->
+        <role:EDT>Gernsback, Hugo</role:EDT>
+        <role:PBL>Experimenter Publishing Co.</role:PBL>
+        <!--RDFS RDF Elements-->
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/ams/"/>
+    </pulpmags:Description>
+    <!-- BEDTIME TALES -->
+    <pulpmags:Description rdf:about="http://www.pulpmags.org/bed/">
+        <!--Collex RDF Elements-->
+        <collex:federation>ModNets</collex:federation>
+        <collex:archive>pulpmags</collex:archive>
+        <collex:discipline>Literature</collex:discipline>
+        <collex:genre>Collection</collex:genre>
+        <collex:genre>Ephemera</collex:genre>
+        <collex:image rdf:resource="http://www.pulpmags.org/default_files/foreground.jpg"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/bed/"/>
+        <!--DublinCore RDF Elements-->
+        <dc:title>Bedtime Tales</dc:title>
+        <dc:type>Periodical</dc:type>
+        <dc:date>
+            <collex:date>
+                <rdfs:label>1935-46</rdfs:label>
+                <rdf:value>1935,1946</rdf:value>
+            </collex:date>
+        </dc:date>
+        <dc:subject>Genre Fiction</dc:subject>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/bed193501/"/>
+        <!--Role RDF Elements-->
+        <role:EDT>Anonymous</role:EDT>
+        <role:PBL>Anonymous</role:PBL>
+        <!--RDFS RDF Elements-->
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/bed/"/>
+    </pulpmags:Description>
+    <!-- THE BLACK MASK -->
+    <pulpmags:Description rdf:about="http://www.pulpmags.org/bm/">
+        <!--Collex RDF Elements-->
+        <collex:federation>ModNets</collex:federation>
+        <collex:archive>pulpmags</collex:archive>
+        <collex:discipline>Literature</collex:discipline>
+        <collex:genre>Collection</collex:genre>
+        <collex:genre>Ephemera</collex:genre>
+        <collex:image rdf:resource="http://www.pulpmags.org/default_files/foreground.jpg"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/bm/"/>
+        <!--DublinCore RDF Elements-->
+        <dc:title>The Black Mask</dc:title>
+        <dc:type>Periodical</dc:type>
+        <dc:date>
+            <collex:date>
+                <rdfs:label>1920-51</rdfs:label>
+                <rdf:value>1920,1951</rdf:value>
+            </collex:date>
+        </dc:date>
+        <dc:subject>Genre Fiction</dc:subject>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/bm192008/"/>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/bm192009/"/>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/bm192011/"/>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/bm192112/"/>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/bm192204/"/>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/bm192208/"/>
+        <!--Role RDF Elements-->
+        <role:EDT>Osbourne, F.M.</role:EDT>
+        <role:PBL>Pro-Distributors Publishing Co.</role:PBL>
+        <!--RDFS RDF Elements-->
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/bm/"/>
+    </pulpmags:Description>
+    <!-- DETECTIVE STORY MAGAZINE -->
+    <pulpmags:Description rdf:about="http://www.pulpmags.org/dsm/">
+        <!--Collex RDF Elements-->
+        <collex:federation>ModNets</collex:federation>
+        <collex:archive>pulpmags</collex:archive>
+        <collex:discipline>Literature</collex:discipline>
+        <collex:genre>Collection</collex:genre>
+        <collex:genre>Ephemera</collex:genre>
+        <collex:image rdf:resource="http://www.pulpmags.org/default_files/foreground.jpg"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/dsm/"/>
+        <!--DublinCore RDF Elements-->
+        <dc:title>Detective Story Magazine</dc:title>
+        <dc:type>Periodical</dc:type>
+        <dc:date>
+            <collex:date>
+                <rdfs:label>1915-49</rdfs:label>
+                <rdf:value>1915,1949</rdf:value>
+            </collex:date>
+        </dc:date>
+        <dc:subject>Genre Fiction</dc:subject>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/dsm19160305/"/>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/dsm19161005/"/>
+        <!--Role RDF Elements-->
+        <role:EDT>Blackwell, Frank E.</role:EDT>
+        <role:PBL>Street &amp; Smith Corp.</role:PBL>
+        <!--RDFS RDF Elements-->
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/dsm/"/>
+    </pulpmags:Description>
+    <!-- "I CONFESS" -->
+    <pulpmags:Description rdf:about="http://www.pulpmags.org/ic/">
+        <!--Collex RDF Elements-->
+        <collex:federation>ModNets</collex:federation>
+        <collex:archive>pulpmags</collex:archive>
+        <collex:discipline>Literature</collex:discipline>
+        <collex:genre>Collection</collex:genre>
+        <collex:genre>Ephemera</collex:genre>
+        <collex:image rdf:resource="http://www.pulpmags.org/default_files/foreground.jpg"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/ic/"/>
+        <!--DublinCore RDF Elements-->
+        <dc:title>"I Confess"</dc:title>
+        <dc:type>Periodical</dc:type>
+        <dc:date>
+            <collex:date>
+                <rdfs:label>1922-32</rdfs:label>
+                <rdf:value>1922,1932</rdf:value>
+            </collex:date>
+        </dc:date>
+        <dc:subject>Genre Fiction</dc:subject>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/ic19230112/"/>
+        <!--Role RDF Elements-->
+        <role:EDT>Sharp, Elizabeth</role:EDT>
+        <role:PBL>Dell Publishing Co.</role:PBL>
+        <!--RDFS RDF Elements-->
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/ic/"/>
+    </pulpmags:Description>
+    <!-- LIVE STORIES -->
+    <pulpmags:Description rdf:about="http://www.pulpmags.org/ls/">
+        <!--Collex RDF Elements-->
+        <collex:federation>ModNets</collex:federation>
+        <collex:archive>pulpmags</collex:archive>
+        <collex:discipline>Literature</collex:discipline>
+        <collex:genre>Collection</collex:genre>
+        <collex:genre>Ephemera</collex:genre>
+        <collex:image rdf:resource="http://www.pulpmags.org/default_files/foreground.jpg"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/ls/"/>
+        <!--DublinCore RDF Elements-->
+        <dc:title>Live Stories</dc:title>
+        <dc:type>Periodical</dc:type>
+        <dc:date>
+            <collex:date>
+                <rdfs:label>1914-26</rdfs:label>
+                <rdf:value>1914,1926</rdf:value>
+            </collex:date>
+        </dc:date>
+        <dc:subject>Genre Fiction</dc:subject>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/ls191905/"/>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/ls191907/"/>
+        <!--Role RDF Elements-->
+        <role:EDT>Wilson, Grove E.</role:EDT>
+        <role:PBL>Street &amp; Smith Corp.</role:PBL>
+        <!--RDFS RDF Elements-->
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/ls/"/>
+    </pulpmags:Description>
+    <!-- LOVE STORY MAGAZINE -->
+    <pulpmags:Description rdf:about="http://www.pulpmags.org/lsm/">
+        <!--Collex RDF Elements-->
+        <collex:federation>ModNets</collex:federation>
+        <collex:archive>pulpmags</collex:archive>
+        <collex:discipline>Literature</collex:discipline>
+        <collex:genre>Collection</collex:genre>
+        <collex:genre>Ephemera</collex:genre>
+        <collex:image rdf:resource="http://www.pulpmags.org/default_files/foreground.jpg"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/lsm/"/>
+        <!--DublinCore RDF Elements-->
+        <dc:title>Love Story Magazine</dc:title>
+        <dc:type>Periodical</dc:type>
+        <dc:date>
+            <collex:date>
+                <rdfs:label>1921-54</rdfs:label>
+                <rdf:value>1921,1954</rdf:value>
+            </collex:date>
+        </dc:date>
+        <dc:subject>Genre Fiction</dc:subject>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/lsm19340310/"/>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/lsm19341020/"/>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/lsm19350330/"/>
+        <!--Role RDF Elements-->
+        <role:EDT>Bacon, Daisy</role:EDT>
+        <role:PBL>Street &amp; Smith Corp.</role:PBL>
+        <!--RDFS RDF Elements-->
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/lsm/"/>
+    </pulpmags:Description>
+    <!-- NIGHT LIFE TALES -->
+    <pulpmags:Description rdf:about="http://www.pulpmags.org/nlt/">
+        <!--Collex RDF Elements-->
+        <collex:federation>ModNets</collex:federation>
+        <collex:archive>pulpmags</collex:archive>
+        <collex:discipline>Literature</collex:discipline>
+        <collex:genre>Collection</collex:genre>
+        <collex:genre>Ephemera</collex:genre>
+        <collex:image rdf:resource="http://www.pulpmags.org/default_files/foreground.jpg"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/nlt/"/>
+        <!--DublinCore RDF Elements-->
+        <dc:title>Night Life Tales</dc:title>
+        <dc:type>Periodical</dc:type>
+        <dc:date>
+            <collex:date>
+                <rdfs:label>1933-46</rdfs:label>
+                <rdf:value>1933,1946</rdf:value>
+            </collex:date>
+        </dc:date>
+        <dc:subject>Genre Fiction</dc:subject>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/nlt194001/"/>
+        <!--Role RDF Elements-->
+        <role:EDT>Anonymous</role:EDT>
+        <role:PBL>Anonymous</role:PBL>
+        <!--RDFS RDF Elements-->
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/nlt/"/>
+    </pulpmags:Description>
+    <!-- RANCH ROMANCES -->
+    <pulpmags:Description rdf:about="http://www.pulpmags.org/rr/">
+        <!--Collex RDF Elements-->
+        <collex:federation>ModNets</collex:federation>
+        <collex:archive>pulpmags</collex:archive>
+        <collex:discipline>Literature</collex:discipline>
+        <collex:genre>Collection</collex:genre>
+        <collex:genre>Ephemera</collex:genre>
+        <collex:image rdf:resource="http://www.pulpmags.org/default_files/foreground.jpg"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/rr/"/>
+        <!--DublinCore RDF Elements-->
+        <dc:title>Ranch Romances</dc:title>
+        <dc:type>Periodical</dc:type>
+        <dc:date>
+            <collex:date>
+                <rdfs:label>1924-71</rdfs:label>
+                <rdf:value>1924,1971</rdf:value>
+            </collex:date>
+        </dc:date>
+        <dc:subject>Genre Fiction</dc:subject>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/rr19330901/"/>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/rr19430301/"/>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/rr19440211/"/>
+        <!--Role RDF Elements-->
+        <role:EDT>Ellsworth, Fanny</role:EDT>
+        <role:PBL>Warner Publications, Inc.</role:PBL>
+        <!--RDFS RDF Elements-->
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/rr/"/>
+    </pulpmags:Description>
+    <!-- SAUCY STORIES -->
+    <pulpmags:Description rdf:about="http://www.pulpmags.org/scs/">
+        <!--Collex RDF Elements-->
+        <collex:federation>ModNets</collex:federation>
+        <collex:archive>pulpmags</collex:archive>
+        <collex:discipline>Literature</collex:discipline>
+        <collex:genre>Collection</collex:genre>
+        <collex:genre>Ephemera</collex:genre>
+        <collex:image rdf:resource="http://www.pulpmags.org/default_files/foreground.jpg"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/scs/"/>
+        <!--DublinCore RDF Elements-->
+        <dc:title>Saucy Stories</dc:title>
+        <dc:type>Periodical</dc:type>
+        <dc:date>
+            <collex:date>
+                <rdfs:label>1916-25</rdfs:label>
+                <rdf:value>1916,1925</rdf:value>
+            </collex:date>
+        </dc:date>
+        <dc:subject>Genre Fiction</dc:subject>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/scs191905/"/>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/scs19220801/"/>
+        <!--Role RDF Elements-->
+        <role:EDT>Martyn, Wyndham</role:EDT>
+        <role:PBL>Inter-Continental Publishing Corp.</role:PBL>
+        <!--RDFS RDF Elements-->
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/scs/"/>
+    </pulpmags:Description>
+    <!-- THE SMART SET -->
+    <pulpmags:Description rdf:about="http://www.pulpmags.org/sma/">
+        <!--Collex RDF Elements-->
+        <collex:federation>ModNets</collex:federation>
+        <collex:archive>pulpmags</collex:archive>
+        <collex:discipline>Literature</collex:discipline>
+        <collex:genre>Collection</collex:genre>
+        <collex:genre>Ephemera</collex:genre>
+        <collex:image rdf:resource="http://www.pulpmags.org/default_files/foreground.jpg"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/sma/"/>
+        <!--DublinCore RDF Elements-->
+        <dc:title>The Smart Set</dc:title>
+        <dc:type>Periodical</dc:type>
+        <dc:date>
+            <collex:date>
+                <rdfs:label>1900-30</rdfs:label>
+                <rdf:value>1900,1930</rdf:value>
+            </collex:date>
+        </dc:date>
+        <dc:subject>Genre Fiction</dc:subject>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/sma191912/"/>
+        <!--Role RDF Elements-->
+        <role:EDT>Mencken, H.L.</role:EDT>
+        <role:EDT>Nathan, George Jean</role:EDT>
+        <role:PBL>Smart Set Co.</role:PBL>
+        <!--RDFS RDF Elements-->
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/sma/"/>
+    </pulpmags:Description>
+    <!-- WEIRD TALES -->
+    <pulpmags:Description rdf:about="http://www.pulpmags.org/wt/">
+        <!--Collex RDF Elements-->
+        <collex:federation>ModNets</collex:federation>
+        <collex:archive>pulpmags</collex:archive>
+        <collex:discipline>Literature</collex:discipline>
+        <collex:genre>Collection</collex:genre>
+        <collex:genre>Ephemera</collex:genre>
+        <collex:image rdf:resource="http://www.pulpmags.org/default_files/foreground.jpg"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/wt/"/>
+        <!--DublinCore RDF Elements-->
+        <dc:title>Weird Tales</dc:title>
+        <dc:type>Periodical</dc:type>
+        <dc:date>
+            <collex:date>
+                <rdfs:label>1923-54</rdfs:label>
+                <rdf:value>1923,1954</rdf:value>
+            </collex:date>
+        </dc:date>
+        <dc:subject>Genre Fiction</dc:subject>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/wt19360809/"/>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/wt193610/"/>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/wt193707/"/>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/wt193802/"/>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/wt193803/"/>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/wt193807/"/>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/wt193811/"/>
+        <!--Role RDF Elements-->
+        <role:EDT>Wright, Farnsworth</role:EDT>
+        <role:PBL>Popular Fiction Publishing Co.</role:PBL>
+        <!--RDFS RDF Elements-->
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/wt/"/>
+    </pulpmags:Description>
+</rdf:RDF>
