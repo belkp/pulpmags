@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-    xmlns:xmp="adobe:ns:meta/" xmlns:xapMM="http://ns.adobe.com/xap/1.0/mm/" xml:id="pulpmags_bm192008">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xmp="adobe:ns:meta/"
+    xmlns:xapMM="http://ns.adobe.com/xap/1.0/mm/" xml:id="pulpmags_bm192008">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -58,51 +58,37 @@
                 <div type="advertisement">
                     <ab>110-Piece Dinner Set</ab>
                     <ab>Famous Bluebird Design</ab>
-                    <ab>$1 Down Amazing value. Record- breaking offer. In each piece the highest
-                        type of color harmony and exquisite design has been at-tained. Set is in
-                        popular Colonial shape, decorated with Bluebird design, blending perfectly
-                        with the pink, lavender and preen flowers. Lovely blue bordering on each
-                        piece. Each piece is fired in the glaze and guar-anteed not to check or
-                        craze. That splendid Old English finish is applied in tho clay before
-                        firing. giving each piece the finish of rich snowflake white. This wonderful
-                        set can be yours for only $1.00 down and then $3.00 monthy. Price in all
-                        $32.95. Complete satisfaction guaranteed.</ab>
+                    <ab>$1 Down Amazing value. Record- breaking offer. In each piece the highest type of color harmony and exquisite design has been
+                        at-tained. Set is in popular Colonial shape, decorated with Bluebird design, blending perfectly with the pink, lavender and
+                        preen flowers. Lovely blue bordering on each piece. Each piece is fired in the glaze and guar-anteed not to check or craze.
+                        That splendid Old English finish is applied in tho clay before firing. giving each piece the finish of rich snowflake white.
+                        This wonderful set can be yours for only $1.00 down and then $3.00 monthy. Price in all $32.95. Complete satisfaction
+                        guaranteed.</ab>
                     <ab>A Complete Service—110 Pieces</ab>
-                    <ab>This splendid set consists of 12 dinner plates, 9 inches; 12 breakfast
-                        plates, 7 1-2inches; 12 coupe soups, 7 l-2 inches: 12 fruit saucers, 6 l-2
-                        inches; 12 cups; 12 saucers; 12 oatmeal dishes, 6 inches; 12 bread and
-                        butter plates, 6 inches; 1 platter, 11 1-2 inches; 1 platter, 12 3-4 inches;
-                        l covered vegetable dish (2 pieces); 1 oval open vegetable dish, 9 1-2
-                        inches; 1 round vegetable dish, 8 1-2 inches; 1 gravy boat; 1 gravy boat
-                        stand; 1 bowl, 1 pint, 1 sugar bowl and cover (2 pieces); 1 cream pitcher; 1
-                        pickle dish; 1 butter dish, 7 1-2 inches. This set is one that will add tone
-                        and beauty to any dining room. With ordinary care it will last a lifetime.
-                        Weight shipped, about 100 pounds.</ab>
-                    <ab>Order by No. C61380A. Send $1 with order. $3.00 monthfy. Price of 110 pieces
-                        $32.95 No C. O. D. No discount for cash.</ab>
-                    <ab>Small amount down, easy payments on all articles in our big bargain catalog.
-                        30 days-trial — money back if not satisfied. No discount for cash; no C. O.
-                        D.</ab>
+                    <ab>This splendid set consists of 12 dinner plates, 9 inches; 12 breakfast plates, 7 1-2inches; 12 coupe soups, 7 l-2 inches: 12
+                        fruit saucers, 6 l-2 inches; 12 cups; 12 saucers; 12 oatmeal dishes, 6 inches; 12 bread and butter plates, 6 inches; 1
+                        platter, 11 1-2 inches; 1 platter, 12 3-4 inches; l covered vegetable dish (2 pieces); 1 oval open vegetable dish, 9 1-2
+                        inches; 1 round vegetable dish, 8 1-2 inches; 1 gravy boat; 1 gravy boat stand; 1 bowl, 1 pint, 1 sugar bowl and cover (2
+                        pieces); 1 cream pitcher; 1 pickle dish; 1 butter dish, 7 1-2 inches. This set is one that will add tone and beauty to any
+                        dining room. With ordinary care it will last a lifetime. Weight shipped, about 100 pounds.</ab>
+                    <ab>Order by No. C61380A. Send $1 with order. $3.00 monthfy. Price of 110 pieces $32.95 No C. O. D. No discount for cash.</ab>
+                    <ab>Small amount down, easy payments on all articles in our big bargain catalog. 30 days-trial — money back if not satisfied. No
+                        discount for cash; no C. O. D.</ab>
                     <ab>Send the Coupon</ab>
-                    <ab>along with $1.00 to us now. Have this 110-piece dinner set shipped on 30
-                        days trial. We will also send our big Bargain</ab>
-                    <ab>Catalog listing thousands of amazing bargains. Only a small first payment
-                        and balance in monthly payments for anything you want. Send coupon
-                        below</ab>
+                    <ab>along with $1.00 to us now. Have this 110-piece dinner set shipped on 30 days trial. We will also send our big Bargain</ab>
+                    <ab>Catalog listing thousands of amazing bargains. Only a small first payment and balance in monthly payments for anything you
+                        want. Send coupon below</ab>
                     <ab>Straus &amp; Schram, Dept. 1696 W. 35th St., Chicago</ab>
-                    <ab>Enclosed find $1.00. Ship special advertised 110-plece Bluebird Dinner Set.
-                        I am to have 30 days' free trial. If I keep the set I will pay you $3.00
-                        monthly. If not satisfied I am to return the set within 30 days and you are
-                        to refund my money and any freight or express charges I paid.</ab>
+                    <ab>Enclosed find $1.00. Ship special advertised 110-plece Bluebird Dinner Set. I am to have 30 days' free trial. If I keep the
+                        set I will pay you $3.00 monthly. If not satisfied I am to return the set within 30 days and you are to refund my money and
+                        any freight or express charges I paid.</ab>
                     <ab>110-Piece Bluebird Dinner Set No. C61389A, $32.95</ab>
                     <ab>Name....................................................</ab>
-                    <ab>Street R.F.D. or Box
-                        No...................................................</ab>
+                    <ab>Street R.F.D. or Box No...................................................</ab>
                     <ab>Shipping Point.......................................................</ab>
                     <ab>Post Office..................................State...............</ab>
                     <ab>If you want only the catalog put X In the proper box below:</ab>
-                    <ab>□ Furniture, Rugs, Stoves, Jewelry □ Men's, Women's, Children's
-                        Clothing</ab>
+                    <ab>□ Furniture, Rugs, Stoves, Jewelry □ Men's, Women's, Children's Clothing</ab>
                 </div>
             </div>
             <div type="page">
@@ -186,25 +172,23 @@
                 </div>
                 <div type="statement">
                     <ab>F. M. OSBORNE, Editor</ab>
-                    <ab>A. W. SUTTON, President J. W. GLENISTER, Vice-President and Circulation
-                        Director</ab>
+                    <ab>A. W. SUTTON, President J. W. GLENISTER, Vice-President and Circulation Director</ab>
                     <ab>F. W. WESTLAKE, Secretary and Treasurer</ab>
-                    <ab>The entire contents of this magazine is protected by copyright and must not
-                        be reprinted.</ab>
+                    <ab>The entire contents of this magazine is protected by copyright and must not be reprinted.</ab>
                     <ab>Issued monthly by</ab>
                     <ab>PRO-DISTRIBUTORS PUBLISHING COMPANY, Inc.</ab>
                     <ab>25 West 45th Street, New York, New York</ab>
                     <ab>YEARLY SUBSCRIPTION $2.00 SINGLE COPIES 20 CENTS</ab>
                     <ab>Western Advertising Office, Westminster Building, Chicago, Ill.</ab>
                     <ab>Copyright 1920 by Pro-Distributors Publishing Company, Inc.</ab>
-                    <ab>Entered as second class mail matter, March 1, 1920, at the<lb/> Post Office
-                        at New York, N. Y,. under act of March 3, 1879</ab>
+                    <ab>Entered as second class mail matter, March 1, 1920, at the<lb/> Post Office at New York, N. Y,. under act of March 3,
+                        1879</ab>
                 </div>
             </div>
             <div type="page">
                 <pb n="002" facs="002"/>
-                <caption>He took one step within the battleship-armored doorway, gasped, and took
-                    two steps backward, yelling for help.—Page 6.</caption>
+                <caption>He took one step within the battleship-armored doorway, gasped, and took two steps backward, yelling for help.—Page
+                    6.</caption>
                 <lb/>
                 <fw>2</fw>
             </div>
@@ -218,8 +202,7 @@
                     <term type="genre">(A Complete Novelette)</term>
                 </ab>
                 <ab>
-                    <span type="byline">By <persName role="author">J. Frederic
-                        Thorne</persName></span>
+                    <span type="byline">By <persName role="author">J. Frederic Thorne</persName></span>
                 </ab>
                 <cb/>
                 <div type="column">
@@ -2188,8 +2171,7 @@
             <div type="page">
                 <pb n="019" facs="019"/>
                 <ab>
-                    <span type="columnLine">"Open the door please. The guardian of the door looked
-                        from the big man</span>
+                    <span type="columnLine">"Open the door please. The guardian of the door looked from the big man</span>
                     <span type="columnLine">to the president.—Page 21.</span>
                 </ab>
             </div>
@@ -2910,8 +2892,7 @@
             <div type="page">
                 <pb n="026" facs="026"/>
                 <ab>
-                    <caption>"I'm going into that room myself,” he said severely, “and we’ll have
-                        this non-sense over with.”—Page 30.</caption>
+                    <caption>"I'm going into that room myself,” he said severely, “and we’ll have this non-sense over with.”—Page 30.</caption>
                 </ab>
                 <fw>26</fw>
             </div>
@@ -3664,8 +3645,7 @@
                         <span type="columnLine">make its will known to those it wishes</span>
                         <span type="columnLine">to reach? Scofield Carrington’s body</span>
                         <span type="columnLine">died, but his spirit, refusing to die un-</span>
-                        <span type="columnLine">satisfied, is still alive, restless,
-                            insistent,</span>
+                        <span type="columnLine">satisfied, is still alive, restless, insistent,</span>
                         <span type="columnLine">urging the fulfillment of its desire that</span>
                         <span type="columnLine">it may be set at peace. And it will not</span>
                         <span type="columnLine">give up until it is satisfied. There,” he</span>
@@ -3813,8 +3793,7 @@
                         <span type="columnLine">the typewritten sheet closer.</span>
                     </ab>
                     <ab><span type="columnLine">“This is my last test for Ed,” he read. “If</span>
-                        <span type="columnLine">he gives this envelope to you, as I
-                            instructed</span>
+                        <span type="columnLine">he gives this envelope to you, as I instructed</span>
                         <span type="columnLine">him, then my original will stands as it is,</span>
                         <span type="columnLine">leaving all to him. When I gave my boy this</span>
                         <span type="columnLine">envelope, I told him it contained a new will,</span>
@@ -3837,8 +3816,7 @@
                         <span type="columnLine">deserve the fortune that comes to him. This</span>
                         <span type="columnLine">is exactly as we planned it, old friend. My</span>
                         <span type="columnLine">prayer is that he will make good. My spirit</span>
-                        <span type="columnLine">shall not rest until he does. And I trust
-                            that</span>
+                        <span type="columnLine">shall not rest until he does. And I trust that</span>
                         <span type="columnLine">my everlasting peace will not be disturbed by</span>
                         <span type="columnLine">my boy’s craven failure to deliver this mes-</span>
                         <span type="columnLine">sage to you.</span>
@@ -5166,8 +5144,7 @@
                     <title>The Face that Stared Back at Blaisdell</title>
                 </ab>
                 <ab>
-                    <span type="byline">By <persName role="author">Edwin Carty
-                        Ranck</persName></span>
+                    <span type="byline">By <persName role="author">Edwin Carty Ranck</persName></span>
                 </ab>
                 <cb/>
                 <div type="column">
@@ -5628,8 +5605,7 @@
                 <ab>
                     <title>More Deadly than the Viper</title>
                 </ab>
-                <ab><span type="byline">By <persName role="author">Harry C. Hervey,
-                        Jr.</persName></span>
+                <ab><span type="byline">By <persName role="author">Harry C. Hervey, Jr.</persName></span>
                 </ab>
                 <cb/>
                 <div type="column">
@@ -6909,8 +6885,8 @@
             <div type="page">
                 <pb n="059" facs="059"/>
                 <ab>
-                    <caption>The woman in the Chinese gold tissue backed down the stairs, step by
-                        step, never removing her eyes from those of the man.—Page 61.</caption>
+                    <caption>The woman in the Chinese gold tissue backed down the stairs, step by step, never removing her eyes from those of the
+                        man.—Page 61.</caption>
                     <fw>59</fw>
                 </ab>
             </div>
@@ -7739,9 +7715,8 @@
             <div type="page">
                 <pb n="067" facs="067"/>
                 <ab>
-                    <caption>There being no place at the bar, he quickly made one for himself by
-                        shooting in cold blood a poor Swede, whose place he coveted.—Page
-                        66.</caption>
+                    <caption>There being no place at the bar, he quickly made one for himself by shooting in cold blood a poor Swede, whose place he
+                        coveted.—Page 66.</caption>
                 </ab>
                 <ab>
                     <fw>67</fw>
@@ -8089,8 +8064,7 @@
                     <title>The Triple Murder in Mulberry Bend</title>
                 </ab>
                 <ab>
-                    <span type="byline">By <persName role="author">Christopher
-                        Hawthorne</persName></span>
+                    <span type="byline">By <persName role="author">Christopher Hawthorne</persName></span>
                 </ab>
                 <cb/>
                 <div type="column">
@@ -9526,8 +9500,8 @@
             <div type="page">
                 <pb n="083" facs="083"/>
                 <ab>
-                    <caption>"Was I dead? I raised myself on my elbows and looked about me. For an
-                        instant I imagined that I was back in Flanders.”—Page 84.</caption>
+                    <caption>"Was I dead? I raised myself on my elbows and looked about me. For an instant I imagined that I was back in
+                        Flanders.”—Page 84.</caption>
                 </ab>
                 <fw>83</fw>
             </div>
@@ -10128,8 +10102,7 @@
                         <span type="columnLine">Chicahoochie Pass to interview Jamison. The</span>
                         <span type="columnLine">letter says that the date given by Blake was</span>
                         <span type="columnLine">correct. He crossed the mountains, as he</span>
-                        <span type="columnLine">stated, in five days. I confess myself
-                            puzzled</span>
+                        <span type="columnLine">stated, in five days. I confess myself puzzled</span>
                         <span type="columnLine">. . . We buried poor Blake where we found</span>
                         <span type="columnLine">him. Requiescat In Pace!”</span>
                     </ab>
@@ -10363,8 +10336,7 @@
             <div type="page">
                 <pb n="091" facs="091"/>
                 <ab>
-                    <caption>Then, suddenly, he launched himself at her. What a fight she put up to
-                        keep him from her.—Page 92.</caption>
+                    <caption>Then, suddenly, he launched himself at her. What a fight she put up to keep him from her.—Page 92.</caption>
                 </ab>
                 <fw>91</fw>
             </div>
@@ -11442,8 +11414,7 @@
             <div type="page">
                 <pb n="102" facs="102"/>
                 <ab>
-                    <caption>For a moment her white lips quivered. “I—I—there’s a dead man out there
-                        by the green-houses.”—Page 106.</caption>
+                    <caption>For a moment her white lips quivered. “I—I—there’s a dead man out there by the green-houses.”—Page 106.</caption>
                 </ab>
                 <fw>102</fw>
             </div>
@@ -12238,8 +12209,7 @@
             <div type="page">
                 <pb n="109" facs="109"/>
                 <ab>
-                    <caption>“I put my hand over her mouth for fear she would cry out.—Page
-                        111.</caption>
+                    <caption>“I put my hand over her mouth for fear she would cry out.—Page 111.</caption>
                 </ab>
                 <fw>109</fw>
             </div>
@@ -14374,12 +14344,10 @@
                     </ab>
                 </div>
                 <div type="editorialMatter">
-                    <ab>In this department THE BLACK MASK will present every month brief reviews of
-                        the best new books of detective and mystery stories, stories of the occult
-                        and stories of adventure. Needless to say, the department will be conducted
-                        without fear or favor. Only good books will be noticed. There will be
-                        absolutely no boosting in the interest of publishers. Every book mentioned
-                        may be bought at any bookstore. THE BLACK MASK will NOT receive orders.</ab>
+                    <ab>In this department THE BLACK MASK will present every month brief reviews of the best new books of detective and mystery
+                        stories, stories of the occult and stories of adventure. Needless to say, the department will be conducted without fear or
+                        favor. Only good books will be noticed. There will be absolutely no boosting in the interest of publishers. Every book
+                        mentioned may be bought at any bookstore. THE BLACK MASK will NOT receive orders.</ab>
                 </div>
                 <cb/>
                 <div type="column">
@@ -14583,40 +14551,29 @@
                 <pb n="129" facs="129"/>
                 <div type="advertisement">
                     <ab>Send the Coupon -We’ll send you a Lachnite</ab>
-                    <ab>No.7A1410 This solid sold solitaire is the most popular ladies' ring in the
-                        world. Beau-tifully finished, the es-sence of srood taste. Set-ting is a
-                        flashing Lachnite Gem weighing about one carat. Price........ $18.75
-                        Deposit..... 4.75 Monthly ... 2.50</ab>
-                    <ab>No. 7A1504 This solid gold ring is shaped and finished by hand. No finer or
-                        more fashionable ring could be made. It is set with a brilliant Lachnite Gem
-                        weighing about 3-4 carat. Price........ $18.75 Deposit..... 4.75 Monthly ...
+                    <ab>No.7A1410 This solid sold solitaire is the most popular ladies' ring in the world. Beau-tifully finished, the es-sence of
+                        srood taste. Set-ting is a flashing Lachnite Gem weighing about one carat. Price........ $18.75 Deposit..... 4.75 Monthly ...
                         2.50</ab>
-                    <ab>SEND NO MONEY. Just send us your name and address and we will send you,
-                        prepaid, on 10 days’ trial, a genuine Lachnite Gem mounted in a solid gold
-                        ring. These sparkling gems have the eternal fire of diamonds. Their
-                        brilliance and hardness are guaranteed forever. We want you to select one of
-                        the rings from this advertisement and wear it ten full days at our expense.
-                        Then, if .you can tell it from a diamond, tend it back. Over 150,000 people
-                        have accepted this offer—and have found a way to own exquisite jewelry at a
-                        trifling cost.</ab>
+                    <ab>No. 7A1504 This solid gold ring is shaped and finished by hand. No finer or more fashionable ring could be made. It is set
+                        with a brilliant Lachnite Gem weighing about 3-4 carat. Price........ $18.75 Deposit..... 4.75 Monthly ... 2.50</ab>
+                    <ab>SEND NO MONEY. Just send us your name and address and we will send you, prepaid, on 10 days’ trial, a genuine Lachnite Gem
+                        mounted in a solid gold ring. These sparkling gems have the eternal fire of diamonds. Their brilliance and hardness are
+                        guaranteed forever. We want you to select one of the rings from this advertisement and wear it ten full days at our expense.
+                        Then, if .you can tell it from a diamond, tend it back. Over 150,000 people have accepted this offer—and have found a way to
+                        own exquisite jewelry at a trifling cost.</ab>
                     <ab>Pay As You Wish</ab>
-                    <ab>When the ring comes just make the first small deposit ($4.75) with the
-                        postman. This is only a deposit. It is not a payment. The money is still
-                        yours. Put the ring on your finger and wear it everywhere for ten full days.
-                        Then if vou decide to keep it, pay the balance at the rate of $2.50 a month
-                        without interest. But if. daring the trial, you decide to send the Lachnite
-                        back, your deposit will be refunded instantly. You run no risk.</ab>
-                    <ab>Harold Lachman Co. 12 North Michigan Avenue Dept. 1126 Chicago, Ill. Send me
-                        prepaid ring on ten days' free trial. When it comes I will de- posit $4.75
-                        with the postman. After ten days I will either return the ring or send you
-                        $2.50 a month until the balance has been paid. Total cost to me, $18.75. If
-                        I return the ring you will refund me $4.75 immediately. I enclose my finger
-                        size. Name ... Address ...</ab>
+                    <ab>When the ring comes just make the first small deposit ($4.75) with the postman. This is only a deposit. It is not a payment.
+                        The money is still yours. Put the ring on your finger and wear it everywhere for ten full days. Then if vou decide to keep it,
+                        pay the balance at the rate of $2.50 a month without interest. But if. daring the trial, you decide to send the Lachnite back,
+                        your deposit will be refunded instantly. You run no risk.</ab>
+                    <ab>Harold Lachman Co. 12 North Michigan Avenue Dept. 1126 Chicago, Ill. Send me prepaid ring on ten days' free trial. When it
+                        comes I will de- posit $4.75 with the postman. After ten days I will either return the ring or send you $2.50 a month until
+                        the balance has been paid. Total cost to me, $18.75. If I return the ring you will refund me $4.75 immediately. I enclose my
+                        finger size. Name ... Address ...</ab>
                     <ab>Send the Coupon!</ab>
-                    <ab>Don't send us a penny. Just put your name and address in the coupon and tell
-                        us which ring you prefer. Be sure to send us your finger size. To get it cut
-                        a strip of paper that will just meet around the middle knuckle of your ring
-                        finger. Send the coupon now. You will be under no obligations to buy.</ab>
+                    <ab>Don't send us a penny. Just put your name and address in the coupon and tell us which ring you prefer. Be sure to send us your
+                        finger size. To get it cut a strip of paper that will just meet around the middle knuckle of your ring finger. Send the coupon
+                        now. You will be under no obligations to buy.</ab>
                     <ab>Harold Lachman Co. 12 No. Michigan Avenue Dept. 1126 Chicago</ab>
                 </div>
                 <fw>CHARLES FRANCIS PRESS, NEW YORK</fw>
@@ -14625,13 +14582,10 @@
                 <pb n="130" facs="130"/>
                 <div type="advertisement">
                     <ab>"Well, well—here we are again”</ab>
-                    <ab>CHESTERFIELD advertising keeps telling you that Chesterfields
-                        "satisfy.”</ab>
-                    <ab> And every day, new hundreds of smokers try Chesterfields and learn the
-                        truth—that Chesterfields do "satisfy.” </ab>
-                    <ab> Right now, there are over three million smokers—over three million
-                        friends—who know the "satisfying” quality of Chesterfield’s can’t-be- copied
-                        blend of fine Turkish and Domestic tobaccos. </ab>
+                    <ab>CHESTERFIELD advertising keeps telling you that Chesterfields "satisfy.”</ab>
+                    <ab> And every day, new hundreds of smokers try Chesterfields and learn the truth—that Chesterfields do "satisfy.” </ab>
+                    <ab> Right now, there are over three million smokers—over three million friends—who know the "satisfying” quality of
+                        Chesterfield’s can’t-be- copied blend of fine Turkish and Domestic tobaccos. </ab>
                     <ab>They know—"They Satisfy."</ab>
                     <ab>They Satisfy</ab>
                     <ab>CHESTERFIELD CIGARETTES</ab>
