@@ -12,7 +12,7 @@
         will be unique to each magazine once I can get the additional archive values entered by ARC. When you resubmit
         use the "pulpmags_adv" etc. form for the individual archives. This is just to facilitate debugging for now.
         -->
-        <collex:archive>pulpmags</collex:archive>
+        <collex:archive>pulpmags_2gw</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <collex:genre>Collection</collex:genre>
         <collex:genre>Ephemera</collex:genre>
@@ -47,7 +47,7 @@
     <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_2gw194204/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags</collex:archive>
+        <collex:archive>pulpmags_2gw</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
         <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_2gw194204.xml"/>
@@ -74,7 +74,7 @@
     <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_adv/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags</collex:archive>
+        <collex:archive>pulpmags_adv</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <collex:genre>Collection</collex:genre>
         <collex:genre>Ephemera</collex:genre>
@@ -102,7 +102,7 @@
     <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_adv191102/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags</collex:archive>
+        <collex:archive>pulpmags_adv</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
         <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_adv191102.xml"/>
@@ -129,7 +129,7 @@
     <pulpmags:Description rdf:about="http://www.pulpmags.org/pulpmags_ams/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags</collex:archive>
+        <collex:archive>pulpmags_ams</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <collex:genre>Collection</collex:genre>
         <collex:genre>Ephemera</collex:genre>
@@ -160,7 +160,7 @@
     <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_ams192604/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags</collex:archive>
+        <collex:archive>pulpmags_ams</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
         <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_ams192604.xml"/>
@@ -186,7 +186,7 @@
     <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_ams192605/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags</collex:archive>
+        <collex:archive>pulpmags_ams</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
         <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_ams192605.xml"/>
@@ -212,10 +212,10 @@
     <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_ams192606/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags</collex:archive>
+        <collex:archive>pulpmags_ams</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
-        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/ams192606.xml"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_ams192606.xml"/>
         <!-- NW: added required collex:genre element here -->
         <collex:genre>Ephemera</collex:genre>
         <!--DublinCore RDF Elements-->
@@ -238,7 +238,7 @@
     <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_ams192607/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags</collex:archive>
+        <collex:archive>pulpmags_ams</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
         <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_ams192607.xml"/>
@@ -265,7 +265,7 @@
     <pulpmags:Description rdf:about="http://www.pulpmags.org/pulpmags_bed/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags</collex:archive>
+        <collex:archive>pulpmags_bed</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <collex:genre>Collection</collex:genre>
         <collex:genre>Ephemera</collex:genre>
@@ -293,7 +293,7 @@
     <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_bed193501/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags</collex:archive>
+        <collex:archive>pulpmags_bed</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
         <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_bed193501.xml"/>
@@ -320,7 +320,7 @@
     <pulpmags:Description rdf:about="http://www.pulpmags.org/pulpmags_blm/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags</collex:archive>
+        <collex:archive>pulpmags_blm</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <collex:genre>Collection</collex:genre>
         <collex:genre>Ephemera</collex:genre>
@@ -353,7 +353,7 @@
     <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_blm192008/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags</collex:archive>
+        <collex:archive>pulpmags_blm</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
         <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_blm192008.xml"/>
@@ -379,7 +379,7 @@
     <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_blm192009/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags</collex:archive>
+        <collex:archive>pulpmags_blm</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
         <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_blm192009.xml"/>
@@ -405,7 +405,7 @@
     <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_blm192011/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags</collex:archive>
+        <collex:archive>pulpmags_blm</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
         <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_blm192011.xml"/>
@@ -431,7 +431,7 @@
     <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_blm192112/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags</collex:archive>
+        <collex:archive>pulpmags_blm</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
         <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_blm192112.xml"/>
@@ -457,7 +457,7 @@
     <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_blm192204/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags</collex:archive>
+        <collex:archive>pulpmags_blm</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
         <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_blm192204.xml"/>
@@ -483,7 +483,7 @@
     <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_blm192208/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags</collex:archive>
+        <collex:archive>pulpmags_blm</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
         <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_blm192208.xml"/>
@@ -510,7 +510,7 @@
     <pulpmags:Description rdf:about="http://www.pulpmags.org/pulpmags_dsm/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags</collex:archive>
+        <collex:archive>pulpmags_dsm</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <collex:genre>Collection</collex:genre>
         <collex:genre>Ephemera</collex:genre>
@@ -539,7 +539,7 @@
     <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_dsm19160305/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags</collex:archive>
+        <collex:archive>pulpmags_dsm</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
         <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_dsm19160305.xml"/>
@@ -565,7 +565,7 @@
     <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_dsm19161005/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags</collex:archive>
+        <collex:archive>pulpmags_dsm</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
         <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_dsm19161005.xml"/>
@@ -592,7 +592,7 @@
     <pulpmags:Description rdf:about="http://www.pulpmags.org/pulpmags_ico/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags</collex:archive>
+        <collex:archive>pulpmags_ico</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <collex:genre>Collection</collex:genre>
         <collex:genre>Ephemera</collex:genre>
@@ -620,7 +620,7 @@
     <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_ico19230112/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags</collex:archive>
+        <collex:archive>pulpmags_ico</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
         <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_ico19230112.xml"/>
@@ -647,7 +647,7 @@
     <pulpmags:Description rdf:about="http://www.pulpmags.org/pulpmags_liv/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags</collex:archive>
+        <collex:archive>pulpmags_liv</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <collex:genre>Collection</collex:genre>
         <collex:genre>Ephemera</collex:genre>
@@ -676,7 +676,7 @@
     <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_liv191905/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags</collex:archive>
+        <collex:archive>pulpmags_liv</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
         <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_liv191905.xml"/>
@@ -702,7 +702,7 @@
     <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_liv191907/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags</collex:archive>
+        <collex:archive>pulpmags_liv</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
         <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_liv191907.xml"/>
@@ -729,7 +729,7 @@
     <pulpmags:Description rdf:about="http://www.pulpmags.org/pulpmags_lsm/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags</collex:archive>
+        <collex:archive>pulpmags_lsm</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <collex:genre>Collection</collex:genre>
         <collex:genre>Ephemera</collex:genre>
@@ -759,7 +759,7 @@
     <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_lsm19340310/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags</collex:archive>
+        <collex:archive>pulpmags_lsm</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
         <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_lsm19340310.xml"/>
@@ -785,7 +785,7 @@
     <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_lsm19341020/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags</collex:archive>
+        <collex:archive>pulpmags_lsm</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
         <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_lsm19341020.xml"/>
@@ -811,7 +811,7 @@
     <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_lsm19350330/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags</collex:archive>
+        <collex:archive>pulpmags_lsm</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
         <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_lsm19350330.xml"/>
@@ -838,7 +838,7 @@
     <pulpmags:Description rdf:about="http://www.pulpmags.org/pulpmags_nlt/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags</collex:archive>
+        <collex:archive>pulpmags_nlt</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <collex:genre>Collection</collex:genre>
         <collex:genre>Ephemera</collex:genre>
@@ -866,7 +866,7 @@
     <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_nlt194001/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags</collex:archive>
+        <collex:archive>pulpmags_nlt</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
         <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_nlt194001.xml"/>
@@ -893,7 +893,7 @@
     <pulpmags:Description rdf:about="http://www.pulpmags.org/pulpmags_ran/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags</collex:archive>
+        <collex:archive>pulpmags_ran</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <collex:genre>Collection</collex:genre>
         <collex:genre>Ephemera</collex:genre>
@@ -923,7 +923,7 @@
     <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_ran19330901/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags</collex:archive>
+        <collex:archive>pulpmags_ran</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
         <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_ran19330901.xml"/>
@@ -949,7 +949,7 @@
     <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_ran19430301/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags</collex:archive>
+        <collex:archive>pulpmags_ran</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
         <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_ran19430301.xml"/>
@@ -975,7 +975,7 @@
     <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_ran19440211/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags</collex:archive>
+        <collex:archive>pulpmags_ran</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
         <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_ran19440211.xml"/>
@@ -1002,7 +1002,7 @@
     <pulpmags:Description rdf:about="http://www.pulpmags.org/pulpmags_sau/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags</collex:archive>
+        <collex:archive>pulpmags_sau</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <collex:genre>Collection</collex:genre>
         <collex:genre>Ephemera</collex:genre>
@@ -1031,7 +1031,7 @@
     <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_sau191905/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags</collex:archive>
+        <collex:archive>pulpmags_sau</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
         <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_sau191905.xml"/>
@@ -1057,7 +1057,7 @@
     <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_sau19220801/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags</collex:archive>
+        <collex:archive>pulpmags_sau</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
         <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_sau19220801.xml"/>
@@ -1084,7 +1084,7 @@
     <pulpmags:Description rdf:about="http://www.pulpmags.org/pulpmags_sma/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags</collex:archive>
+        <collex:archive>pulpmags_sma</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <collex:genre>Collection</collex:genre>
         <collex:genre>Ephemera</collex:genre>
@@ -1113,7 +1113,7 @@
     <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_sma191912/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags</collex:archive>
+        <collex:archive>pulpmags_sma</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
         <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_sma191912.xml"/>
@@ -1141,7 +1141,7 @@
     <pulpmags:Description rdf:about="http://www.pulpmags.org/pulpmags_wei/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags</collex:archive>
+        <collex:archive>pulpmags_wei</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <collex:genre>Collection</collex:genre>
         <collex:genre>Ephemera</collex:genre>
@@ -1175,7 +1175,7 @@
     <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_wei19360809/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags</collex:archive>
+        <collex:archive>pulpmags_wei</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
         <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_wei19360809.xml"/>
@@ -1201,7 +1201,7 @@
     <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_wei193610/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags</collex:archive>
+        <collex:archive>pulpmags_wei</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
         <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_wei193610.xml"/>
@@ -1227,7 +1227,7 @@
     <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_wei193707/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags</collex:archive>
+        <collex:archive>pulpmags_wei</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
         <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_wei193707.xml"/>
@@ -1253,7 +1253,7 @@
     <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_wei193802/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags</collex:archive>
+        <collex:archive>pulpmags_wei</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
         <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_wei193802.xml"/>
@@ -1279,7 +1279,7 @@
     <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_wei193803/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags</collex:archive>
+        <collex:archive>pulpmags_wei</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
         <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_wei193803.xml"/>
@@ -1305,7 +1305,7 @@
     <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_wei193807/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags</collex:archive>
+        <collex:archive>pulpmags_wei</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
         <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_wei193807.xml"/>
@@ -1331,7 +1331,7 @@
     <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_wei193811/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags</collex:archive>
+        <collex:archive>pulpmags_wei</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
         <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_wei193811.xml"/>
