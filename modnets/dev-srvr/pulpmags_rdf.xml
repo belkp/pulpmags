@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" 
-    xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:role="http://www.loc.gov/loc.terms/relators/" 
-    xmlns:collex="http://www.collex.org/schema#" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:pulpmags="http://www.pulpmags.org/rdf_schema#">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:role="http://www.loc.gov/loc.terms/relators/" xmlns:collex="http://www.collex.org/schema#" xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:pulpmags="http://www.pulpmags.org/rdf_schema#">
+
     <!-- 2 GUN WESTERN -->
     <pulpmags:description rdf:about="http://www.pulpmags.org/2gw/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags_2gw</collex:archive>
+        <!-- NW: temporarily I have changed all the collex:archive values to a single value "pulpmags", but these 
+        will be unique to each magazine once I can get the additional archive values entered by ARC. When you resubmit
+        use the "pulpmags_adv" etc. form for the individual archives. This is just to facilitate debugging for now.
+        -->
+        <collex:archive>pulpmags</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <collex:genre>Collection</collex:genre>
         <collex:genre>Ephemera</collex:genre>
@@ -22,37 +28,53 @@
             </collex:date>
         </dc:date>
         <dc:subject>Genre Fiction</dc:subject>
-        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/2gw194204/">
-        <!--hasPart (issue-level)-->
-            <pulpmags:description rdf:about="http://www.pulpmags.org/2gw194204/">
-                <!--Collex RDF Elements-->
-                <collex:federation>ModNets</collex:federation>
-                <collex:archive>pulpmags_2gw194204/</collex:archive>
-                <collex:discipline>Literature</collex:discipline>
-                <!--DublinCore RDF Elements-->
-                <dc:title>2 Gun Western Novels</dc:title>
-                <dc:type>Issue</dc:type>
-                <dc:date>April 1942</dc:date>
-                <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/2gw/"/>
-                <!--Role RDF Elements-->
-                <role:EDT>Erisman, Robert O.</role:EDT>
-                <role:PBL>Western Fiction Publishing Co.</role:PBL>
-                <!--RDFS RDF Elements-->
-                <collex:source rdf:resource="http://www.pulpmags.org/xml/2gw194204.xml"/>
-                <collex:seeAlso rdf:resource="http://www.pulpmags.org/html/2gw194204.html"/>
-            </pulpmags:description>
-        </dcterms:hasPart>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/2gw194204/"/>
+        <!--NW: Removed this embedded entry and added a separate one after 
+                this element starting line 41. These dcterms:hasPart relations 
+                are just links generated automatically via the @rdf:resource 
+                values. The entries don't nest like this. Instead, you just have
+                separate pulpmags:description objects for both each title-, 
+                issue-, and item-/page- level object.
+            -->
         <!--Role RDF Elements-->
         <role:EDT>Erisman, Robert O.</role:EDT>
         <role:PBL>Western Fiction Publishing Co.</role:PBL>
         <!--RDFS RDF Elements-->
         <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/2gw/"/>
     </pulpmags:description>
+
+    <!--OBJECT-LEVEL ENTRIES DESCRIBING EACH ISSUE BELOW + LINKING TO DCTERMS:hasPART ABOVE-->
+    <pulpmags:description rdf:about="http://www.pulpmags.org/2gw194204/">
+        <!--Collex RDF Elements-->
+        <collex:federation>ModNets</collex:federation>
+        <collex:archive>pulpmags</collex:archive>
+        <collex:discipline>Literature</collex:discipline>
+        <!-- NW: changed collex:source to collex:source_xml -->
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/2gw194204.xml"/>
+        <!-- NW: added required collex:genre element here -->
+        <collex:genre>Ephemera</collex:genre>
+        <!--DublinCore RDF Elements-->
+        <dc:title>2 Gun Western Novels</dc:title>
+        <!-- NW: changed unapproved dc:type value "Issue" to "Periodical" -->
+        <dc:type>Periodical</dc:type>
+        <!-- COLLEX really only supports YEAR, but the best workaround we've found so far with Blue Mountain and MJP is to append 
+                the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
+                year.-->
+        <dc:date>1942-04</dc:date>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/2gw/"/>
+        <!--Role RDF Elements-->
+        <role:EDT>Erisman, Robert O.</role:EDT>
+        <role:PBL>Western Fiction Publishing Co.</role:PBL>
+        <!--RDFS RDF Elements-->
+        <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/2gw194204.html"/>
+    </pulpmags:description>
+
     <!-- ADVENTURE -->
     <pulpmags:description rdf:about="http://www.pulpmags.org/adv/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags_adv</collex:archive>
+        <collex:archive>pulpmags</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <collex:genre>Collection</collex:genre>
         <collex:genre>Ephemera</collex:genre>
@@ -75,11 +97,39 @@
         <!--RDFS RDF Elements-->
         <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/adv/"/>
     </pulpmags:description>
+
+    <!--OBJECT-LEVEL ENTRIES DESCRIBING EACH ISSUE BELOW + LINKING TO DCTERMS:hasPART ABOVE-->
+    <pulpmags:description rdf:about="http://www.pulpmags.org/adv191102/">
+        <!--Collex RDF Elements-->
+        <collex:federation>ModNets</collex:federation>
+        <collex:archive>pulpmags</collex:archive>
+        <collex:discipline>Literature</collex:discipline>
+        <!-- NW: changed collex:source to collex:source_xml -->
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/adv191102.xml"/>
+        <!-- NW: added required collex:genre element here -->
+        <collex:genre>Ephemera</collex:genre>
+        <!--DublinCore RDF Elements-->
+        <dc:title>Adventure</dc:title>
+        <!-- NW: changed unapproved dc:type value "Issue" to "Periodical" -->
+        <dc:type>Periodical</dc:type>
+        <!-- COLLEX really only supports YEAR, but the best workaround we've found so far with Blue Mountain and MJP is to append 
+                the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
+                year.-->
+        <dc:date>1911-02</dc:date>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/adv/"/>
+        <!--Role RDF Elements-->
+        <role:EDT>White, Trumbull</role:EDT>
+        <role:PBL>The Ridgway Co.</role:PBL>
+        <!--RDFS RDF Elements-->
+        <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/adv191102.html"/>
+    </pulpmags:description>
+
     <!-- AMAZING STORIES -->
     <pulpmags:Description rdf:about="http://www.pulpmags.org/ams/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags_ams</collex:archive>
+        <collex:archive>pulpmags</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <collex:genre>Collection</collex:genre>
         <collex:genre>Ephemera</collex:genre>
@@ -105,11 +155,117 @@
         <!--RDFS RDF Elements-->
         <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/ams/"/>
     </pulpmags:Description>
+
+    <!--OBJECT-LEVEL ENTRIES DESCRIBING EACH ISSUE BELOW + LINKING TO DCTERMS:hasPART ABOVE-->
+    <pulpmags:description rdf:about="http://www.pulpmags.org/ams192604/">
+        <!--Collex RDF Elements-->
+        <collex:federation>ModNets</collex:federation>
+        <collex:archive>pulpmags</collex:archive>
+        <collex:discipline>Literature</collex:discipline>
+        <!-- NW: changed collex:source to collex:source_xml -->
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/ams192604.xml"/>
+        <!-- NW: added required collex:genre element here -->
+        <collex:genre>Ephemera</collex:genre>
+        <!--DublinCore RDF Elements-->
+        <dc:title>Amazing Stories</dc:title>
+        <!-- NW: changed unapproved dc:type value "Issue" to "Periodical" -->
+        <dc:type>Periodical</dc:type>
+        <!-- COLLEX really only supports YEAR, but the best workaround we've found so far with Blue Mountain and MJP is to append 
+                the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
+                year.-->
+        <dc:date>1926-04</dc:date>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/ams/"/>
+        <!--Role RDF Elements-->
+        <role:EDT>Gernsback, Hugo</role:EDT>
+        <role:PBL>Experimenter Publishing Co.</role:PBL>
+        <!--RDFS RDF Elements-->
+        <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/ams192604.html"/>
+    </pulpmags:description>
+
+    <pulpmags:description rdf:about="http://www.pulpmags.org/ams192605/">
+        <!--Collex RDF Elements-->
+        <collex:federation>ModNets</collex:federation>
+        <collex:archive>pulpmags</collex:archive>
+        <collex:discipline>Literature</collex:discipline>
+        <!-- NW: changed collex:source to collex:source_xml -->
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/ams192605.xml"/>
+        <!-- NW: added required collex:genre element here -->
+        <collex:genre>Ephemera</collex:genre>
+        <!--DublinCore RDF Elements-->
+        <dc:title>Amazing Stories</dc:title>
+        <!-- NW: changed unapproved dc:type value "Issue" to "Periodical" -->
+        <dc:type>Periodical</dc:type>
+        <!-- COLLEX really only supports YEAR, but the best workaround we've found so far with Blue Mountain and MJP is to append 
+                the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
+                year.-->
+        <dc:date>1926-05</dc:date>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/ams/"/>
+        <!--Role RDF Elements-->
+        <role:EDT>Gernsback, Hugo</role:EDT>
+        <role:PBL>Experimenter Publishing Co.</role:PBL>
+        <!--RDFS RDF Elements-->
+        <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/ams192605.html"/>
+    </pulpmags:description>
+
+    <pulpmags:description rdf:about="http://www.pulpmags.org/ams192606/">
+        <!--Collex RDF Elements-->
+        <collex:federation>ModNets</collex:federation>
+        <collex:archive>pulpmags</collex:archive>
+        <collex:discipline>Literature</collex:discipline>
+        <!-- NW: changed collex:source to collex:source_xml -->
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/ams192606.xml"/>
+        <!-- NW: added required collex:genre element here -->
+        <collex:genre>Ephemera</collex:genre>
+        <!--DublinCore RDF Elements-->
+        <dc:title>Amazing Stories</dc:title>
+        <!-- NW: changed unapproved dc:type value "Issue" to "Periodical" -->
+        <dc:type>Periodical</dc:type>
+        <!-- COLLEX really only supports YEAR, but the best workaround we've found so far with Blue Mountain and MJP is to append 
+                the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
+                year.-->
+        <dc:date>1926-06</dc:date>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/ams/"/>
+        <!--Role RDF Elements-->
+        <role:EDT>Gernsback, Hugo</role:EDT>
+        <role:PBL>Experimenter Publishing Co.</role:PBL>
+        <!--RDFS RDF Elements-->
+        <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/ams192606.html"/>
+    </pulpmags:description>
+
+    <pulpmags:description rdf:about="http://www.pulpmags.org/ams192607/">
+        <!--Collex RDF Elements-->
+        <collex:federation>ModNets</collex:federation>
+        <collex:archive>pulpmags</collex:archive>
+        <collex:discipline>Literature</collex:discipline>
+        <!-- NW: changed collex:source to collex:source_xml -->
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/ams192607.xml"/>
+        <!-- NW: added required collex:genre element here -->
+        <collex:genre>Ephemera</collex:genre>
+        <!--DublinCore RDF Elements-->
+        <dc:title>Amazing Stories</dc:title>
+        <!-- NW: changed unapproved dc:type value "Issue" to "Periodical" -->
+        <dc:type>Periodical</dc:type>
+        <!-- COLLEX really only supports YEAR, but the best workaround we've found so far with Blue Mountain and MJP is to append 
+                the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
+                year.-->
+        <dc:date>1926-07</dc:date>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/ams/"/>
+        <!--Role RDF Elements-->
+        <role:EDT>Gernsback, Hugo</role:EDT>
+        <role:PBL>Experimenter Publishing Co.</role:PBL>
+        <!--RDFS RDF Elements-->
+        <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/ams192607.html"/>
+    </pulpmags:description>
+
     <!-- BEDTIME TALES -->
     <pulpmags:Description rdf:about="http://www.pulpmags.org/bed/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags_bed</collex:archive>
+        <collex:archive>pulpmags</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <collex:genre>Collection</collex:genre>
         <collex:genre>Ephemera</collex:genre>
@@ -128,15 +284,43 @@
         <dcterms:hasPart rdf:resource="http://www.pulpmags.org/bed193501/"/>
         <!--Role RDF Elements-->
         <role:EDT>Anonymous</role:EDT>
-        <role:PBL>Anonymous</role:PBL>
+        <role:PBL>D.M. Publishing Co.</role:PBL>
         <!--RDFS RDF Elements-->
         <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/bed/"/>
     </pulpmags:Description>
+
+    <!--OBJECT-LEVEL ENTRIES DESCRIBING EACH ISSUE BELOW + LINKING TO DCTERMS:hasPART ABOVE-->
+    <pulpmags:description rdf:about="http://www.pulpmags.org/bed193501/">
+        <!--Collex RDF Elements-->
+        <collex:federation>ModNets</collex:federation>
+        <collex:archive>pulpmags</collex:archive>
+        <collex:discipline>Literature</collex:discipline>
+        <!-- NW: changed collex:source to collex:source_xml -->
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/bed193501.xml"/>
+        <!-- NW: added required collex:genre element here -->
+        <collex:genre>Ephemera</collex:genre>
+        <!--DublinCore RDF Elements-->
+        <dc:title>Bedtime Tales</dc:title>
+        <!-- NW: changed unapproved dc:type value "Issue" to "Periodical" -->
+        <dc:type>Periodical</dc:type>
+        <!-- COLLEX really only supports YEAR, but the best workaround we've found so far with Blue Mountain and MJP is to append 
+                the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
+                year.-->
+        <dc:date>1942-04</dc:date>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/bed/"/>
+        <!--Role RDF Elements-->
+        <role:EDT>Anonymous</role:EDT>
+        <role:PBL>D.M. Publishing Co.</role:PBL>
+        <!--RDFS RDF Elements-->
+        <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/bed193501.html"/>
+    </pulpmags:description>
+
     <!-- THE BLACK MASK -->
     <pulpmags:Description rdf:about="http://www.pulpmags.org/bm/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags_bm</collex:archive>
+        <collex:archive>pulpmags</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <collex:genre>Collection</collex:genre>
         <collex:genre>Ephemera</collex:genre>
@@ -164,11 +348,169 @@
         <!--RDFS RDF Elements-->
         <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/bm/"/>
     </pulpmags:Description>
+
+    <!--OBJECT-LEVEL ENTRIES DESCRIBING EACH ISSUE BELOW + LINKING TO DCTERMS:hasPART ABOVE-->
+    <pulpmags:description rdf:about="http://www.pulpmags.org/bm192008/">
+        <!--Collex RDF Elements-->
+        <collex:federation>ModNets</collex:federation>
+        <collex:archive>pulpmags</collex:archive>
+        <collex:discipline>Literature</collex:discipline>
+        <!-- NW: changed collex:source to collex:source_xml -->
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/bm192008.xml"/>
+        <!-- NW: added required collex:genre element here -->
+        <collex:genre>Ephemera</collex:genre>
+        <!--DublinCore RDF Elements-->
+        <dc:title>Black Mask</dc:title>
+        <!-- NW: changed unapproved dc:type value "Issue" to "Periodical" -->
+        <dc:type>Periodical</dc:type>
+        <!-- COLLEX really only supports YEAR, but the best workaround we've found so far with Blue Mountain and MJP is to append 
+                the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
+                year.-->
+        <dc:date>1920-08</dc:date>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/bm/"/>
+        <!--Role RDF Elements-->
+        <role:EDT>Osbourne, F.M.</role:EDT>
+        <role:PBL>The Ridgway Co.</role:PBL>
+        <!--RDFS RDF Elements-->
+        <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/bm192008.html"/>
+    </pulpmags:description>
+
+    <pulpmags:description rdf:about="http://www.pulpmags.org/bm192009/">
+        <!--Collex RDF Elements-->
+        <collex:federation>ModNets</collex:federation>
+        <collex:archive>pulpmags</collex:archive>
+        <collex:discipline>Literature</collex:discipline>
+        <!-- NW: changed collex:source to collex:source_xml -->
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/bm192009.xml"/>
+        <!-- NW: added required collex:genre element here -->
+        <collex:genre>Ephemera</collex:genre>
+        <!--DublinCore RDF Elements-->
+        <dc:title>Black Mask</dc:title>
+        <!-- NW: changed unapproved dc:type value "Issue" to "Periodical" -->
+        <dc:type>Periodical</dc:type>
+        <!-- COLLEX really only supports YEAR, but the best workaround we've found so far with Blue Mountain and MJP is to append 
+                the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
+                year.-->
+        <dc:date>1920-09</dc:date>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/bm/"/>
+        <!--Role RDF Elements-->
+        <role:EDT>Osbourne, F.M.</role:EDT>
+        <role:PBL>The Ridgway Co.</role:PBL>
+        <!--RDFS RDF Elements-->
+        <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/bm192009.html"/>
+    </pulpmags:description>
+
+    <pulpmags:description rdf:about="http://www.pulpmags.org/bm192011/">
+        <!--Collex RDF Elements-->
+        <collex:federation>ModNets</collex:federation>
+        <collex:archive>pulpmags</collex:archive>
+        <collex:discipline>Literature</collex:discipline>
+        <!-- NW: changed collex:source to collex:source_xml -->
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/bm192011.xml"/>
+        <!-- NW: added required collex:genre element here -->
+        <collex:genre>Ephemera</collex:genre>
+        <!--DublinCore RDF Elements-->
+        <dc:title>Black Mask</dc:title>
+        <!-- NW: changed unapproved dc:type value "Issue" to "Periodical" -->
+        <dc:type>Periodical</dc:type>
+        <!-- COLLEX really only supports YEAR, but the best workaround we've found so far with Blue Mountain and MJP is to append 
+                the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
+                year.-->
+        <dc:date>1920-11</dc:date>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/bm/"/>
+        <!--Role RDF Elements-->
+        <role:EDT>Osbourne, F.M.</role:EDT>
+        <role:PBL>The Ridgway Co.</role:PBL>
+        <!--RDFS RDF Elements-->
+        <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/bm192011.html"/>
+    </pulpmags:description>
+
+    <pulpmags:description rdf:about="http://www.pulpmags.org/bm192112/">
+        <!--Collex RDF Elements-->
+        <collex:federation>ModNets</collex:federation>
+        <collex:archive>pulpmags</collex:archive>
+        <collex:discipline>Literature</collex:discipline>
+        <!-- NW: changed collex:source to collex:source_xml -->
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/bm192112.xml"/>
+        <!-- NW: added required collex:genre element here -->
+        <collex:genre>Ephemera</collex:genre>
+        <!--DublinCore RDF Elements-->
+        <dc:title>Black Mask</dc:title>
+        <!-- NW: changed unapproved dc:type value "Issue" to "Periodical" -->
+        <dc:type>Periodical</dc:type>
+        <!-- COLLEX really only supports YEAR, but the best workaround we've found so far with Blue Mountain and MJP is to append 
+                the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
+                year.-->
+        <dc:date>1921-12</dc:date>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/bm/"/>
+        <!--Role RDF Elements-->
+        <role:EDT>Osbourne, F.M.</role:EDT>
+        <role:PBL>The Ridgway Co.</role:PBL>
+        <!--RDFS RDF Elements-->
+        <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/bm192112.html"/>
+    </pulpmags:description>
+
+    <pulpmags:description rdf:about="http://www.pulpmags.org/bm192204/">
+        <!--Collex RDF Elements-->
+        <collex:federation>ModNets</collex:federation>
+        <collex:archive>pulpmags</collex:archive>
+        <collex:discipline>Literature</collex:discipline>
+        <!-- NW: changed collex:source to collex:source_xml -->
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/bm192204.xml"/>
+        <!-- NW: added required collex:genre element here -->
+        <collex:genre>Ephemera</collex:genre>
+        <!--DublinCore RDF Elements-->
+        <dc:title>Black Mask</dc:title>
+        <!-- NW: changed unapproved dc:type value "Issue" to "Periodical" -->
+        <dc:type>Periodical</dc:type>
+        <!-- COLLEX really only supports YEAR, but the best workaround we've found so far with Blue Mountain and MJP is to append 
+                the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
+                year.-->
+        <dc:date>1922-04</dc:date>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/bm/"/>
+        <!--Role RDF Elements-->
+        <role:EDT>Osbourne, F.M.</role:EDT>
+        <role:PBL>The Ridgway Co.</role:PBL>
+        <!--RDFS RDF Elements-->
+        <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/bm192204.html"/>
+    </pulpmags:description>
+
+    <pulpmags:description rdf:about="http://www.pulpmags.org/bm192208/">
+        <!--Collex RDF Elements-->
+        <collex:federation>ModNets</collex:federation>
+        <collex:archive>pulpmags</collex:archive>
+        <collex:discipline>Literature</collex:discipline>
+        <!-- NW: changed collex:source to collex:source_xml -->
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/bm192208.xml"/>
+        <!-- NW: added required collex:genre element here -->
+        <collex:genre>Ephemera</collex:genre>
+        <!--DublinCore RDF Elements-->
+        <dc:title>Black Mask</dc:title>
+        <!-- NW: changed unapproved dc:type value "Issue" to "Periodical" -->
+        <dc:type>Periodical</dc:type>
+        <!-- COLLEX really only supports YEAR, but the best workaround we've found so far with Blue Mountain and MJP is to append 
+                the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
+                year.-->
+        <dc:date>1922-08</dc:date>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/bm/"/>
+        <!--Role RDF Elements-->
+        <role:EDT>Osbourne, F.M.</role:EDT>
+        <role:PBL>The Ridgway Co.</role:PBL>
+        <!--RDFS RDF Elements-->
+        <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/bm192208.html"/>
+    </pulpmags:description>
+
     <!-- DETECTIVE STORY MAGAZINE -->
     <pulpmags:Description rdf:about="http://www.pulpmags.org/dsm/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags_dsm</collex:archive>
+        <collex:archive>pulpmags</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <collex:genre>Collection</collex:genre>
         <collex:genre>Ephemera</collex:genre>
@@ -188,15 +530,69 @@
         <dcterms:hasPart rdf:resource="http://www.pulpmags.org/dsm19161005/"/>
         <!--Role RDF Elements-->
         <role:EDT>Blackwell, Frank E.</role:EDT>
-        <role:PBL>Street &amp; Smith Corp.</role:PBL>
+        <role:PBL>Street and Smith Corp.</role:PBL>
         <!--RDFS RDF Elements-->
         <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/dsm/"/>
     </pulpmags:Description>
+
+    <!--OBJECT-LEVEL ENTRIES DESCRIBING EACH ISSUE BELOW + LINKING TO DCTERMS:hasPART ABOVE-->
+    <pulpmags:description rdf:about="http://www.pulpmags.org/dsm19160305/">
+        <!--Collex RDF Elements-->
+        <collex:federation>ModNets</collex:federation>
+        <collex:archive>pulpmags</collex:archive>
+        <collex:discipline>Literature</collex:discipline>
+        <!-- NW: changed collex:source to collex:source_xml -->
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/dsm19160305.xml"/>
+        <!-- NW: added required collex:genre element here -->
+        <collex:genre>Ephemera</collex:genre>
+        <!--DublinCore RDF Elements-->
+        <dc:title>Detective Story Magazine</dc:title>
+        <!-- NW: changed unapproved dc:type value "Issue" to "Periodical" -->
+        <dc:type>Periodical</dc:type>
+        <!-- COLLEX really only supports YEAR, but the best workaround we've found so far with Blue Mountain and MJP is to append 
+                the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
+                year.-->
+        <dc:date>1916-03-05</dc:date>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/dsm/"/>
+        <!--Role RDF Elements-->
+        <role:EDT>Blackwell, Frank E.</role:EDT>
+        <role:PBL>Street and Smith Corp.</role:PBL>
+        <!--RDFS RDF Elements-->
+        <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/dsm19160305.html"/>
+    </pulpmags:description>
+
+    <pulpmags:description rdf:about="http://www.pulpmags.org/dsm19161005/">
+        <!--Collex RDF Elements-->
+        <collex:federation>ModNets</collex:federation>
+        <collex:archive>pulpmags</collex:archive>
+        <collex:discipline>Literature</collex:discipline>
+        <!-- NW: changed collex:source to collex:source_xml -->
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/dsm19161005.xml"/>
+        <!-- NW: added required collex:genre element here -->
+        <collex:genre>Ephemera</collex:genre>
+        <!--DublinCore RDF Elements-->
+        <dc:title>Detective Story Magazine</dc:title>
+        <!-- NW: changed unapproved dc:type value "Issue" to "Periodical" -->
+        <dc:type>Periodical</dc:type>
+        <!-- COLLEX really only supports YEAR, but the best workaround we've found so far with Blue Mountain and MJP is to append 
+                the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
+                year.-->
+        <dc:date>1916-10-05</dc:date>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/dsm/"/>
+        <!--Role RDF Elements-->
+        <role:EDT>Blackwell, Frank E.</role:EDT>
+        <role:PBL>Street and Smith Corp.</role:PBL>
+        <!--RDFS RDF Elements-->
+        <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/dsm19161005.html"/>
+    </pulpmags:description>
+
     <!-- "I CONFESS" -->
     <pulpmags:Description rdf:about="http://www.pulpmags.org/ic/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags_ic</collex:archive>
+        <collex:archive>pulpmags</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <collex:genre>Collection</collex:genre>
         <collex:genre>Ephemera</collex:genre>
@@ -219,11 +615,39 @@
         <!--RDFS RDF Elements-->
         <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/ic/"/>
     </pulpmags:Description>
+
+    <!--OBJECT-LEVEL ENTRIES DESCRIBING EACH ISSUE BELOW + LINKING TO DCTERMS:hasPART ABOVE-->
+    <pulpmags:description rdf:about="http://www.pulpmags.org/ic19230112/">
+        <!--Collex RDF Elements-->
+        <collex:federation>ModNets</collex:federation>
+        <collex:archive>pulpmags</collex:archive>
+        <collex:discipline>Literature</collex:discipline>
+        <!-- NW: changed collex:source to collex:source_xml -->
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/ic19230112.xml"/>
+        <!-- NW: added required collex:genre element here -->
+        <collex:genre>Ephemera</collex:genre>
+        <!--DublinCore RDF Elements-->
+        <dc:title>"I Confess"</dc:title>
+        <!-- NW: changed unapproved dc:type value "Issue" to "Periodical" -->
+        <dc:type>Periodical</dc:type>
+        <!-- COLLEX really only supports YEAR, but the best workaround we've found so far with Blue Mountain and MJP is to append 
+                the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
+                year.-->
+        <dc:date>1923-01-12</dc:date>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/ic/"/>
+        <!--Role RDF Elements-->
+        <role:EDT>Sharp, Elizabeth</role:EDT>
+        <role:PBL>Dell Publishing Co.</role:PBL>
+        <!--RDFS RDF Elements-->
+        <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/ic19230112.html"/>
+    </pulpmags:description>
+
     <!-- LIVE STORIES -->
     <pulpmags:Description rdf:about="http://www.pulpmags.org/ls/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags_ls</collex:archive>
+        <collex:archive>pulpmags</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <collex:genre>Collection</collex:genre>
         <collex:genre>Ephemera</collex:genre>
@@ -243,15 +667,69 @@
         <dcterms:hasPart rdf:resource="http://www.pulpmags.org/ls191907/"/>
         <!--Role RDF Elements-->
         <role:EDT>Wilson, Grove E.</role:EDT>
-        <role:PBL>Street &amp; Smith Corp.</role:PBL>
+        <role:PBL>New Fiction Publishing Co.</role:PBL>
         <!--RDFS RDF Elements-->
         <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/ls/"/>
     </pulpmags:Description>
+
+    <!--OBJECT-LEVEL ENTRIES DESCRIBING EACH ISSUE BELOW + LINKING TO DCTERMS:hasPART ABOVE-->
+    <pulpmags:description rdf:about="http://www.pulpmags.org/ls191905/">
+        <!--Collex RDF Elements-->
+        <collex:federation>ModNets</collex:federation>
+        <collex:archive>pulpmags</collex:archive>
+        <collex:discipline>Literature</collex:discipline>
+        <!-- NW: changed collex:source to collex:source_xml -->
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/ls191905.xml"/>
+        <!-- NW: added required collex:genre element here -->
+        <collex:genre>Ephemera</collex:genre>
+        <!--DublinCore RDF Elements-->
+        <dc:title>Live Stories</dc:title>
+        <!-- NW: changed unapproved dc:type value "Issue" to "Periodical" -->
+        <dc:type>Periodical</dc:type>
+        <!-- COLLEX really only supports YEAR, but the best workaround we've found so far with Blue Mountain and MJP is to append 
+                the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
+                year.-->
+        <dc:date>1919-05</dc:date>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/ls/"/>
+        <!--Role RDF Elements-->
+        <role:EDT>Wilson, Grove E.</role:EDT>
+        <role:PBL>New Fiction Publishing Co.</role:PBL>
+        <!--RDFS RDF Elements-->
+        <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/ls191905.html"/>
+    </pulpmags:description>
+
+    <pulpmags:description rdf:about="http://www.pulpmags.org/ls191907/">
+        <!--Collex RDF Elements-->
+        <collex:federation>ModNets</collex:federation>
+        <collex:archive>pulpmags</collex:archive>
+        <collex:discipline>Literature</collex:discipline>
+        <!-- NW: changed collex:source to collex:source_xml -->
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/ls191907.xml"/>
+        <!-- NW: added required collex:genre element here -->
+        <collex:genre>Ephemera</collex:genre>
+        <!--DublinCore RDF Elements-->
+        <dc:title>Live Stories</dc:title>
+        <!-- NW: changed unapproved dc:type value "Issue" to "Periodical" -->
+        <dc:type>Periodical</dc:type>
+        <!-- COLLEX really only supports YEAR, but the best workaround we've found so far with Blue Mountain and MJP is to append 
+                the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
+                year.-->
+        <dc:date>1919-07</dc:date>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/ls/"/>
+        <!--Role RDF Elements-->
+        <role:EDT>Wilson, Grove E.</role:EDT>
+        <role:PBL>New Fiction Publishing Co.</role:PBL>
+        <!--RDFS RDF Elements-->
+        <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/ls191907.html"/>
+    </pulpmags:description>
+
     <!-- LOVE STORY MAGAZINE -->
     <pulpmags:Description rdf:about="http://www.pulpmags.org/lsm/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags_lsm</collex:archive>
+        <collex:archive>pulpmags</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <collex:genre>Collection</collex:genre>
         <collex:genre>Ephemera</collex:genre>
@@ -272,15 +750,95 @@
         <dcterms:hasPart rdf:resource="http://www.pulpmags.org/lsm19350330/"/>
         <!--Role RDF Elements-->
         <role:EDT>Bacon, Daisy</role:EDT>
-        <role:PBL>Street &amp; Smith Corp.</role:PBL>
+        <role:PBL>Street and Smith Corp.</role:PBL>
         <!--RDFS RDF Elements-->
         <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/lsm/"/>
     </pulpmags:Description>
+
+    <!--OBJECT-LEVEL ENTRIES DESCRIBING EACH ISSUE BELOW + LINKING TO DCTERMS:hasPART ABOVE-->
+    <pulpmags:description rdf:about="http://www.pulpmags.org/lsm19340310/">
+        <!--Collex RDF Elements-->
+        <collex:federation>ModNets</collex:federation>
+        <collex:archive>pulpmags</collex:archive>
+        <collex:discipline>Literature</collex:discipline>
+        <!-- NW: changed collex:source to collex:source_xml -->
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/lsm19340310.xml"/>
+        <!-- NW: added required collex:genre element here -->
+        <collex:genre>Ephemera</collex:genre>
+        <!--DublinCore RDF Elements-->
+        <dc:title>Love Story Magazine</dc:title>
+        <!-- NW: changed unapproved dc:type value "Issue" to "Periodical" -->
+        <dc:type>Periodical</dc:type>
+        <!-- COLLEX really only supports YEAR, but the best workaround we've found so far with Blue Mountain and MJP is to append 
+                the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
+                year.-->
+        <dc:date>1934-03-10</dc:date>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/lsm/"/>
+        <!--Role RDF Elements-->
+        <role:EDT>Bacon, Daisy</role:EDT>
+        <role:PBL>Street and Smith Corp.</role:PBL>
+        <!--RDFS RDF Elements-->
+        <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/lsm19340310.html"/>
+    </pulpmags:description>
+
+    <pulpmags:description rdf:about="http://www.pulpmags.org/lsm19341020/">
+        <!--Collex RDF Elements-->
+        <collex:federation>ModNets</collex:federation>
+        <collex:archive>pulpmags</collex:archive>
+        <collex:discipline>Literature</collex:discipline>
+        <!-- NW: changed collex:source to collex:source_xml -->
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/lsm19341020.xml"/>
+        <!-- NW: added required collex:genre element here -->
+        <collex:genre>Ephemera</collex:genre>
+        <!--DublinCore RDF Elements-->
+        <dc:title>Love Story Magazine</dc:title>
+        <!-- NW: changed unapproved dc:type value "Issue" to "Periodical" -->
+        <dc:type>Periodical</dc:type>
+        <!-- COLLEX really only supports YEAR, but the best workaround we've found so far with Blue Mountain and MJP is to append 
+                the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
+                year.-->
+        <dc:date>1934-10-20</dc:date>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/lsm/"/>
+        <!--Role RDF Elements-->
+        <role:EDT>Bacon, Daisy</role:EDT>
+        <role:PBL>Street and Smith Corp.</role:PBL>
+        <!--RDFS RDF Elements-->
+        <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/lsm19341020.html"/>
+    </pulpmags:description>
+
+    <pulpmags:description rdf:about="http://www.pulpmags.org/lsm19350330/">
+        <!--Collex RDF Elements-->
+        <collex:federation>ModNets</collex:federation>
+        <collex:archive>pulpmags</collex:archive>
+        <collex:discipline>Literature</collex:discipline>
+        <!-- NW: changed collex:source to collex:source_xml -->
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/lsm19350330.xml"/>
+        <!-- NW: added required collex:genre element here -->
+        <collex:genre>Ephemera</collex:genre>
+        <!--DublinCore RDF Elements-->
+        <dc:title>Love Story Magazine</dc:title>
+        <!-- NW: changed unapproved dc:type value "Issue" to "Periodical" -->
+        <dc:type>Periodical</dc:type>
+        <!-- COLLEX really only supports YEAR, but the best workaround we've found so far with Blue Mountain and MJP is to append 
+                the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
+                year.-->
+        <dc:date>1935-03-30</dc:date>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/lsm/"/>
+        <!--Role RDF Elements-->
+        <role:EDT>Bacon, Daisy</role:EDT>
+        <role:PBL>Street and Smith Corp.</role:PBL>
+        <!--RDFS RDF Elements-->
+        <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/lsm19350330.html"/>
+    </pulpmags:description>
+
     <!-- NIGHT LIFE TALES -->
     <pulpmags:Description rdf:about="http://www.pulpmags.org/nlt/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags_nlt</collex:archive>
+        <collex:archive>pulpmags</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <collex:genre>Collection</collex:genre>
         <collex:genre>Ephemera</collex:genre>
@@ -299,20 +857,48 @@
         <dcterms:hasPart rdf:resource="http://www.pulpmags.org/nlt194001/"/>
         <!--Role RDF Elements-->
         <role:EDT>Anonymous</role:EDT>
-        <role:PBL>Anonymous</role:PBL>
+        <role:PBL>D.M. Publishing Co.</role:PBL>
         <!--RDFS RDF Elements-->
         <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/nlt/"/>
     </pulpmags:Description>
-    <!-- RANCH ROMANCES -->
-    <pulpmags:Description rdf:about="http://www.pulpmags.org/rr/">
+
+    <!--OBJECT-LEVEL ENTRIES DESCRIBING EACH ISSUE BELOW + LINKING TO DCTERMS:hasPART ABOVE-->
+    <pulpmags:description rdf:about="http://www.pulpmags.org/nlt194001/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags_rr</collex:archive>
+        <collex:archive>pulpmags</collex:archive>
+        <collex:discipline>Literature</collex:discipline>
+        <!-- NW: changed collex:source to collex:source_xml -->
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/nlt194001.xml"/>
+        <!-- NW: added required collex:genre element here -->
+        <collex:genre>Ephemera</collex:genre>
+        <!--DublinCore RDF Elements-->
+        <dc:title>Night Life Tales</dc:title>
+        <!-- NW: changed unapproved dc:type value "Issue" to "Periodical" -->
+        <dc:type>Periodical</dc:type>
+        <!-- COLLEX really only supports YEAR, but the best workaround we've found so far with Blue Mountain and MJP is to append 
+                the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
+                year.-->
+        <dc:date>1940-01</dc:date>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/nlt/"/>
+        <!--Role RDF Elements-->
+        <role:EDT>Anonymous</role:EDT>
+        <role:PBL>D.M. Publishing Co.</role:PBL>
+        <!--RDFS RDF Elements-->
+        <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/nlt194001.html"/>
+    </pulpmags:description>
+
+    <!-- RANCH ROMANCES -->
+    <pulpmags:Description rdf:about="http://www.pulpmags.org/ran/">
+        <!--Collex RDF Elements-->
+        <collex:federation>ModNets</collex:federation>
+        <collex:archive>pulpmags</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <collex:genre>Collection</collex:genre>
         <collex:genre>Ephemera</collex:genre>
         <collex:image rdf:resource="http://www.pulpmags.org/default_files/foreground.jpg"/>
-        <collex:source_xml rdf:resource="http://www.pulpmags.org/rr/"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/ran/"/>
         <!--DublinCore RDF Elements-->
         <dc:title>Ranch Romances</dc:title>
         <dc:type>Periodical</dc:type>
@@ -332,11 +918,91 @@
         <!--RDFS RDF Elements-->
         <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/rr/"/>
     </pulpmags:Description>
+
+    <!--OBJECT-LEVEL ENTRIES DESCRIBING EACH ISSUE BELOW + LINKING TO DCTERMS:hasPART ABOVE-->
+    <pulpmags:description rdf:about="http://www.pulpmags.org/rr19330901/">
+        <!--Collex RDF Elements-->
+        <collex:federation>ModNets</collex:federation>
+        <collex:archive>pulpmags</collex:archive>
+        <collex:discipline>Literature</collex:discipline>
+        <!-- NW: changed collex:source to collex:source_xml -->
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/rr19330901.xml"/>
+        <!-- NW: added required collex:genre element here -->
+        <collex:genre>Ephemera</collex:genre>
+        <!--DublinCore RDF Elements-->
+        <dc:title>Ranch Romances</dc:title>
+        <!-- NW: changed unapproved dc:type value "Issue" to "Periodical" -->
+        <dc:type>Periodical</dc:type>
+        <!-- COLLEX really only supports YEAR, but the best workaround we've found so far with Blue Mountain and MJP is to append 
+                the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
+                year.-->
+        <dc:date>1933-09-01</dc:date>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/ran/"/>
+        <!--Role RDF Elements-->
+        <role:EDT>Ellsworth, Fanny</role:EDT>
+        <role:PBL>Warner Publications, Inc.</role:PBL>
+        <!--RDFS RDF Elements-->
+        <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/rr19330901.html"/>
+    </pulpmags:description>
+
+    <pulpmags:description rdf:about="http://www.pulpmags.org/rr19430301/">
+        <!--Collex RDF Elements-->
+        <collex:federation>ModNets</collex:federation>
+        <collex:archive>pulpmags</collex:archive>
+        <collex:discipline>Literature</collex:discipline>
+        <!-- NW: changed collex:source to collex:source_xml -->
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/rr19430301.xml"/>
+        <!-- NW: added required collex:genre element here -->
+        <collex:genre>Ephemera</collex:genre>
+        <!--DublinCore RDF Elements-->
+        <dc:title>Ranch Romances</dc:title>
+        <!-- NW: changed unapproved dc:type value "Issue" to "Periodical" -->
+        <dc:type>Periodical</dc:type>
+        <!-- COLLEX really only supports YEAR, but the best workaround we've found so far with Blue Mountain and MJP is to append 
+                the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
+                year.-->
+        <dc:date>1943-03-01</dc:date>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/ran/"/>
+        <!--Role RDF Elements-->
+        <role:EDT>Ellsworth, Fanny</role:EDT>
+        <role:PBL>Warner Publications, Inc.</role:PBL>
+        <!--RDFS RDF Elements-->
+        <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/rr19430301.html"/>
+    </pulpmags:description>
+
+    <pulpmags:description rdf:about="http://www.pulpmags.org/rr19440211/">
+        <!--Collex RDF Elements-->
+        <collex:federation>ModNets</collex:federation>
+        <collex:archive>pulpmags</collex:archive>
+        <collex:discipline>Literature</collex:discipline>
+        <!-- NW: changed collex:source to collex:source_xml -->
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/rr19440211.xml"/>
+        <!-- NW: added required collex:genre element here -->
+        <collex:genre>Ephemera</collex:genre>
+        <!--DublinCore RDF Elements-->
+        <dc:title>Ranch Romances</dc:title>
+        <!-- NW: changed unapproved dc:type value "Issue" to "Periodical" -->
+        <dc:type>Periodical</dc:type>
+        <!-- COLLEX really only supports YEAR, but the best workaround we've found so far with Blue Mountain and MJP is to append 
+                the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
+                year.-->
+        <dc:date>1944-02-11</dc:date>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/ran/"/>
+        <!--Role RDF Elements-->
+        <role:EDT>Ellsworth, Fanny</role:EDT>
+        <role:PBL>Warner Publications, Inc.</role:PBL>
+        <!--RDFS RDF Elements-->
+        <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/rr19440211.html"/>
+    </pulpmags:description>
+
     <!-- SAUCY STORIES -->
     <pulpmags:Description rdf:about="http://www.pulpmags.org/scs/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags_scs</collex:archive>
+        <collex:archive>pulpmags</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <collex:genre>Collection</collex:genre>
         <collex:genre>Ephemera</collex:genre>
@@ -360,18 +1026,72 @@
         <!--RDFS RDF Elements-->
         <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/scs/"/>
     </pulpmags:Description>
+
+    <!--OBJECT-LEVEL ENTRIES DESCRIBING EACH ISSUE BELOW + LINKING TO DCTERMS:hasPART ABOVE-->
+    <pulpmags:description rdf:about="http://www.pulpmags.org/scs191905/">
+        <!--Collex RDF Elements-->
+        <collex:federation>ModNets</collex:federation>
+        <collex:archive>pulpmags</collex:archive>
+        <collex:discipline>Literature</collex:discipline>
+        <!-- NW: changed collex:source to collex:source_xml -->
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/scs191905.xml"/>
+        <!-- NW: added required collex:genre element here -->
+        <collex:genre>Ephemera</collex:genre>
+        <!--DublinCore RDF Elements-->
+        <dc:title>Saucy Stories</dc:title>
+        <!-- NW: changed unapproved dc:type value "Issue" to "Periodical" -->
+        <dc:type>Periodical</dc:type>
+        <!-- COLLEX really only supports YEAR, but the best workaround we've found so far with Blue Mountain and MJP is to append 
+                the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
+                year.-->
+        <dc:date>1919-05</dc:date>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/scs/"/>
+        <!--Role RDF Elements-->
+        <role:EDT>Martyn, Wyndham</role:EDT>
+        <role:PBL>Inter-Continental Publishing Corp.</role:PBL>
+        <!--RDFS RDF Elements-->
+        <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/scs191905.html"/>
+    </pulpmags:description>
+
+    <pulpmags:description rdf:about="http://www.pulpmags.org/scs19220801/">
+        <!--Collex RDF Elements-->
+        <collex:federation>ModNets</collex:federation>
+        <collex:archive>pulpmags</collex:archive>
+        <collex:discipline>Literature</collex:discipline>
+        <!-- NW: changed collex:source to collex:source_xml -->
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/scs19220801.xml"/>
+        <!-- NW: added required collex:genre element here -->
+        <collex:genre>Ephemera</collex:genre>
+        <!--DublinCore RDF Elements-->
+        <dc:title>Saucy Stories</dc:title>
+        <!-- NW: changed unapproved dc:type value "Issue" to "Periodical" -->
+        <dc:type>Periodical</dc:type>
+        <!-- COLLEX really only supports YEAR, but the best workaround we've found so far with Blue Mountain and MJP is to append 
+                the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
+                year.-->
+        <dc:date>1922-08-01</dc:date>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/scs/"/>
+        <!--Role RDF Elements-->
+        <role:EDT>Osborne, F.M.</role:EDT>
+        <role:PBL>Inter-Continental Publishing Corp.</role:PBL>
+        <!--RDFS RDF Elements-->
+        <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/scs19220801.html"/>
+    </pulpmags:description>
+
     <!-- THE SMART SET -->
     <pulpmags:Description rdf:about="http://www.pulpmags.org/sma/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags_sma</collex:archive>
+        <collex:archive>pulpmags</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <collex:genre>Collection</collex:genre>
         <collex:genre>Ephemera</collex:genre>
         <collex:image rdf:resource="http://www.pulpmags.org/default_files/foreground.jpg"/>
         <collex:source_xml rdf:resource="http://www.pulpmags.org/sma/"/>
         <!--DublinCore RDF Elements-->
-        <dc:title>The Smart Set</dc:title>
+        <dc:title>Smart Set</dc:title>
         <dc:type>Periodical</dc:type>
         <dc:date>
             <collex:date>
@@ -388,11 +1108,40 @@
         <!--RDFS RDF Elements-->
         <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/sma/"/>
     </pulpmags:Description>
+
+    <!--OBJECT-LEVEL ENTRIES DESCRIBING EACH ISSUE BELOW + LINKING TO DCTERMS:hasPART ABOVE-->
+    <pulpmags:description rdf:about="http://www.pulpmags.org/sma191912/">
+        <!--Collex RDF Elements-->
+        <collex:federation>ModNets</collex:federation>
+        <collex:archive>pulpmags</collex:archive>
+        <collex:discipline>Literature</collex:discipline>
+        <!-- NW: changed collex:source to collex:source_xml -->
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/sma191912.xml"/>
+        <!-- NW: added required collex:genre element here -->
+        <collex:genre>Ephemera</collex:genre>
+        <!--DublinCore RDF Elements-->
+        <dc:title>Smart Set</dc:title>
+        <!-- NW: changed unapproved dc:type value "Issue" to "Periodical" -->
+        <dc:type>Periodical</dc:type>
+        <!-- COLLEX really only supports YEAR, but the best workaround we've found so far with Blue Mountain and MJP is to append 
+                the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
+                year.-->
+        <dc:date>1919-12</dc:date>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/sma/"/>
+        <!--Role RDF Elements-->
+        <role:EDT>Mencken, H.L.</role:EDT>
+        <role:EDT>Nathan, George Jean</role:EDT>
+        <role:PBL>Smart Set Co.</role:PBL>
+        <!--RDFS RDF Elements-->
+        <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/sma191912.html"/>
+    </pulpmags:description>
+
     <!-- WEIRD TALES -->
     <pulpmags:Description rdf:about="http://www.pulpmags.org/wt/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
-        <collex:archive>pulpmags_wt</collex:archive>
+        <collex:archive>pulpmags</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <collex:genre>Collection</collex:genre>
         <collex:genre>Ephemera</collex:genre>
@@ -421,4 +1170,187 @@
         <!--RDFS RDF Elements-->
         <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/wt/"/>
     </pulpmags:Description>
+
+    <!--OBJECT-LEVEL ENTRIES DESCRIBING EACH ISSUE BELOW + LINKING TO DCTERMS:hasPART ABOVE-->
+    <pulpmags:description rdf:about="http://www.pulpmags.org/wt19360809/">
+        <!--Collex RDF Elements-->
+        <collex:federation>ModNets</collex:federation>
+        <collex:archive>pulpmags</collex:archive>
+        <collex:discipline>Literature</collex:discipline>
+        <!-- NW: changed collex:source to collex:source_xml -->
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/wt19360809.xml"/>
+        <!-- NW: added required collex:genre element here -->
+        <collex:genre>Ephemera</collex:genre>
+        <!--DublinCore RDF Elements-->
+        <dc:title>Weird Tales</dc:title>
+        <!-- NW: changed unapproved dc:type value "Issue" to "Periodical" -->
+        <dc:type>Periodical</dc:type>
+        <!-- COLLEX really only supports YEAR, but the best workaround we've found so far with Blue Mountain and MJP is to append 
+                the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
+                year.-->
+        <dc:date>1936-08-09</dc:date>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/wt/"/>
+        <!--Role RDF Elements-->
+        <role:EDT>Wright, Farnsworth</role:EDT>
+        <role:PBL>Popular Fiction Publishing Co.</role:PBL>
+        <!--RDFS RDF Elements-->
+        <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/wt19360809.html"/>
+    </pulpmags:description>
+
+    <pulpmags:description rdf:about="http://www.pulpmags.org/wt193610/">
+        <!--Collex RDF Elements-->
+        <collex:federation>ModNets</collex:federation>
+        <collex:archive>pulpmags</collex:archive>
+        <collex:discipline>Literature</collex:discipline>
+        <!-- NW: changed collex:source to collex:source_xml -->
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/wt193610.xml"/>
+        <!-- NW: added required collex:genre element here -->
+        <collex:genre>Ephemera</collex:genre>
+        <!--DublinCore RDF Elements-->
+        <dc:title>Weird Tales</dc:title>
+        <!-- NW: changed unapproved dc:type value "Issue" to "Periodical" -->
+        <dc:type>Periodical</dc:type>
+        <!-- COLLEX really only supports YEAR, but the best workaround we've found so far with Blue Mountain and MJP is to append 
+                the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
+                year.-->
+        <dc:date>1936-10</dc:date>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/wt/"/>
+        <!--Role RDF Elements-->
+        <role:EDT>Wright, Farnsworth</role:EDT>
+        <role:PBL>Popular Fiction Publishing Co.</role:PBL>
+        <!--RDFS RDF Elements-->
+        <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/wt193610.html"/>
+    </pulpmags:description>
+
+    <pulpmags:description rdf:about="http://www.pulpmags.org/wt193707/">
+        <!--Collex RDF Elements-->
+        <collex:federation>ModNets</collex:federation>
+        <collex:archive>pulpmags</collex:archive>
+        <collex:discipline>Literature</collex:discipline>
+        <!-- NW: changed collex:source to collex:source_xml -->
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/wt193707.xml"/>
+        <!-- NW: added required collex:genre element here -->
+        <collex:genre>Ephemera</collex:genre>
+        <!--DublinCore RDF Elements-->
+        <dc:title>Weird Tales</dc:title>
+        <!-- NW: changed unapproved dc:type value "Issue" to "Periodical" -->
+        <dc:type>Periodical</dc:type>
+        <!-- COLLEX really only supports YEAR, but the best workaround we've found so far with Blue Mountain and MJP is to append 
+                the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
+                year.-->
+        <dc:date>1937-07</dc:date>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/wt/"/>
+        <!--Role RDF Elements-->
+        <role:EDT>Wright, Farnsworth</role:EDT>
+        <role:PBL>Popular Fiction Publishing Co.</role:PBL>
+        <!--RDFS RDF Elements-->
+        <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/wt193707.html"/>
+    </pulpmags:description>
+
+    <pulpmags:description rdf:about="http://www.pulpmags.org/wt193802/">
+        <!--Collex RDF Elements-->
+        <collex:federation>ModNets</collex:federation>
+        <collex:archive>pulpmags</collex:archive>
+        <collex:discipline>Literature</collex:discipline>
+        <!-- NW: changed collex:source to collex:source_xml -->
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/wt193802.xml"/>
+        <!-- NW: added required collex:genre element here -->
+        <collex:genre>Ephemera</collex:genre>
+        <!--DublinCore RDF Elements-->
+        <dc:title>Weird Tales</dc:title>
+        <!-- NW: changed unapproved dc:type value "Issue" to "Periodical" -->
+        <dc:type>Periodical</dc:type>
+        <!-- COLLEX really only supports YEAR, but the best workaround we've found so far with Blue Mountain and MJP is to append 
+                the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
+                year.-->
+        <dc:date>1938-02</dc:date>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/wt/"/>
+        <!--Role RDF Elements-->
+        <role:EDT>Wright, Farnsworth</role:EDT>
+        <role:PBL>Popular Fiction Publishing Co.</role:PBL>
+        <!--RDFS RDF Elements-->
+        <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/wt193802.html"/>
+    </pulpmags:description>
+
+    <pulpmags:description rdf:about="http://www.pulpmags.org/wt193803/">
+        <!--Collex RDF Elements-->
+        <collex:federation>ModNets</collex:federation>
+        <collex:archive>pulpmags</collex:archive>
+        <collex:discipline>Literature</collex:discipline>
+        <!-- NW: changed collex:source to collex:source_xml -->
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/wt193803.xml"/>
+        <!-- NW: added required collex:genre element here -->
+        <collex:genre>Ephemera</collex:genre>
+        <!--DublinCore RDF Elements-->
+        <dc:title>Weird Tales</dc:title>
+        <!-- NW: changed unapproved dc:type value "Issue" to "Periodical" -->
+        <dc:type>Periodical</dc:type>
+        <!-- COLLEX really only supports YEAR, but the best workaround we've found so far with Blue Mountain and MJP is to append 
+                the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
+                year.-->
+        <dc:date>1938-03</dc:date>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/wt/"/>
+        <!--Role RDF Elements-->
+        <role:EDT>Wright, Farnsworth</role:EDT>
+        <role:PBL>Popular Fiction Publishing Co.</role:PBL>
+        <!--RDFS RDF Elements-->
+        <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/wt193803.html"/>
+    </pulpmags:description>
+
+    <pulpmags:description rdf:about="http://www.pulpmags.org/wt193807/">
+        <!--Collex RDF Elements-->
+        <collex:federation>ModNets</collex:federation>
+        <collex:archive>pulpmags</collex:archive>
+        <collex:discipline>Literature</collex:discipline>
+        <!-- NW: changed collex:source to collex:source_xml -->
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/wt193807.xml"/>
+        <!-- NW: added required collex:genre element here -->
+        <collex:genre>Ephemera</collex:genre>
+        <!--DublinCore RDF Elements-->
+        <dc:title>Weird Tales</dc:title>
+        <!-- NW: changed unapproved dc:type value "Issue" to "Periodical" -->
+        <dc:type>Periodical</dc:type>
+        <!-- COLLEX really only supports YEAR, but the best workaround we've found so far with Blue Mountain and MJP is to append 
+                the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
+                year.-->
+        <dc:date>1938-07</dc:date>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/wt/"/>
+        <!--Role RDF Elements-->
+        <role:EDT>Wright, Farnsworth</role:EDT>
+        <role:PBL>Popular Fiction Publishing Co.</role:PBL>
+        <!--RDFS RDF Elements-->
+        <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/wt193807.html"/>
+    </pulpmags:description>
+
+    <pulpmags:description rdf:about="http://www.pulpmags.org/wt193811/">
+        <!--Collex RDF Elements-->
+        <collex:federation>ModNets</collex:federation>
+        <collex:archive>pulpmags</collex:archive>
+        <collex:discipline>Literature</collex:discipline>
+        <!-- NW: changed collex:source to collex:source_xml -->
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/wt193811.xml"/>
+        <!-- NW: added required collex:genre element here -->
+        <collex:genre>Ephemera</collex:genre>
+        <!--DublinCore RDF Elements-->
+        <dc:title>Weird Tales</dc:title>
+        <!-- NW: changed unapproved dc:type value "Issue" to "Periodical" -->
+        <dc:type>Periodical</dc:type>
+        <!-- COLLEX really only supports YEAR, but the best workaround we've found so far with Blue Mountain and MJP is to append 
+                the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
+                year.-->
+        <dc:date>1938-11</dc:date>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/wt/"/>
+        <!--Role RDF Elements-->
+        <role:EDT>Wright, Farnsworth</role:EDT>
+        <role:PBL>Popular Fiction Publishing Co.</role:PBL>
+        <!--RDFS RDF Elements-->
+        <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/wt193811.html"/>
+    </pulpmags:description>
 </rdf:RDF>
