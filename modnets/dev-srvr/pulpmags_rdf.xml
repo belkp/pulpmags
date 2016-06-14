@@ -5,7 +5,7 @@
     xmlns:pulpmags="http://www.pulpmags.org/rdf_schema#">
 
     <!-- 2 GUN WESTERN -->
-    <pulpmags:description rdf:about="http://www.pulpmags.org/2gw/">
+    <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_2gw/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
         <!-- NW: temporarily I have changed all the collex:archive values to a single value "pulpmags", but these 
@@ -17,7 +17,7 @@
         <collex:genre>Collection</collex:genre>
         <collex:genre>Ephemera</collex:genre>
         <collex:image rdf:resource="http://www.pulpmags.org/default_files/foreground.jpg"/>
-        <collex:source_xml rdf:resource="http://www.pulpmags.org/2gw/"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/pulpmags_2gw/"/>
         <!--DublinCore RDF Elements-->
         <dc:title>2 Gun Western Novels</dc:title>
         <dc:type>Periodical</dc:type>
@@ -28,7 +28,7 @@
             </collex:date>
         </dc:date>
         <dc:subject>Genre Fiction</dc:subject>
-        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/2gw194204/"/>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/pulpmags_2gw194204/"/>
         <!--NW: Removed this embedded entry and added a separate one after 
                 this element starting line 41. These dcterms:hasPart relations 
                 are just links generated automatically via the @rdf:resource 
@@ -40,17 +40,17 @@
         <role:EDT>Erisman, Robert O.</role:EDT>
         <role:PBL>Western Fiction Publishing Co.</role:PBL>
         <!--RDFS RDF Elements-->
-        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/2gw/"/>
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/pulpmags_2gw/"/>
     </pulpmags:description>
 
     <!--OBJECT-LEVEL ENTRIES DESCRIBING EACH ISSUE BELOW + LINKING TO DCTERMS:hasPART ABOVE-->
-    <pulpmags:description rdf:about="http://www.pulpmags.org/2gw194204/">
+    <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_2gw194204/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
         <collex:archive>pulpmags</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
-        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/2gw194204.xml"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_2gw194204.xml"/>
         <!-- NW: added required collex:genre element here -->
         <collex:genre>Ephemera</collex:genre>
         <!--DublinCore RDF Elements-->
@@ -61,17 +61,17 @@
                 the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
                 year.-->
         <dc:date>1942-04</dc:date>
-        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/2gw/"/>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/pulpmags_2gw/"/>
         <!--Role RDF Elements-->
         <role:EDT>Erisman, Robert O.</role:EDT>
         <role:PBL>Western Fiction Publishing Co.</role:PBL>
         <!--RDFS RDF Elements-->
         <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
-        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/2gw194204.html"/>
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/pulpmags_2gw194204.html"/>
     </pulpmags:description>
 
     <!-- ADVENTURE -->
-    <pulpmags:description rdf:about="http://www.pulpmags.org/adv/">
+    <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_adv/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
         <collex:archive>pulpmags</collex:archive>
@@ -79,7 +79,7 @@
         <collex:genre>Collection</collex:genre>
         <collex:genre>Ephemera</collex:genre>
         <collex:image rdf:resource="http://www.pulpmags.org/default_files/foreground.jpg"/>
-        <collex:source_xml rdf:resource="http://www.pulpmags.org/adv/"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/pulpmags_adv/"/>
         <!--DublinCore RDF Elements-->
         <dc:title>Adventure</dc:title>
         <dc:type>Periodical</dc:type>
@@ -90,22 +90,22 @@
             </collex:date>
         </dc:date>
         <dc:subject>Genre Fiction</dc:subject>
-        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/adv191102/"/>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/pulpmags_adv191102/"/>
         <!--Role RDF Elements-->
         <role:EDT>White, Trumbull</role:EDT>
         <role:PBL>The Ridgway Co.</role:PBL>
         <!--RDFS RDF Elements-->
-        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/adv/"/>
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/pulpmags_adv/"/>
     </pulpmags:description>
 
     <!--OBJECT-LEVEL ENTRIES DESCRIBING EACH ISSUE BELOW + LINKING TO DCTERMS:hasPART ABOVE-->
-    <pulpmags:description rdf:about="http://www.pulpmags.org/adv191102/">
+    <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_adv191102/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
         <collex:archive>pulpmags</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
-        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/adv191102.xml"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_adv191102.xml"/>
         <!-- NW: added required collex:genre element here -->
         <collex:genre>Ephemera</collex:genre>
         <!--DublinCore RDF Elements-->
@@ -116,17 +116,17 @@
                 the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
                 year.-->
         <dc:date>1911-02</dc:date>
-        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/adv/"/>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/pulpmags_adv/"/>
         <!--Role RDF Elements-->
         <role:EDT>White, Trumbull</role:EDT>
         <role:PBL>The Ridgway Co.</role:PBL>
         <!--RDFS RDF Elements-->
         <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
-        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/adv191102.html"/>
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/pulpmags_adv191102.html"/>
     </pulpmags:description>
 
     <!-- AMAZING STORIES -->
-    <pulpmags:Description rdf:about="http://www.pulpmags.org/ams/">
+    <pulpmags:Description rdf:about="http://www.pulpmags.org/pulpmags_ams/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
         <collex:archive>pulpmags</collex:archive>
@@ -134,7 +134,7 @@
         <collex:genre>Collection</collex:genre>
         <collex:genre>Ephemera</collex:genre>
         <collex:image rdf:resource="http://www.pulpmags.org/default_files/foreground.jpg"/>
-        <collex:source_xml rdf:resource="http://www.pulpmags.org/ams/"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/pulpmags_ams/"/>
         <!--DublinCore RDF Elements-->
         <dc:title>Amazing Stories</dc:title>
         <dc:type>Periodical</dc:type>
@@ -145,25 +145,25 @@
             </collex:date>
         </dc:date>
         <dc:subject>Genre Fiction</dc:subject>
-        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/ams192604/"/>
-        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/ams192605/"/>
-        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/ams192606/"/>
-        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/ams192607/"/>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/pulpmags_ams192604/"/>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/pulpmags_ams192605/"/>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/pulpmags_ams192606/"/>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/pulpmags_ams192607/"/>
         <!--Role RDF Elements-->
         <role:EDT>Gernsback, Hugo</role:EDT>
         <role:PBL>Experimenter Publishing Co.</role:PBL>
         <!--RDFS RDF Elements-->
-        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/ams/"/>
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/pulpmags_ams/"/>
     </pulpmags:Description>
 
     <!--OBJECT-LEVEL ENTRIES DESCRIBING EACH ISSUE BELOW + LINKING TO DCTERMS:hasPART ABOVE-->
-    <pulpmags:description rdf:about="http://www.pulpmags.org/ams192604/">
+    <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_ams192604/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
         <collex:archive>pulpmags</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
-        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/ams192604.xml"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_ams192604.xml"/>
         <!-- NW: added required collex:genre element here -->
         <collex:genre>Ephemera</collex:genre>
         <!--DublinCore RDF Elements-->
@@ -174,22 +174,22 @@
                 the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
                 year.-->
         <dc:date>1926-04</dc:date>
-        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/ams/"/>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/pulpmags_ams/"/>
         <!--Role RDF Elements-->
         <role:EDT>Gernsback, Hugo</role:EDT>
         <role:PBL>Experimenter Publishing Co.</role:PBL>
         <!--RDFS RDF Elements-->
         <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
-        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/ams192604.html"/>
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/pulpmags_ams192604.html"/>
     </pulpmags:description>
 
-    <pulpmags:description rdf:about="http://www.pulpmags.org/ams192605/">
+    <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_ams192605/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
         <collex:archive>pulpmags</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
-        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/ams192605.xml"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_ams192605.xml"/>
         <!-- NW: added required collex:genre element here -->
         <collex:genre>Ephemera</collex:genre>
         <!--DublinCore RDF Elements-->
@@ -200,16 +200,16 @@
                 the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
                 year.-->
         <dc:date>1926-05</dc:date>
-        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/ams/"/>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/pulpmags_ams/"/>
         <!--Role RDF Elements-->
         <role:EDT>Gernsback, Hugo</role:EDT>
         <role:PBL>Experimenter Publishing Co.</role:PBL>
         <!--RDFS RDF Elements-->
         <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
-        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/ams192605.html"/>
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/pulpmags_ams192605.html"/>
     </pulpmags:description>
 
-    <pulpmags:description rdf:about="http://www.pulpmags.org/ams192606/">
+    <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_ams192606/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
         <collex:archive>pulpmags</collex:archive>
@@ -226,22 +226,22 @@
                 the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
                 year.-->
         <dc:date>1926-06</dc:date>
-        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/ams/"/>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/pulpmags_ams/"/>
         <!--Role RDF Elements-->
         <role:EDT>Gernsback, Hugo</role:EDT>
         <role:PBL>Experimenter Publishing Co.</role:PBL>
         <!--RDFS RDF Elements-->
         <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
-        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/ams192606.html"/>
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/pulpmags_ams192606.html"/>
     </pulpmags:description>
 
-    <pulpmags:description rdf:about="http://www.pulpmags.org/ams192607/">
+    <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_ams192607/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
         <collex:archive>pulpmags</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
-        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/ams192607.xml"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_ams192607.xml"/>
         <!-- NW: added required collex:genre element here -->
         <collex:genre>Ephemera</collex:genre>
         <!--DublinCore RDF Elements-->
@@ -252,17 +252,17 @@
                 the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
                 year.-->
         <dc:date>1926-07</dc:date>
-        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/ams/"/>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/pulpmags_ams/"/>
         <!--Role RDF Elements-->
         <role:EDT>Gernsback, Hugo</role:EDT>
         <role:PBL>Experimenter Publishing Co.</role:PBL>
         <!--RDFS RDF Elements-->
         <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
-        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/ams192607.html"/>
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/pulpmags_ams192607.html"/>
     </pulpmags:description>
 
     <!-- BEDTIME TALES -->
-    <pulpmags:Description rdf:about="http://www.pulpmags.org/bed/">
+    <pulpmags:Description rdf:about="http://www.pulpmags.org/pulpmags_bed/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
         <collex:archive>pulpmags</collex:archive>
@@ -270,7 +270,7 @@
         <collex:genre>Collection</collex:genre>
         <collex:genre>Ephemera</collex:genre>
         <collex:image rdf:resource="http://www.pulpmags.org/default_files/foreground.jpg"/>
-        <collex:source_xml rdf:resource="http://www.pulpmags.org/bed/"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/pulpmags_bed/"/>
         <!--DublinCore RDF Elements-->
         <dc:title>Bedtime Tales</dc:title>
         <dc:type>Periodical</dc:type>
@@ -281,22 +281,22 @@
             </collex:date>
         </dc:date>
         <dc:subject>Genre Fiction</dc:subject>
-        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/bed193501/"/>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/pulpmags_bed193501/"/>
         <!--Role RDF Elements-->
         <role:EDT>Anonymous</role:EDT>
         <role:PBL>D.M. Publishing Co.</role:PBL>
         <!--RDFS RDF Elements-->
-        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/bed/"/>
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/pulpmags_bed/"/>
     </pulpmags:Description>
 
     <!--OBJECT-LEVEL ENTRIES DESCRIBING EACH ISSUE BELOW + LINKING TO DCTERMS:hasPART ABOVE-->
-    <pulpmags:description rdf:about="http://www.pulpmags.org/bed193501/">
+    <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_bed193501/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
         <collex:archive>pulpmags</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
-        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/bed193501.xml"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_bed193501.xml"/>
         <!-- NW: added required collex:genre element here -->
         <collex:genre>Ephemera</collex:genre>
         <!--DublinCore RDF Elements-->
@@ -307,17 +307,17 @@
                 the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
                 year.-->
         <dc:date>1942-04</dc:date>
-        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/bed/"/>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/pulpmags_bed/"/>
         <!--Role RDF Elements-->
         <role:EDT>Anonymous</role:EDT>
         <role:PBL>D.M. Publishing Co.</role:PBL>
         <!--RDFS RDF Elements-->
         <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
-        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/bed193501.html"/>
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/pulpmags_bed193501.html"/>
     </pulpmags:description>
 
     <!-- THE BLACK MASK -->
-    <pulpmags:Description rdf:about="http://www.pulpmags.org/bm/">
+    <pulpmags:Description rdf:about="http://www.pulpmags.org/pulpmags_blm/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
         <collex:archive>pulpmags</collex:archive>
@@ -325,7 +325,7 @@
         <collex:genre>Collection</collex:genre>
         <collex:genre>Ephemera</collex:genre>
         <collex:image rdf:resource="http://www.pulpmags.org/default_files/foreground.jpg"/>
-        <collex:source_xml rdf:resource="http://www.pulpmags.org/bm/"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/pulpmags_blm/"/>
         <!--DublinCore RDF Elements-->
         <dc:title>The Black Mask</dc:title>
         <dc:type>Periodical</dc:type>
@@ -336,27 +336,27 @@
             </collex:date>
         </dc:date>
         <dc:subject>Genre Fiction</dc:subject>
-        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/bm192008/"/>
-        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/bm192009/"/>
-        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/bm192011/"/>
-        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/bm192112/"/>
-        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/bm192204/"/>
-        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/bm192208/"/>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/pulpmags_blm192008/"/>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/pulpmags_blm192009/"/>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/pulpmags_blm192011/"/>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/pulpmags_blm192112/"/>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/pulpmags_blm192204/"/>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/pulpmags_blm192208/"/>
         <!--Role RDF Elements-->
         <role:EDT>Osbourne, F.M.</role:EDT>
         <role:PBL>Pro-Distributors Publishing Co.</role:PBL>
         <!--RDFS RDF Elements-->
-        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/bm/"/>
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/pulpmags_blm/"/>
     </pulpmags:Description>
 
     <!--OBJECT-LEVEL ENTRIES DESCRIBING EACH ISSUE BELOW + LINKING TO DCTERMS:hasPART ABOVE-->
-    <pulpmags:description rdf:about="http://www.pulpmags.org/bm192008/">
+    <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_blm192008/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
         <collex:archive>pulpmags</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
-        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/bm192008.xml"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_blm192008.xml"/>
         <!-- NW: added required collex:genre element here -->
         <collex:genre>Ephemera</collex:genre>
         <!--DublinCore RDF Elements-->
@@ -367,22 +367,22 @@
                 the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
                 year.-->
         <dc:date>1920-08</dc:date>
-        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/bm/"/>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/pulpmags_blm/"/>
         <!--Role RDF Elements-->
         <role:EDT>Osbourne, F.M.</role:EDT>
         <role:PBL>The Ridgway Co.</role:PBL>
         <!--RDFS RDF Elements-->
         <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
-        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/bm192008.html"/>
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/pulpmags_blm192008.html"/>
     </pulpmags:description>
 
-    <pulpmags:description rdf:about="http://www.pulpmags.org/bm192009/">
+    <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_blm192009/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
         <collex:archive>pulpmags</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
-        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/bm192009.xml"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_blm192009.xml"/>
         <!-- NW: added required collex:genre element here -->
         <collex:genre>Ephemera</collex:genre>
         <!--DublinCore RDF Elements-->
@@ -393,22 +393,22 @@
                 the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
                 year.-->
         <dc:date>1920-09</dc:date>
-        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/bm/"/>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/pulpmags_blm/"/>
         <!--Role RDF Elements-->
         <role:EDT>Osbourne, F.M.</role:EDT>
         <role:PBL>The Ridgway Co.</role:PBL>
         <!--RDFS RDF Elements-->
         <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
-        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/bm192009.html"/>
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/pulpmags_blm192009.html"/>
     </pulpmags:description>
 
-    <pulpmags:description rdf:about="http://www.pulpmags.org/bm192011/">
+    <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_blm192011/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
         <collex:archive>pulpmags</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
-        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/bm192011.xml"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_blm192011.xml"/>
         <!-- NW: added required collex:genre element here -->
         <collex:genre>Ephemera</collex:genre>
         <!--DublinCore RDF Elements-->
@@ -419,22 +419,22 @@
                 the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
                 year.-->
         <dc:date>1920-11</dc:date>
-        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/bm/"/>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/pulpmags_blm/"/>
         <!--Role RDF Elements-->
         <role:EDT>Osbourne, F.M.</role:EDT>
         <role:PBL>The Ridgway Co.</role:PBL>
         <!--RDFS RDF Elements-->
         <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
-        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/bm192011.html"/>
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/pulpmags_blm192011.html"/>
     </pulpmags:description>
 
-    <pulpmags:description rdf:about="http://www.pulpmags.org/bm192112/">
+    <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_blm192112/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
         <collex:archive>pulpmags</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
-        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/bm192112.xml"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_blm192112.xml"/>
         <!-- NW: added required collex:genre element here -->
         <collex:genre>Ephemera</collex:genre>
         <!--DublinCore RDF Elements-->
@@ -445,22 +445,22 @@
                 the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
                 year.-->
         <dc:date>1921-12</dc:date>
-        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/bm/"/>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/pulpmags_blm/"/>
         <!--Role RDF Elements-->
         <role:EDT>Osbourne, F.M.</role:EDT>
         <role:PBL>The Ridgway Co.</role:PBL>
         <!--RDFS RDF Elements-->
         <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
-        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/bm192112.html"/>
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/pulpmags_blm192112.html"/>
     </pulpmags:description>
 
-    <pulpmags:description rdf:about="http://www.pulpmags.org/bm192204/">
+    <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_blm192204/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
         <collex:archive>pulpmags</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
-        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/bm192204.xml"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_blm192204.xml"/>
         <!-- NW: added required collex:genre element here -->
         <collex:genre>Ephemera</collex:genre>
         <!--DublinCore RDF Elements-->
@@ -471,22 +471,22 @@
                 the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
                 year.-->
         <dc:date>1922-04</dc:date>
-        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/bm/"/>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/pulpmags_blm/"/>
         <!--Role RDF Elements-->
         <role:EDT>Osbourne, F.M.</role:EDT>
         <role:PBL>The Ridgway Co.</role:PBL>
         <!--RDFS RDF Elements-->
         <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
-        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/bm192204.html"/>
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/pulpmags_blm192204.html"/>
     </pulpmags:description>
 
-    <pulpmags:description rdf:about="http://www.pulpmags.org/bm192208/">
+    <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_blm192208/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
         <collex:archive>pulpmags</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
-        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/bm192208.xml"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_blm192208.xml"/>
         <!-- NW: added required collex:genre element here -->
         <collex:genre>Ephemera</collex:genre>
         <!--DublinCore RDF Elements-->
@@ -497,17 +497,17 @@
                 the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
                 year.-->
         <dc:date>1922-08</dc:date>
-        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/bm/"/>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/pulpmags_blm/"/>
         <!--Role RDF Elements-->
         <role:EDT>Osbourne, F.M.</role:EDT>
         <role:PBL>The Ridgway Co.</role:PBL>
         <!--RDFS RDF Elements-->
         <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
-        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/bm192208.html"/>
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/pulpmags_blm192208.html"/>
     </pulpmags:description>
 
     <!-- DETECTIVE STORY MAGAZINE -->
-    <pulpmags:Description rdf:about="http://www.pulpmags.org/dsm/">
+    <pulpmags:Description rdf:about="http://www.pulpmags.org/pulpmags_dsm/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
         <collex:archive>pulpmags</collex:archive>
@@ -515,7 +515,7 @@
         <collex:genre>Collection</collex:genre>
         <collex:genre>Ephemera</collex:genre>
         <collex:image rdf:resource="http://www.pulpmags.org/default_files/foreground.jpg"/>
-        <collex:source_xml rdf:resource="http://www.pulpmags.org/dsm/"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/pulpmags_dsm/"/>
         <!--DublinCore RDF Elements-->
         <dc:title>Detective Story Magazine</dc:title>
         <dc:type>Periodical</dc:type>
@@ -526,23 +526,23 @@
             </collex:date>
         </dc:date>
         <dc:subject>Genre Fiction</dc:subject>
-        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/dsm19160305/"/>
-        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/dsm19161005/"/>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/pulpmags_dsm19160305/"/>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/pulpmags_dsm19161005/"/>
         <!--Role RDF Elements-->
         <role:EDT>Blackwell, Frank E.</role:EDT>
         <role:PBL>Street and Smith Corp.</role:PBL>
         <!--RDFS RDF Elements-->
-        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/dsm/"/>
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/pulpmags_dsm/"/>
     </pulpmags:Description>
 
     <!--OBJECT-LEVEL ENTRIES DESCRIBING EACH ISSUE BELOW + LINKING TO DCTERMS:hasPART ABOVE-->
-    <pulpmags:description rdf:about="http://www.pulpmags.org/dsm19160305/">
+    <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_dsm19160305/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
         <collex:archive>pulpmags</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
-        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/dsm19160305.xml"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_dsm19160305.xml"/>
         <!-- NW: added required collex:genre element here -->
         <collex:genre>Ephemera</collex:genre>
         <!--DublinCore RDF Elements-->
@@ -553,22 +553,22 @@
                 the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
                 year.-->
         <dc:date>1916-03-05</dc:date>
-        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/dsm/"/>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/pulpmags_dsm/"/>
         <!--Role RDF Elements-->
         <role:EDT>Blackwell, Frank E.</role:EDT>
         <role:PBL>Street and Smith Corp.</role:PBL>
         <!--RDFS RDF Elements-->
         <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
-        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/dsm19160305.html"/>
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/pulpmags_dsm19160305.html"/>
     </pulpmags:description>
 
-    <pulpmags:description rdf:about="http://www.pulpmags.org/dsm19161005/">
+    <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_dsm19161005/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
         <collex:archive>pulpmags</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
-        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/dsm19161005.xml"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_dsm19161005.xml"/>
         <!-- NW: added required collex:genre element here -->
         <collex:genre>Ephemera</collex:genre>
         <!--DublinCore RDF Elements-->
@@ -579,17 +579,17 @@
                 the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
                 year.-->
         <dc:date>1916-10-05</dc:date>
-        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/dsm/"/>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/pulpmags_dsm/"/>
         <!--Role RDF Elements-->
         <role:EDT>Blackwell, Frank E.</role:EDT>
         <role:PBL>Street and Smith Corp.</role:PBL>
         <!--RDFS RDF Elements-->
         <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
-        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/dsm19161005.html"/>
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/pulpmags_dsm19161005.html"/>
     </pulpmags:description>
 
     <!-- "I CONFESS" -->
-    <pulpmags:Description rdf:about="http://www.pulpmags.org/ic/">
+    <pulpmags:Description rdf:about="http://www.pulpmags.org/pulpmags_ico/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
         <collex:archive>pulpmags</collex:archive>
@@ -597,7 +597,7 @@
         <collex:genre>Collection</collex:genre>
         <collex:genre>Ephemera</collex:genre>
         <collex:image rdf:resource="http://www.pulpmags.org/default_files/foreground.jpg"/>
-        <collex:source_xml rdf:resource="http://www.pulpmags.org/ic/"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/pulpmags_ico/"/>
         <!--DublinCore RDF Elements-->
         <dc:title>"I Confess"</dc:title>
         <dc:type>Periodical</dc:type>
@@ -608,22 +608,22 @@
             </collex:date>
         </dc:date>
         <dc:subject>Genre Fiction</dc:subject>
-        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/ic19230112/"/>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/pulpmags_ico19230112/"/>
         <!--Role RDF Elements-->
         <role:EDT>Sharp, Elizabeth</role:EDT>
         <role:PBL>Dell Publishing Co.</role:PBL>
         <!--RDFS RDF Elements-->
-        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/ic/"/>
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/pulpmags_ico/"/>
     </pulpmags:Description>
 
     <!--OBJECT-LEVEL ENTRIES DESCRIBING EACH ISSUE BELOW + LINKING TO DCTERMS:hasPART ABOVE-->
-    <pulpmags:description rdf:about="http://www.pulpmags.org/ic19230112/">
+    <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_ico19230112/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
         <collex:archive>pulpmags</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
-        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/ic19230112.xml"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_ico19230112.xml"/>
         <!-- NW: added required collex:genre element here -->
         <collex:genre>Ephemera</collex:genre>
         <!--DublinCore RDF Elements-->
@@ -634,17 +634,17 @@
                 the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
                 year.-->
         <dc:date>1923-01-12</dc:date>
-        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/ic/"/>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/pulpmags_ico/"/>
         <!--Role RDF Elements-->
         <role:EDT>Sharp, Elizabeth</role:EDT>
         <role:PBL>Dell Publishing Co.</role:PBL>
         <!--RDFS RDF Elements-->
         <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
-        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/ic19230112.html"/>
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/pulpmags_ico19230112.html"/>
     </pulpmags:description>
 
     <!-- LIVE STORIES -->
-    <pulpmags:Description rdf:about="http://www.pulpmags.org/ls/">
+    <pulpmags:Description rdf:about="http://www.pulpmags.org/pulpmags_liv/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
         <collex:archive>pulpmags</collex:archive>
@@ -652,7 +652,7 @@
         <collex:genre>Collection</collex:genre>
         <collex:genre>Ephemera</collex:genre>
         <collex:image rdf:resource="http://www.pulpmags.org/default_files/foreground.jpg"/>
-        <collex:source_xml rdf:resource="http://www.pulpmags.org/ls/"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/pulpmags_liv/"/>
         <!--DublinCore RDF Elements-->
         <dc:title>Live Stories</dc:title>
         <dc:type>Periodical</dc:type>
@@ -663,23 +663,23 @@
             </collex:date>
         </dc:date>
         <dc:subject>Genre Fiction</dc:subject>
-        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/ls191905/"/>
-        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/ls191907/"/>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/pulpmags_liv191905/"/>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/pulpmags_liv191907/"/>
         <!--Role RDF Elements-->
         <role:EDT>Wilson, Grove E.</role:EDT>
         <role:PBL>New Fiction Publishing Co.</role:PBL>
         <!--RDFS RDF Elements-->
-        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/ls/"/>
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/pulpmags_liv/"/>
     </pulpmags:Description>
 
     <!--OBJECT-LEVEL ENTRIES DESCRIBING EACH ISSUE BELOW + LINKING TO DCTERMS:hasPART ABOVE-->
-    <pulpmags:description rdf:about="http://www.pulpmags.org/ls191905/">
+    <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_liv191905/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
         <collex:archive>pulpmags</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
-        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/ls191905.xml"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_liv191905.xml"/>
         <!-- NW: added required collex:genre element here -->
         <collex:genre>Ephemera</collex:genre>
         <!--DublinCore RDF Elements-->
@@ -690,22 +690,22 @@
                 the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
                 year.-->
         <dc:date>1919-05</dc:date>
-        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/ls/"/>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/pulpmags_liv/"/>
         <!--Role RDF Elements-->
         <role:EDT>Wilson, Grove E.</role:EDT>
         <role:PBL>New Fiction Publishing Co.</role:PBL>
         <!--RDFS RDF Elements-->
         <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
-        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/ls191905.html"/>
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/pulpmags_liv191905.html"/>
     </pulpmags:description>
 
-    <pulpmags:description rdf:about="http://www.pulpmags.org/ls191907/">
+    <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_liv191907/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
         <collex:archive>pulpmags</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
-        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/ls191907.xml"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_liv191907.xml"/>
         <!-- NW: added required collex:genre element here -->
         <collex:genre>Ephemera</collex:genre>
         <!--DublinCore RDF Elements-->
@@ -716,17 +716,17 @@
                 the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
                 year.-->
         <dc:date>1919-07</dc:date>
-        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/ls/"/>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/pulpmags_liv/"/>
         <!--Role RDF Elements-->
         <role:EDT>Wilson, Grove E.</role:EDT>
         <role:PBL>New Fiction Publishing Co.</role:PBL>
         <!--RDFS RDF Elements-->
         <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
-        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/ls191907.html"/>
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/pulpmags_liv191907.html"/>
     </pulpmags:description>
 
     <!-- LOVE STORY MAGAZINE -->
-    <pulpmags:Description rdf:about="http://www.pulpmags.org/lsm/">
+    <pulpmags:Description rdf:about="http://www.pulpmags.org/pulpmags_lsm/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
         <collex:archive>pulpmags</collex:archive>
@@ -734,7 +734,7 @@
         <collex:genre>Collection</collex:genre>
         <collex:genre>Ephemera</collex:genre>
         <collex:image rdf:resource="http://www.pulpmags.org/default_files/foreground.jpg"/>
-        <collex:source_xml rdf:resource="http://www.pulpmags.org/lsm/"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/pulpmags_lsm/"/>
         <!--DublinCore RDF Elements-->
         <dc:title>Love Story Magazine</dc:title>
         <dc:type>Periodical</dc:type>
@@ -745,24 +745,24 @@
             </collex:date>
         </dc:date>
         <dc:subject>Genre Fiction</dc:subject>
-        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/lsm19340310/"/>
-        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/lsm19341020/"/>
-        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/lsm19350330/"/>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/pulpmags_lsm19340310/"/>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/pulpmags_lsm19341020/"/>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/pulpmags_lsm19350330/"/>
         <!--Role RDF Elements-->
         <role:EDT>Bacon, Daisy</role:EDT>
         <role:PBL>Street and Smith Corp.</role:PBL>
         <!--RDFS RDF Elements-->
-        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/lsm/"/>
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/pulpmags_lsm/"/>
     </pulpmags:Description>
 
     <!--OBJECT-LEVEL ENTRIES DESCRIBING EACH ISSUE BELOW + LINKING TO DCTERMS:hasPART ABOVE-->
-    <pulpmags:description rdf:about="http://www.pulpmags.org/lsm19340310/">
+    <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_lsm19340310/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
         <collex:archive>pulpmags</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
-        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/lsm19340310.xml"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_lsm19340310.xml"/>
         <!-- NW: added required collex:genre element here -->
         <collex:genre>Ephemera</collex:genre>
         <!--DublinCore RDF Elements-->
@@ -773,22 +773,22 @@
                 the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
                 year.-->
         <dc:date>1934-03-10</dc:date>
-        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/lsm/"/>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/pulpmags_lsm/"/>
         <!--Role RDF Elements-->
         <role:EDT>Bacon, Daisy</role:EDT>
         <role:PBL>Street and Smith Corp.</role:PBL>
         <!--RDFS RDF Elements-->
         <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
-        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/lsm19340310.html"/>
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/pulpmags_lsm19340310.html"/>
     </pulpmags:description>
 
-    <pulpmags:description rdf:about="http://www.pulpmags.org/lsm19341020/">
+    <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_lsm19341020/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
         <collex:archive>pulpmags</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
-        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/lsm19341020.xml"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_lsm19341020.xml"/>
         <!-- NW: added required collex:genre element here -->
         <collex:genre>Ephemera</collex:genre>
         <!--DublinCore RDF Elements-->
@@ -799,22 +799,22 @@
                 the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
                 year.-->
         <dc:date>1934-10-20</dc:date>
-        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/lsm/"/>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/pulpmags_lsm/"/>
         <!--Role RDF Elements-->
         <role:EDT>Bacon, Daisy</role:EDT>
         <role:PBL>Street and Smith Corp.</role:PBL>
         <!--RDFS RDF Elements-->
         <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
-        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/lsm19341020.html"/>
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/pulpmags_lsm19341020.html"/>
     </pulpmags:description>
 
-    <pulpmags:description rdf:about="http://www.pulpmags.org/lsm19350330/">
+    <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_lsm19350330/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
         <collex:archive>pulpmags</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
-        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/lsm19350330.xml"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_lsm19350330.xml"/>
         <!-- NW: added required collex:genre element here -->
         <collex:genre>Ephemera</collex:genre>
         <!--DublinCore RDF Elements-->
@@ -825,17 +825,17 @@
                 the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
                 year.-->
         <dc:date>1935-03-30</dc:date>
-        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/lsm/"/>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/pulpmags_lsm/"/>
         <!--Role RDF Elements-->
         <role:EDT>Bacon, Daisy</role:EDT>
         <role:PBL>Street and Smith Corp.</role:PBL>
         <!--RDFS RDF Elements-->
         <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
-        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/lsm19350330.html"/>
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/pulpmags_lsm19350330.html"/>
     </pulpmags:description>
 
     <!-- NIGHT LIFE TALES -->
-    <pulpmags:Description rdf:about="http://www.pulpmags.org/nlt/">
+    <pulpmags:Description rdf:about="http://www.pulpmags.org/pulpmags_nlt/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
         <collex:archive>pulpmags</collex:archive>
@@ -843,7 +843,7 @@
         <collex:genre>Collection</collex:genre>
         <collex:genre>Ephemera</collex:genre>
         <collex:image rdf:resource="http://www.pulpmags.org/default_files/foreground.jpg"/>
-        <collex:source_xml rdf:resource="http://www.pulpmags.org/nlt/"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/pulpmags_nlt/"/>
         <!--DublinCore RDF Elements-->
         <dc:title>Night Life Tales</dc:title>
         <dc:type>Periodical</dc:type>
@@ -854,22 +854,22 @@
             </collex:date>
         </dc:date>
         <dc:subject>Genre Fiction</dc:subject>
-        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/nlt194001/"/>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/pulpmags_nlt194001/"/>
         <!--Role RDF Elements-->
         <role:EDT>Anonymous</role:EDT>
         <role:PBL>D.M. Publishing Co.</role:PBL>
         <!--RDFS RDF Elements-->
-        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/nlt/"/>
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/pulpmags_nlt/"/>
     </pulpmags:Description>
 
     <!--OBJECT-LEVEL ENTRIES DESCRIBING EACH ISSUE BELOW + LINKING TO DCTERMS:hasPART ABOVE-->
-    <pulpmags:description rdf:about="http://www.pulpmags.org/nlt194001/">
+    <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_nlt194001/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
         <collex:archive>pulpmags</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
-        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/nlt194001.xml"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_nlt194001.xml"/>
         <!-- NW: added required collex:genre element here -->
         <collex:genre>Ephemera</collex:genre>
         <!--DublinCore RDF Elements-->
@@ -880,17 +880,17 @@
                 the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
                 year.-->
         <dc:date>1940-01</dc:date>
-        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/nlt/"/>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/pulpmags_nlt/"/>
         <!--Role RDF Elements-->
         <role:EDT>Anonymous</role:EDT>
         <role:PBL>D.M. Publishing Co.</role:PBL>
         <!--RDFS RDF Elements-->
         <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
-        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/nlt194001.html"/>
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/pulpmags_nlt194001.html"/>
     </pulpmags:description>
 
     <!-- RANCH ROMANCES -->
-    <pulpmags:Description rdf:about="http://www.pulpmags.org/ran/">
+    <pulpmags:Description rdf:about="http://www.pulpmags.org/pulpmags_ran/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
         <collex:archive>pulpmags</collex:archive>
@@ -898,7 +898,7 @@
         <collex:genre>Collection</collex:genre>
         <collex:genre>Ephemera</collex:genre>
         <collex:image rdf:resource="http://www.pulpmags.org/default_files/foreground.jpg"/>
-        <collex:source_xml rdf:resource="http://www.pulpmags.org/ran/"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/pulpmags_ran/"/>
         <!--DublinCore RDF Elements-->
         <dc:title>Ranch Romances</dc:title>
         <dc:type>Periodical</dc:type>
@@ -909,24 +909,24 @@
             </collex:date>
         </dc:date>
         <dc:subject>Genre Fiction</dc:subject>
-        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/rr19330901/"/>
-        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/rr19430301/"/>
-        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/rr19440211/"/>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/pulpmags_ran19330901/"/>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/pulpmags_ran19430301/"/>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/pulpmags_ran19440211/"/>
         <!--Role RDF Elements-->
         <role:EDT>Ellsworth, Fanny</role:EDT>
         <role:PBL>Warner Publications, Inc.</role:PBL>
         <!--RDFS RDF Elements-->
-        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/rr/"/>
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/pulpmags_ran/"/>
     </pulpmags:Description>
 
     <!--OBJECT-LEVEL ENTRIES DESCRIBING EACH ISSUE BELOW + LINKING TO DCTERMS:hasPART ABOVE-->
-    <pulpmags:description rdf:about="http://www.pulpmags.org/rr19330901/">
+    <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_ran19330901/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
         <collex:archive>pulpmags</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
-        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/rr19330901.xml"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_ran19330901.xml"/>
         <!-- NW: added required collex:genre element here -->
         <collex:genre>Ephemera</collex:genre>
         <!--DublinCore RDF Elements-->
@@ -937,22 +937,22 @@
                 the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
                 year.-->
         <dc:date>1933-09-01</dc:date>
-        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/ran/"/>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/pulpmags_ran/"/>
         <!--Role RDF Elements-->
         <role:EDT>Ellsworth, Fanny</role:EDT>
         <role:PBL>Warner Publications, Inc.</role:PBL>
         <!--RDFS RDF Elements-->
         <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
-        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/rr19330901.html"/>
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/pulpmags_ran19330901.html"/>
     </pulpmags:description>
 
-    <pulpmags:description rdf:about="http://www.pulpmags.org/rr19430301/">
+    <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_ran19430301/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
         <collex:archive>pulpmags</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
-        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/rr19430301.xml"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_ran19430301.xml"/>
         <!-- NW: added required collex:genre element here -->
         <collex:genre>Ephemera</collex:genre>
         <!--DublinCore RDF Elements-->
@@ -963,22 +963,22 @@
                 the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
                 year.-->
         <dc:date>1943-03-01</dc:date>
-        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/ran/"/>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/pulpmags_ran/"/>
         <!--Role RDF Elements-->
         <role:EDT>Ellsworth, Fanny</role:EDT>
         <role:PBL>Warner Publications, Inc.</role:PBL>
         <!--RDFS RDF Elements-->
         <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
-        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/rr19430301.html"/>
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/pulpmags_ran19430301.html"/>
     </pulpmags:description>
 
-    <pulpmags:description rdf:about="http://www.pulpmags.org/rr19440211/">
+    <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_ran19440211/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
         <collex:archive>pulpmags</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
-        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/rr19440211.xml"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_ran19440211.xml"/>
         <!-- NW: added required collex:genre element here -->
         <collex:genre>Ephemera</collex:genre>
         <!--DublinCore RDF Elements-->
@@ -989,17 +989,17 @@
                 the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
                 year.-->
         <dc:date>1944-02-11</dc:date>
-        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/ran/"/>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/pulpmags_ran/"/>
         <!--Role RDF Elements-->
         <role:EDT>Ellsworth, Fanny</role:EDT>
         <role:PBL>Warner Publications, Inc.</role:PBL>
         <!--RDFS RDF Elements-->
         <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
-        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/rr19440211.html"/>
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/pulpmags_ran19440211.html"/>
     </pulpmags:description>
 
     <!-- SAUCY STORIES -->
-    <pulpmags:Description rdf:about="http://www.pulpmags.org/scs/">
+    <pulpmags:Description rdf:about="http://www.pulpmags.org/pulpmags_sau/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
         <collex:archive>pulpmags</collex:archive>
@@ -1007,7 +1007,7 @@
         <collex:genre>Collection</collex:genre>
         <collex:genre>Ephemera</collex:genre>
         <collex:image rdf:resource="http://www.pulpmags.org/default_files/foreground.jpg"/>
-        <collex:source_xml rdf:resource="http://www.pulpmags.org/scs/"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/pulpmags_sau/"/>
         <!--DublinCore RDF Elements-->
         <dc:title>Saucy Stories</dc:title>
         <dc:type>Periodical</dc:type>
@@ -1018,23 +1018,23 @@
             </collex:date>
         </dc:date>
         <dc:subject>Genre Fiction</dc:subject>
-        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/scs191905/"/>
-        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/scs19220801/"/>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/pulpmags_sau191905/"/>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/pulpmags_sau19220801/"/>
         <!--Role RDF Elements-->
         <role:EDT>Martyn, Wyndham</role:EDT>
         <role:PBL>Inter-Continental Publishing Corp.</role:PBL>
         <!--RDFS RDF Elements-->
-        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/scs/"/>
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/pulpmags_sau/"/>
     </pulpmags:Description>
 
     <!--OBJECT-LEVEL ENTRIES DESCRIBING EACH ISSUE BELOW + LINKING TO DCTERMS:hasPART ABOVE-->
-    <pulpmags:description rdf:about="http://www.pulpmags.org/scs191905/">
+    <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_sau191905/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
         <collex:archive>pulpmags</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
-        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/scs191905.xml"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_sau191905.xml"/>
         <!-- NW: added required collex:genre element here -->
         <collex:genre>Ephemera</collex:genre>
         <!--DublinCore RDF Elements-->
@@ -1045,22 +1045,22 @@
                 the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
                 year.-->
         <dc:date>1919-05</dc:date>
-        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/scs/"/>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/pulpmags_sau/"/>
         <!--Role RDF Elements-->
         <role:EDT>Martyn, Wyndham</role:EDT>
         <role:PBL>Inter-Continental Publishing Corp.</role:PBL>
         <!--RDFS RDF Elements-->
         <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
-        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/scs191905.html"/>
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/pulpmags_sau191905.html"/>
     </pulpmags:description>
 
-    <pulpmags:description rdf:about="http://www.pulpmags.org/scs19220801/">
+    <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_sau19220801/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
         <collex:archive>pulpmags</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
-        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/scs19220801.xml"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_sau19220801.xml"/>
         <!-- NW: added required collex:genre element here -->
         <collex:genre>Ephemera</collex:genre>
         <!--DublinCore RDF Elements-->
@@ -1071,17 +1071,17 @@
                 the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
                 year.-->
         <dc:date>1922-08-01</dc:date>
-        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/scs/"/>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/pulpmags_sau/"/>
         <!--Role RDF Elements-->
         <role:EDT>Osborne, F.M.</role:EDT>
         <role:PBL>Inter-Continental Publishing Corp.</role:PBL>
         <!--RDFS RDF Elements-->
         <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
-        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/scs19220801.html"/>
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/pulpmags_sau19220801.html"/>
     </pulpmags:description>
 
     <!-- THE SMART SET -->
-    <pulpmags:Description rdf:about="http://www.pulpmags.org/sma/">
+    <pulpmags:Description rdf:about="http://www.pulpmags.org/pulpmags_sma/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
         <collex:archive>pulpmags</collex:archive>
@@ -1089,7 +1089,7 @@
         <collex:genre>Collection</collex:genre>
         <collex:genre>Ephemera</collex:genre>
         <collex:image rdf:resource="http://www.pulpmags.org/default_files/foreground.jpg"/>
-        <collex:source_xml rdf:resource="http://www.pulpmags.org/sma/"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/pulpmags_sma/"/>
         <!--DublinCore RDF Elements-->
         <dc:title>Smart Set</dc:title>
         <dc:type>Periodical</dc:type>
@@ -1100,23 +1100,23 @@
             </collex:date>
         </dc:date>
         <dc:subject>Genre Fiction</dc:subject>
-        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/sma191912/"/>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/pulpmags_sma191912/"/>
         <!--Role RDF Elements-->
         <role:EDT>Mencken, H.L.</role:EDT>
         <role:EDT>Nathan, George Jean</role:EDT>
         <role:PBL>Smart Set Co.</role:PBL>
         <!--RDFS RDF Elements-->
-        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/sma/"/>
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/pulpmags_sma/"/>
     </pulpmags:Description>
 
     <!--OBJECT-LEVEL ENTRIES DESCRIBING EACH ISSUE BELOW + LINKING TO DCTERMS:hasPART ABOVE-->
-    <pulpmags:description rdf:about="http://www.pulpmags.org/sma191912/">
+    <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_sma191912/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
         <collex:archive>pulpmags</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
-        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/sma191912.xml"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_sma191912.xml"/>
         <!-- NW: added required collex:genre element here -->
         <collex:genre>Ephemera</collex:genre>
         <!--DublinCore RDF Elements-->
@@ -1127,18 +1127,18 @@
                 the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
                 year.-->
         <dc:date>1919-12</dc:date>
-        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/sma/"/>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/pulpmags_sma/"/>
         <!--Role RDF Elements-->
         <role:EDT>Mencken, H.L.</role:EDT>
         <role:EDT>Nathan, George Jean</role:EDT>
         <role:PBL>Smart Set Co.</role:PBL>
         <!--RDFS RDF Elements-->
         <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
-        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/sma191912.html"/>
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/pulpmags_sma191912.html"/>
     </pulpmags:description>
 
     <!-- WEIRD TALES -->
-    <pulpmags:Description rdf:about="http://www.pulpmags.org/wt/">
+    <pulpmags:Description rdf:about="http://www.pulpmags.org/pulpmags_wei/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
         <collex:archive>pulpmags</collex:archive>
@@ -1146,7 +1146,7 @@
         <collex:genre>Collection</collex:genre>
         <collex:genre>Ephemera</collex:genre>
         <collex:image rdf:resource="http://www.pulpmags.org/default_files/foreground.jpg"/>
-        <collex:source_xml rdf:resource="http://www.pulpmags.org/wt/"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/pulpmags_wei/"/>
         <!--DublinCore RDF Elements-->
         <dc:title>Weird Tales</dc:title>
         <dc:type>Periodical</dc:type>
@@ -1157,28 +1157,28 @@
             </collex:date>
         </dc:date>
         <dc:subject>Genre Fiction</dc:subject>
-        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/wt19360809/"/>
-        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/wt193610/"/>
-        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/wt193707/"/>
-        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/wt193802/"/>
-        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/wt193803/"/>
-        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/wt193807/"/>
-        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/wt193811/"/>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/pulpmags_wei19360809/"/>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/pulpmags_wei193610/"/>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/pulpmags_wei193707/"/>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/pulpmags_wei193802/"/>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/pulpmags_wei193803/"/>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/pulpmags_wei193807/"/>
+        <dcterms:hasPart rdf:resource="http://www.pulpmags.org/pulpmags_wei193811/"/>
         <!--Role RDF Elements-->
         <role:EDT>Wright, Farnsworth</role:EDT>
         <role:PBL>Popular Fiction Publishing Co.</role:PBL>
         <!--RDFS RDF Elements-->
-        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/wt/"/>
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/pulpmags_wei/"/>
     </pulpmags:Description>
 
     <!--OBJECT-LEVEL ENTRIES DESCRIBING EACH ISSUE BELOW + LINKING TO DCTERMS:hasPART ABOVE-->
-    <pulpmags:description rdf:about="http://www.pulpmags.org/wt19360809/">
+    <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_wei19360809/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
         <collex:archive>pulpmags</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
-        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/wt19360809.xml"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_wei19360809.xml"/>
         <!-- NW: added required collex:genre element here -->
         <collex:genre>Ephemera</collex:genre>
         <!--DublinCore RDF Elements-->
@@ -1189,22 +1189,22 @@
                 the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
                 year.-->
         <dc:date>1936-08-09</dc:date>
-        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/wt/"/>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/pulpmags_wei/"/>
         <!--Role RDF Elements-->
         <role:EDT>Wright, Farnsworth</role:EDT>
         <role:PBL>Popular Fiction Publishing Co.</role:PBL>
         <!--RDFS RDF Elements-->
         <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
-        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/wt19360809.html"/>
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/pulpmags_wei19360809.html"/>
     </pulpmags:description>
 
-    <pulpmags:description rdf:about="http://www.pulpmags.org/wt193610/">
+    <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_wei193610/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
         <collex:archive>pulpmags</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
-        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/wt193610.xml"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_wei193610.xml"/>
         <!-- NW: added required collex:genre element here -->
         <collex:genre>Ephemera</collex:genre>
         <!--DublinCore RDF Elements-->
@@ -1215,22 +1215,22 @@
                 the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
                 year.-->
         <dc:date>1936-10</dc:date>
-        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/wt/"/>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/pulpmags_wei/"/>
         <!--Role RDF Elements-->
         <role:EDT>Wright, Farnsworth</role:EDT>
         <role:PBL>Popular Fiction Publishing Co.</role:PBL>
         <!--RDFS RDF Elements-->
         <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
-        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/wt193610.html"/>
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/pulpmags_wei193610.html"/>
     </pulpmags:description>
 
-    <pulpmags:description rdf:about="http://www.pulpmags.org/wt193707/">
+    <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_wei193707/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
         <collex:archive>pulpmags</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
-        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/wt193707.xml"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_wei193707.xml"/>
         <!-- NW: added required collex:genre element here -->
         <collex:genre>Ephemera</collex:genre>
         <!--DublinCore RDF Elements-->
@@ -1241,22 +1241,22 @@
                 the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
                 year.-->
         <dc:date>1937-07</dc:date>
-        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/wt/"/>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/pulpmags_wei/"/>
         <!--Role RDF Elements-->
         <role:EDT>Wright, Farnsworth</role:EDT>
         <role:PBL>Popular Fiction Publishing Co.</role:PBL>
         <!--RDFS RDF Elements-->
         <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
-        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/wt193707.html"/>
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/pulpmags_wei193707.html"/>
     </pulpmags:description>
 
-    <pulpmags:description rdf:about="http://www.pulpmags.org/wt193802/">
+    <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_wei193802/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
         <collex:archive>pulpmags</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
-        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/wt193802.xml"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_wei193802.xml"/>
         <!-- NW: added required collex:genre element here -->
         <collex:genre>Ephemera</collex:genre>
         <!--DublinCore RDF Elements-->
@@ -1267,22 +1267,22 @@
                 the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
                 year.-->
         <dc:date>1938-02</dc:date>
-        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/wt/"/>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/pulpmags_wei/"/>
         <!--Role RDF Elements-->
         <role:EDT>Wright, Farnsworth</role:EDT>
         <role:PBL>Popular Fiction Publishing Co.</role:PBL>
         <!--RDFS RDF Elements-->
         <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
-        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/wt193802.html"/>
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/pulpmags_wei193802.html"/>
     </pulpmags:description>
 
-    <pulpmags:description rdf:about="http://www.pulpmags.org/wt193803/">
+    <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_wei193803/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
         <collex:archive>pulpmags</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
-        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/wt193803.xml"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_wei193803.xml"/>
         <!-- NW: added required collex:genre element here -->
         <collex:genre>Ephemera</collex:genre>
         <!--DublinCore RDF Elements-->
@@ -1293,22 +1293,22 @@
                 the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
                 year.-->
         <dc:date>1938-03</dc:date>
-        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/wt/"/>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/pulpmags_wei/"/>
         <!--Role RDF Elements-->
         <role:EDT>Wright, Farnsworth</role:EDT>
         <role:PBL>Popular Fiction Publishing Co.</role:PBL>
         <!--RDFS RDF Elements-->
         <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
-        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/wt193803.html"/>
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/pulpmags_wei193803.html"/>
     </pulpmags:description>
 
-    <pulpmags:description rdf:about="http://www.pulpmags.org/wt193807/">
+    <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_wei193807/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
         <collex:archive>pulpmags</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
-        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/wt193807.xml"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_wei193807.xml"/>
         <!-- NW: added required collex:genre element here -->
         <collex:genre>Ephemera</collex:genre>
         <!--DublinCore RDF Elements-->
@@ -1319,22 +1319,22 @@
                 the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
                 year.-->
         <dc:date>1938-07</dc:date>
-        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/wt/"/>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/pulpmags_wei/"/>
         <!--Role RDF Elements-->
         <role:EDT>Wright, Farnsworth</role:EDT>
         <role:PBL>Popular Fiction Publishing Co.</role:PBL>
         <!--RDFS RDF Elements-->
         <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
-        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/wt193807.html"/>
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/pulpmags_wei193807.html"/>
     </pulpmags:description>
 
-    <pulpmags:description rdf:about="http://www.pulpmags.org/wt193811/">
+    <pulpmags:description rdf:about="http://www.pulpmags.org/pulpmags_wei193811/">
         <!--Collex RDF Elements-->
         <collex:federation>ModNets</collex:federation>
         <collex:archive>pulpmags</collex:archive>
         <collex:discipline>Literature</collex:discipline>
         <!-- NW: changed collex:source to collex:source_xml -->
-        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/wt193811.xml"/>
+        <collex:source_xml rdf:resource="http://www.pulpmags.org/xml/pulpmags_wei193811.xml"/>
         <!-- NW: added required collex:genre element here -->
         <collex:genre>Ephemera</collex:genre>
         <!--DublinCore RDF Elements-->
@@ -1345,12 +1345,12 @@
                 the month with a hyphen, "YEAR-MO" as in this example I changed. Not perfect, but only other option is to only use 
                 year.-->
         <dc:date>1938-11</dc:date>
-        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/wt/"/>
+        <dcterms:isPartOf rdf:resource="http://www.pulpmags.org/pulpmags_wei/"/>
         <!--Role RDF Elements-->
         <role:EDT>Wright, Farnsworth</role:EDT>
         <role:PBL>Popular Fiction Publishing Co.</role:PBL>
         <!--RDFS RDF Elements-->
         <!-- NW: changed collex:seeAlso to rdfs:seeAlso -->
-        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/wt193811.html"/>
+        <rdfs:seeAlso rdf:resource="http://www.pulpmags.org/html/pulpmags_wei193811.html"/>
     </pulpmags:description>
 </rdf:RDF>
